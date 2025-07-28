@@ -1213,6 +1213,19 @@ DATA["thanksgiving-bal-10"] = {
             ]
         },
         {
+            "GachaId": "sc_m44",
+            "MimicGachaId": "plastic",
+            "Science": 300,
+            "Gold": 0,
+            "Trophy": 350,
+            "Card": [
+                {
+                    "Id": "THX032",
+                    "Value": 5
+                },
+            ]
+        },
+        {
             "GachaId": "sc3",
             "MimicGachaId": "plastic",
             "Science": 52,
@@ -7963,7 +7976,49 @@ DATA["thanksgiving-bal-10"] = {
                 "RewardId": "plastic",
                 "Value": 1
             }
-        },  
+        },
+        {
+            "Id": "M283",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1.5e+10,
+                "ConditionId": "dumpsterhorn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M284",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+28,
+                "ConditionId": "cornucopia"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "sc_m44",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M285",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 500,
+                "ConditionId": "craftfairsupply"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
     ],
     "Ranks": [
         {
