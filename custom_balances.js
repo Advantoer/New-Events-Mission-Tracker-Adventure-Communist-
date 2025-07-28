@@ -8053,7 +8053,7 @@ DATA["thanksgiving-bal-10"] = {
             "Condition": {
                 "ConditionType": "ResourceQuantity",
                 "Threshold": 1e+13,
-                "ConditionId": "carbcollective
+                "ConditionId": "carbcollective"
             },
             "Reward": {
                 "Reward": "Gacha",
