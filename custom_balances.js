@@ -1605,7 +1605,7 @@ DATA["thanksgiving-bal-10"] = {
                 },
                 {
                     "Resource": "Mashpotato",
-                    "Qty": 1e+115
+                    "Qty": 2.5e+117
                 },
                 {
                     "Resource": "Comrade",
@@ -2741,7 +2741,7 @@ DATA["thanksgiving-bal-10"] = {
                 },
                 {
                     "Resource": "Cornucopia",
-                    "Qty": 1e+28
+                    "Qty": 1e+26
                 },
                 {
                     "Resource": "Comrade",
@@ -7548,7 +7548,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 3e+115,
+                "Threshold": 7.5e+117,
                 "ConditionId": "mashpotato"
             },
             "Reward": {
@@ -7562,7 +7562,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 583200,
+                "Threshold": 1.45e+6,
                 "ConditionId": "gravyreactor"
             },
             "Reward": {
@@ -7996,7 +7996,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+28,
+                "Threshold": 1e+26,
                 "ConditionId": "cornucopia"
             },
             "Reward": {
@@ -8024,7 +8024,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 6.4e+7,
+                "Threshold": 1.2e+7,
                 "ConditionId": "pilgrimpoultrysyndicate"
             },
             "Reward": {
@@ -8066,7 +8066,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 9.35e+72,
+                "Threshold": 9.35e+74,
                 "ConditionId": "pie"
             },
             "Reward": {
@@ -8094,7 +8094,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 7.22e+73,
+                "Threshold": 7.22e+75,
                 "ConditionId": "pie"
             },
             "Reward": {
@@ -9493,7 +9493,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "mashpotato"
             ],
-            "ExpoMultiplier": 3,
+            "ExpoMultiplier": 2,
             "ExpoGrowth": 3,
             "UpgradePower": 0,
             "CurveModifier": 0,
@@ -9510,7 +9510,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "turkeyleg"
             ],
-            "ExpoMultiplier": 3,
+            "ExpoMultiplier": 2,
             "ExpoGrowth": 3,
             "UpgradePower": 0,
             "CurveModifier": 0,
@@ -9527,7 +9527,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "fire"
             ],
-            "ExpoMultiplier": 3,
+            "ExpoMultiplier": 2,
             "ExpoGrowth": 3,
             "UpgradePower": 0,
             "CurveModifier": 0,
@@ -9544,7 +9544,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "pie"
             ],
-            "ExpoMultiplier": 3,
+            "ExpoMultiplier": 2,
             "ExpoGrowth": 3,
             "UpgradePower": 0,
             "CurveModifier": 0,
@@ -9561,7 +9561,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "cornucopia"
             ],
-            "ExpoMultiplier": 3,
+            "ExpoMultiplier": 2,
             "ExpoGrowth": 3,
             "UpgradePower": 0,
             "CurveModifier": 0,
