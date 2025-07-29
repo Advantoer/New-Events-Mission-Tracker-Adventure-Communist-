@@ -1265,6 +1265,19 @@ DATA["thanksgiving-bal-10"] = {
             ]
         },
         {
+            "GachaId": "sc_m48",
+            "MimicGachaId": "plastic",
+            "Science": 300,
+            "Gold": 0,
+            "Trophy": 300,
+            "Card": [
+                {
+                    "Id": "THX029",
+                    "Value": 5
+                },
+            ]
+        },
+        {
             "GachaId": "sc3",
             "MimicGachaId": "plastic",
             "Science": 52,
@@ -2640,7 +2653,7 @@ DATA["thanksgiving-bal-10"] = {
                 },
                 {
                     "Resource": "Pie",
-                    "Qty": 1e+99
+                    "Qty": 1e+100
                 },
                 {
                     "Resource": "Comrade",
@@ -2850,7 +2863,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "craftfairsupply",
-                "Threshold": 7.5e+10
+                "Threshold": 5e+11
             },
             "IncludeInAll": true,
             "Crit": {
@@ -8300,34 +8313,6 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M303",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 750000,
-                "ConditionId": "craftfairsupply"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 1
-            }
-        },
-        {
-            "Id": "M304",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 3.25e+34,
-                "ConditionId": "cornucopia"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 1
-            }
-        }, 
-        {
-            "Id": "M305",
-            "Rank": 1,
-            "Condition": {
                 "ConditionType": "ResourcesSpentSinceSubscription",
                 "Threshold": 7800,
                 "ConditionId": "darkscience"
@@ -8339,7 +8324,21 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M306",
+            "Id": "M304",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 750000,
+                "ConditionId": "craftfairsupply"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M305",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesSpentSinceSubscription",
@@ -8352,6 +8351,20 @@ DATA["thanksgiving-bal-10"] = {
                 "Value": 1
             }
         },
+        {
+            "Id": "M306",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 3.25e+34,
+                "ConditionId": "cornucopia"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
         {
             "Id": "M307",
             "Rank": 1,
@@ -8441,7 +8454,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1.11e+90,
+                "Threshold": 5.55e+89,
                 "ConditionId": "pie"
             },
             "Reward": {
@@ -8469,7 +8482,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 7.5e+11,
+                "Threshold": 5e+11,
                 "ConditionId": "craftfairsupply"
             },
             "Reward": {
@@ -8548,6 +8561,76 @@ DATA["thanksgiving-bal-10"] = {
                 "Value": 1
             }
         },
+        {
+            "Id": "M321",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 2.22e+90,
+                "ConditionId": "pie"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "sc_m48",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M322",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 6,
+                "ConditionId": "sweetfusionlab"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M323",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 9.9e+7,
+                "ConditionId": "volcanicbakingchamber"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M324",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 4100,
+                "ConditionId": "darkscience"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M325",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1.6e+13,
+                "ConditionId": "pilgrimpoultrysyndicate"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
     ],
     "Ranks": [
         {
@@ -8915,7 +8998,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "25",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "9",
+            "Missions": "10",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 3.25,
@@ -8930,7 +9013,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "26",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "8",
+            "Missions": "9",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 3.375,
@@ -9125,7 +9208,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "39",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "12",
+            "Missions": "11",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5,
@@ -9140,7 +9223,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "40",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "14",
+            "Missions": "13",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5.125,
@@ -9155,7 +9238,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "41",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "13",
+            "Missions": "12",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5.25,
@@ -9170,7 +9253,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "42",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "12",
+            "Missions": "11",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5.375,
@@ -9185,7 +9268,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "43",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "12",
+            "Missions": "10",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5.5,
@@ -9215,7 +9298,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "45",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "13",
+            "Missions": "12",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5.75,
@@ -9230,7 +9313,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "46",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "14",
+            "Missions": "13",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5.875,
@@ -9245,7 +9328,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "47",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "16",
+            "Missions": "15",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6,
@@ -9260,7 +9343,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "48",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "11",
+            "Missions": "10",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6.125,
@@ -9290,7 +9373,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "50",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "13",
+            "Missions": "10",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6.40625,
