@@ -8313,20 +8313,6 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M303",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResourcesSpentSinceSubscription",
-                "Threshold": 7800,
-                "ConditionId": "darkscience"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "armored",
-                "Value": 1
-            }
-        },
-        {
-            "Id": "M304",
-            "Rank": 1,
-            "Condition": {
                 "ConditionType": "ResourceQuantity",
                 "Threshold": 750000,
                 "ConditionId": "craftfairsupply"
@@ -8338,11 +8324,11 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M305",
+            "Id": "M304",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesSpentSinceSubscription",
-                "Threshold": 4000,
+                "Threshold": 7800,
                 "ConditionId": "darkscience"
             },
             "Reward": {
@@ -8352,7 +8338,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M306",
+            "Id": "M305",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
@@ -8366,7 +8352,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         }, 
         {
-            "Id": "M307",
+            "Id": "M306",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -8379,6 +8365,20 @@ DATA["thanksgiving-bal-10"] = {
                 "Value": 1
             }
         }, 
+        {
+            "Id": "M307",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesSpentSinceSubscription",
+                "Threshold": 4000,
+                "ConditionId": "darkscience"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        },
         {
             "Id": "M308",
             "Rank": 1,
