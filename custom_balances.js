@@ -1243,7 +1243,7 @@ DATA["thanksgiving-bal-10"] = {
             "MimicGachaId": "plastic",
             "Science": 320,
             "Gold": 0,
-            "Trophy": 320,
+            "Trophy": 350,
             "Card": [
                 {
                     "Id": "THX054",
@@ -1256,7 +1256,7 @@ DATA["thanksgiving-bal-10"] = {
             "MimicGachaId": "plastic",
             "Science": 300,
             "Gold": 0,
-            "Trophy": 300,
+            "Trophy": 350,
             "Card": [
                 {
                     "Id": "THX009",
@@ -1269,7 +1269,7 @@ DATA["thanksgiving-bal-10"] = {
             "MimicGachaId": "plastic",
             "Science": 300,
             "Gold": 0,
-            "Trophy": 300,
+            "Trophy": 350,
             "Card": [
                 {
                     "Id": "THX029",
@@ -1280,9 +1280,9 @@ DATA["thanksgiving-bal-10"] = {
         {
             "GachaId": "sc_m49",
             "MimicGachaId": "plastic",
-            "Science": 300,
+            "Science": 325,
             "Gold": 0,
-            "Trophy": 300,
+            "Trophy": 375,
             "Card": [
                 {
                     "Id": "THX017",
@@ -1293,13 +1293,78 @@ DATA["thanksgiving-bal-10"] = {
         {
             "GachaId": "sc_m50",
             "MimicGachaId": "plastic",
-            "Science": 300,
+            "Science": 350,
             "Gold": 0,
-            "Trophy": 300,
+            "Trophy": 400,
             "Card": [
                 {
                     "Id": "THX033",
                     "Value": 5
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m51",
+            "MimicGachaId": "plastic",
+            "Science": 360,
+            "Gold": 0,
+            "Trophy": 500,
+            "Card": [
+                {
+                    "Id": "THX024",
+                    "Value": 5
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m52",
+            "MimicGachaId": "plastic",
+            "Science": 380,
+            "Gold": 0,
+            "Trophy": 600,
+            "Card": [
+                {
+                    "Id": "THX052",
+                    "Value": 2
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m53",
+            "MimicGachaId": "plastic",
+            "Science": 450,
+            "Gold": 0,
+            "Trophy": 700,
+            "Card": [
+                {
+                    "Id": "THX034",
+                    "Value": 5
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m54",
+            "MimicGachaId": "plastic",
+            "Science": 600,
+            "Gold": 0,
+            "Trophy": 750,
+            "Card": [
+                {
+                    "Id": "THX030",
+                    "Value": 5
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m55",
+            "MimicGachaId": "plastic",
+            "Science": 700,
+            "Gold": 0,
+            "Trophy": 1000,
+            "Card": [
+                {
+                    "Id": "THX035",
+                    "Value": 15
                 },
             ]
         },
@@ -2443,7 +2508,7 @@ DATA["thanksgiving-bal-10"] = {
                 },
                 {
                     "Resource": "Fire",
-                    "Qty": 1e+157
+                    "Qty": 5e+153
                 },
                 {
                     "Resource": "Comrade",
@@ -8802,7 +8867,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 800,
+                "Threshold": 60,
                 "ConditionId": "harvesthornsmith"
             },
             "Reward": {
@@ -8844,7 +8909,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5.55e+104,
+                "Threshold": 5.5e+103,
                 "ConditionId": "pie"
             },
             "Reward": {
@@ -8886,7 +8951,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 327680,
+                "Threshold": 25252,
                 "ConditionId": "harvesthornsmith"
             },
             "Reward": {
@@ -8914,7 +8979,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 4e+40,
+                "Threshold": 2.5e+56,
                 "ConditionId": "cornucopia"
             },
             "Reward": {
@@ -8923,6 +8988,118 @@ DATA["thanksgiving-bal-10"] = {
                 "Value": 1
             }
         }, 
+        {
+            "Id": "M345",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 8600,
+                "ConditionId": "darkscience"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M346",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 7.77e+167,
+                "ConditionId": "mashpotato"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M347",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 3.33e+144,
+                "ConditionId": "turkeyleg"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M348",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1.11e+128,
+                "ConditionId": "fire"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M349",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1.5e+13,
+                "ConditionId": "volcanicbakingchamber"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "sc_m51",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M350",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 8.5e+6,
+                "ConditionId": "harvesthornsmith"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M351",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 5.38e+9,
+                "ConditionId": "thegreatgobbler"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M352",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 2,
+                "ConditionId": "theeternalovn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
     ],
     "Ranks": [
         {
