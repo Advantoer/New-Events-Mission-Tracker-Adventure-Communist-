@@ -2508,7 +2508,7 @@ DATA["thanksgiving-bal-10"] = {
                 },
                 {
                     "Resource": "Fire",
-                    "Qty": 5e+150
+                    "Qty": 1e+148
                 },
                 {
                     "Resource": "Comrade",
@@ -8951,7 +8951,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 25250,
+                "Threshold": 2525,
                 "ConditionId": "harvesthornsmith"
             },
             "Reward": {
@@ -9063,7 +9063,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 920000,
+                "Threshold": 58000,
                 "ConditionId": "harvesthornsmith"
             },
             "Reward": {
@@ -9124,7 +9124,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "plastic",
+                "RewardId": "sc_m52",
                 "Value": 1
             }
         },
@@ -9133,12 +9133,12 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 8.5e+7,
+                "Threshold": 8.5e+6,
                 "ConditionId": "harvesthornsmith"
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m52",
+                "RewardId": "plastic",
                 "Value": 1
             }
         },
@@ -9180,10 +9180,164 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
+                "RewardId": "sc_m52",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M359",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 9.25e+7,
+                "ConditionId": "harvesthornsmith"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M360",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 4.5e+13,
+                "ConditionId": "mashmonument"
+            },
+            "Reward": {
+                "Reward": "Gacha",
                 "RewardId": "plastic",
                 "Value": 1
             }
         }, 
+        {
+            "Id": "M361",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 6e+12,
+                "ConditionId": "sweetfusionlab"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M362",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 6e+57,
+                "ConditionId": "cornucopia"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M363",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 8192,
+                "ConditionId": "theeternalovn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M364",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1.771e+130,
+                "ConditionId": "fire"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M365",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1.07e+9,
+                "ConditionId": "harvesthornsmith"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M366",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 9.99e+170,
+                "ConditionId": "mashpotato"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M367",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 9000,
+                "ConditionId": "darkscience"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M368",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1.75e+131,
+                "ConditionId": "fire"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M369",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1.05e+6,
+                "ConditionId": "theeternalovn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
     ],
     "Ranks": [
         {
