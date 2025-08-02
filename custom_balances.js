@@ -11853,7 +11853,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteRare",
-            "PlayerRankUnlock": 22,
+            "PlayerRankUnlock": 23,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -12006,7 +12006,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteRare",
-            "PlayerRankUnlock": 14,
+            "PlayerRankUnlock": 15,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
