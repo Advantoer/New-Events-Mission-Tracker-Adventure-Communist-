@@ -3028,7 +3028,7 @@ DATA["thanksgiving-bal-10"] = {
                 },
                 {
                     "Resource": "Cornucopia",
-                    "Qty": 1e+121
+                    "Qty": 1e+93
                 },
                 {
                     "Resource": "Comrade",
@@ -9706,20 +9706,6 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M396",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 9500,
-                "ConditionId": "darkscience"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "armored",
-                "Value": 1
-            }
-        },
-        {
-            "Id": "M397",
-            "Rank": 1,
-            "Condition": {
                 "ConditionType": "ResourceQuantity",
                 "Threshold": 8e+7,
                 "ConditionId": "gildedgourd"
@@ -9727,6 +9713,20 @@ DATA["thanksgiving-bal-10"] = {
             "Reward": {
                 "Reward": "Gacha",
                 "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M397",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 9500,
+                "ConditionId": "darkscience"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
                 "Value": 1
             }
         },
@@ -9847,7 +9847,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 9e+11,
+                "Threshold": 6e+11,
                 "ConditionId": "gildedgourd"
             },
             "Reward": {
@@ -9898,6 +9898,35 @@ DATA["thanksgiving-bal-10"] = {
                 "Value": 1
             }
         }, 
+        {
+            "Id": "M410",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 8e+12,
+                "ConditionId": "gildedgourd"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "sc_m55",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M411",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 2,
+                "ConditionId": "theinfinitehorn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        
     ],
     "Ranks": [
         {
