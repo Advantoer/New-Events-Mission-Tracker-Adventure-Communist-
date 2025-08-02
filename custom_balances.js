@@ -440,6 +440,10 @@ DATA["thanksgiving-bal-10"] = {
             "Type": "Scripted"
         },
         {
+            "Id": "sc_m55",
+            "Type": "Scripted"
+        },
+        {
             "Id": "sc3",
             "Type": "Scripted"
         }
@@ -3028,7 +3032,7 @@ DATA["thanksgiving-bal-10"] = {
                 },
                 {
                     "Resource": "Cornucopia",
-                    "Qty": 1e+93
+                    "Qty": 1e+95
                 },
                 {
                     "Resource": "Comrade",
@@ -9539,7 +9543,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 512,
+                "Threshold": 8192,
                 "ConditionId": "gildedgourd"
             },
             "Reward": {
@@ -9679,7 +9683,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 73000,
+                "Threshold": 2.22e+7,
                 "ConditionId": "gildedgourd"
             },
             "Reward": {
@@ -9707,7 +9711,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 8e+7,
+                "Threshold": 2e+8,
                 "ConditionId": "gildedgourd"
             },
             "Reward": {
@@ -9735,7 +9739,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 4e+8,
+                "Threshold": 4e+10,
                 "ConditionId": "gildedgourd"
             },
             "Reward": {
@@ -9777,7 +9781,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 2e+75,
+                "Threshold": 5e+79,
                 "ConditionId": "cornucopia"
             },
             "Reward": {
@@ -9805,12 +9809,12 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+10,
+                "Threshold": 1e+13,
                 "ConditionId": "gildedgourd"
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "plastic",
+                "RewardId": "sc_m55",
                 "Value": 1
             }
         },
@@ -9819,8 +9823,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1.8e+10,
-                "ConditionId": "thegreatbaker"
+                "Threshold": 2,
+                "ConditionId": "theinfinitehorn"
             },
             "Reward": {
                 "Reward": "Gacha",
@@ -9830,6 +9834,20 @@ DATA["thanksgiving-bal-10"] = {
         },
         {
             "Id": "M405",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1.8e+10,
+                "ConditionId": "thegreatbaker"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M406",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -9847,8 +9865,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 6e+11,
-                "ConditionId": "gildedgourd"
+                "Threshold": 1.2e+12,
+                "ConditionId": "thegreatbaker"
             },
             "Reward": {
                 "Reward": "Gacha",
@@ -9874,8 +9892,22 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M408",
             "Rank": 1,
             "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 5e+94,
+                "ConditionId": "cornucopia"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M409",
+            "Rank": 1,
+            "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1.2e+12,
+                "Threshold": 2.5e+13,
                 "ConditionId": "thegreatbaker"
             },
             "Reward": {
@@ -9885,39 +9917,11 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M409",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 7.7e+78,
-                "ConditionId": "cornucopia"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "armored",
-                "Value": 1
-            }
-        }, 
-        {
             "Id": "M410",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 8e+12,
-                "ConditionId": "gildedgourd"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "sc_m55",
-                "Value": 1
-            }
-        },
-        {
-            "Id": "M411",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 2,
+                "Threshold": 8192,
                 "ConditionId": "theinfinitehorn"
             },
             "Reward": {
@@ -9926,7 +9930,202 @@ DATA["thanksgiving-bal-10"] = {
                 "Value": 1
             }
         },
-        
+        {
+            "Id": "M411",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 500000,
+                "ConditionId": "theinfinitehorn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M412",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+100,
+                "ConditionId": "cornucopia"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M413",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 4.9e+14,
+                "ConditionId": "mashmonument"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M414",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 2.1e+14,
+                "ConditionId": "thegreatgobbler"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M415",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+178,
+                "ConditionId": "mashpotato"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M416",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1.2e+14,
+                "ConditionId": "theeternalovn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M417",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 9.1e+13,
+                "ConditionId": "thegreatbaker"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M418",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 7.5e+8,
+                "ConditionId": "theinfinitehorn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M419",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+105,
+                "ConditionId": "cornucopia"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M420",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1e+10,
+                "ConditionId": "theinfinitehorn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M421",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 6e+107,
+                "ConditionId": "cornucopia"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M422",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1.75e+11,
+                "ConditionId": "theinfinitehorn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M423",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1.1e+110,
+                "ConditionId": "cornucopia"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M424",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1.5e+12,
+                "ConditionId": "theinfinitehorn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
     ],
     "Ranks": [
         {
