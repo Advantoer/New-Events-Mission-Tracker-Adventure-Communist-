@@ -9864,20 +9864,6 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M406",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1.2e+12,
-                "ConditionId": "thegreatbaker"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 1
-            }
-        },
-        {
-            "Id": "M407",
-            "Rank": 1,
-            "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
                 "Threshold": 10000,
                 "ConditionId": "darkscience"
@@ -9885,6 +9871,20 @@ DATA["thanksgiving-bal-10"] = {
             "Reward": {
                 "Reward": "Gacha",
                 "RewardId": "armored",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M407",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1.2e+12,
+                "ConditionId": "thegreatbaker"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
                 "Value": 1
             }
         },
@@ -9949,7 +9949,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+100,
+                "Threshold": 1e+97,
                 "ConditionId": "cornucopia"
             },
             "Reward": {
@@ -10033,7 +10033,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 7.5e+8,
+                "Threshold": 2.5e+9,
                 "ConditionId": "theinfinitehorn"
             },
             "Reward": {
@@ -10061,7 +10061,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+10,
+                "Threshold": 2.5e+10,
                 "ConditionId": "theinfinitehorn"
             },
             "Reward": {
@@ -10089,7 +10089,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1.75e+11,
+                "Threshold": 1.5e+12,
                 "ConditionId": "theinfinitehorn"
             },
             "Reward": {
@@ -10103,7 +10103,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1.1e+110,
+                "Threshold": 1.11e+111,
                 "ConditionId": "cornucopia"
             },
             "Reward": {
@@ -10112,20 +10112,6 @@ DATA["thanksgiving-bal-10"] = {
                 "Value": 1
             }
         }, 
-        {
-            "Id": "M424",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1.5e+12,
-                "ConditionId": "theinfinitehorn"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 1
-            }
-        },
     ],
     "Ranks": [
         {
