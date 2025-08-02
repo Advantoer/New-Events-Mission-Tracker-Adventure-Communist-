@@ -10112,6 +10112,300 @@ DATA["thanksgiving-bal-10"] = {
                 "Value": 1
             }
         }, 
+        {
+            "Id": "M424",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1e+15,
+                "ConditionId": "mashmonument"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M425",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 5e+14,
+                "ConditionId": "thegreatgobbler"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M426",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 3e+14,
+                "ConditionId": "theeternalovn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M427",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 2e+14,
+                "ConditionId": "thegreatbaker"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M428",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1.5e+14,
+                "ConditionId": "theinfinitehorn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M429",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 15000,
+                "ConditionId": "darkscience"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M430",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+183,
+                "ConditionId": "mashpotato"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M431",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+177,
+                "ConditionId": "turkeyleg"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M432",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+171,
+                "ConditionId": "fire"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M433",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+159,
+                "ConditionId": "pie"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M434",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+123,
+                "ConditionId": "cornucopia"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M435",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 2e+15,
+                "ConditionId": "mashmonument"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M436",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 1e+15,
+                "ConditionId": "thegreatgobbler"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M437",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 7.5e+14,
+                "ConditionId": "theeternalovn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M438",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 5e+14,
+                "ConditionId": "thegreatbaker"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M439",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 3e+14,
+                "ConditionId": "theinfinitehorn"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M440",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+185,
+                "ConditionId": "mashpotato"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M441",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+179,
+                "ConditionId": "turkeyleg"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M442",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+173,
+                "ConditionId": "fire"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M443",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+161,
+                "ConditionId": "pie"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        },  
+        {
+            "Id": "M444",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 1e+125,
+                "ConditionId": "cornucopia"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        }, 
     ],
     "Ranks": [
         {
@@ -10854,7 +11148,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "50",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "10",
+            "Missions": "11",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6.40625,
