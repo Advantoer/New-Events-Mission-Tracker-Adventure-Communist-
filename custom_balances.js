@@ -10116,6 +10116,20 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M424",
             "Rank": 1,
             "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 15000,
+                "ConditionId": "darkscience"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M425",
+            "Rank": 1,
+            "Condition": {
                 "ConditionType": "ResourceQuantity",
                 "Threshold": 1e+15,
                 "ConditionId": "mashmonument"
@@ -10127,7 +10141,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M425",
+            "Id": "M426",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -10141,7 +10155,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M426",
+            "Id": "M427",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -10155,7 +10169,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M427",
+            "Id": "M428",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -10169,26 +10183,12 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M428",
+            "Id": "M429",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
                 "Threshold": 1.5e+14,
                 "ConditionId": "theinfinitehorn"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 1
-            }
-        },
-        {
-            "Id": "M429",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 15000,
-                "ConditionId": "darkscience"
             },
             "Reward": {
                 "Reward": "Gacha",
@@ -10206,7 +10206,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "armored",
+                "RewardId": "plastic",
                 "Value": 1
             }
         },  
