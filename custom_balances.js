@@ -3028,7 +3028,7 @@ DATA["thanksgiving-bal-10"] = {
                 },
                 {
                     "Resource": "Cornucopia",
-                    "Qty": 1e+95
+                    "Qty": 5e+96
                 },
                 {
                     "Resource": "Comrade",
@@ -10057,7 +10057,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 2.5e+10,
+                "Threshold": 1e+12,
                 "ConditionId": "theinfinitehorn"
             },
             "Reward": {
@@ -10071,34 +10071,6 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 6e+107,
-                "ConditionId": "cornucopia"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 1
-            }
-        },  
-        {
-            "Id": "M422",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1.5e+12,
-                "ConditionId": "theinfinitehorn"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 1
-            }
-        },
-        {
-            "Id": "M423",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
                 "Threshold": 1.11e+111,
                 "ConditionId": "cornucopia"
             },
@@ -10109,7 +10081,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         }, 
         {
-            "Id": "M424",
+            "Id": "M422",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
@@ -10123,7 +10095,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         }, 
         {
-            "Id": "M425",
+            "Id": "M423",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -10137,7 +10109,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M426",
+            "Id": "M424",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -10151,7 +10123,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M427",
+            "Id": "M425",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -10165,7 +10137,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M428",
+            "Id": "M426",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -10179,7 +10151,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M429",
+            "Id": "M427",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -10193,7 +10165,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         }, 
         {
-            "Id": "M430",
+            "Id": "M428",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
@@ -10207,7 +10179,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },  
         {
-            "Id": "M431",
+            "Id": "M429",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
@@ -10221,7 +10193,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },  
         {
-            "Id": "M432",
+            "Id": "M430",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
@@ -10235,7 +10207,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },  
         {
-            "Id": "M433",
+            "Id": "M431",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
@@ -10249,7 +10221,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },  
         {
-            "Id": "M434",
+            "Id": "M432",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
@@ -10263,7 +10235,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },  
         {
-            "Id": "M435",
+            "Id": "M433",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -10277,7 +10249,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M436",
+            "Id": "M434",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -10291,7 +10263,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M437",
+            "Id": "M435",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -10305,7 +10277,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M438",
+            "Id": "M436",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -10319,7 +10291,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M439",
+            "Id": "M437",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -10333,7 +10305,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M440",
+            "Id": "M438",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
@@ -10347,7 +10319,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },  
         {
-            "Id": "M441",
+            "Id": "M439",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
@@ -10361,7 +10333,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },  
         {
-            "Id": "M442",
+            "Id": "M440",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
@@ -10375,7 +10347,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },  
         {
-            "Id": "M443",
+            "Id": "M441",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
@@ -10389,7 +10361,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },  
         {
-            "Id": "M444",
+            "Id": "M442",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
