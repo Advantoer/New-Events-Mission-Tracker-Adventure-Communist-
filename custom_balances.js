@@ -790,17 +790,13 @@ DATA["thanksgiving-bal-10"] = {
         {
             "GachaId": "sc_m19",
             "MimicGachaId": "plastic",
-            "Science": 180,
+            "Science": 280,
             "Gold": 0,
-            "Trophy": 250,
+            "Trophy": 320,
             "Card": [
                 {
-                    "Id": "THX013",
-                    "Value": 4
-                },
-                {
-                    "Id": "THX043",
-                    "Value": 2
+                    "Id": "THX040",
+                    "Value": 3
                 },
             ]
         },
@@ -5460,7 +5456,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m19",
+                "RewardId": "plastic",
                 "Value": 1
             }
         },
@@ -6608,7 +6604,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m30",
+                "RewardId": "plastic",
                 "Value": 1
             }
         },
@@ -8036,7 +8032,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "plastic",
+                "RewardId": "sc_m19",
                 "Value": 1
             }
         }, 
