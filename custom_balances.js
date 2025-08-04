@@ -9124,7 +9124,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m52",
+                "RewardId": "plastic",
                 "Value": 1
             }
         },
