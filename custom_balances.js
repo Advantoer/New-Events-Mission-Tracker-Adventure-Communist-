@@ -9754,7 +9754,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "armored",
+                "RewardId": "plastic",
                 "Value": 1
             }
         }, 
@@ -9768,7 +9768,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "plastic",
+                "RewardId": "armored",
                 "Value": 1
             }
         },
@@ -9839,7 +9839,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "plastic",
+                "RewardId": "armored",
                 "Value": 1
             }
         },
@@ -10035,7 +10035,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "plastic",
+                "RewardId": "armored",
                 "Value": 1
             }
         },  
@@ -10063,7 +10063,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "armored",
+                "RewardId": "plastic",
                 "Value": 1
             }
         },
@@ -11074,7 +11074,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "49",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "13",
+            "Missions": "11",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6.25,
@@ -11089,7 +11089,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "50",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "12",
+            "Missions": "10",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6.40625,
