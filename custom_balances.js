@@ -9314,20 +9314,6 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M368",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 9000,
-                "ConditionId": "darkscience"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "armored",
-                "Value": 1
-            }
-        }, 
-        {
-            "Id": "M369",
-            "Rank": 1,
-            "Condition": {
                 "ConditionType": "ResourceQuantity",
                 "Threshold": 1.234e+10,
                 "ConditionId": "harvesthornsmith"
@@ -9338,6 +9324,20 @@ DATA["thanksgiving-bal-10"] = {
                 "Value": 1
             }
         },
+        {
+            "Id": "M369",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 9000,
+                "ConditionId": "darkscience"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        }, 
         {
             "Id": "M370",
             "Rank": 1,
@@ -9829,21 +9829,8 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
+        
             "Id": "M405",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 10000,
-                "ConditionId": "darkscience"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "armored",
-                "Value": 1
-            }
-        },
-        {
-            "Id": "M406",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -9853,6 +9840,20 @@ DATA["thanksgiving-bal-10"] = {
             "Reward": {
                 "Reward": "Gacha",
                 "RewardId": "plastic",
+                "Value": 1
+            }
+        },
+        {
+            "Id": "M406",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 10000,
+                "ConditionId": "darkscience"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
                 "Value": 1
             }
         },
@@ -10331,7 +10332,7 @@ DATA["thanksgiving-bal-10"] = {
                 "RewardId": "armored",
                 "Value": 1
             }
-        },  
+        },        
         {
             "Id": "M441",
             "Rank": 1,
@@ -11073,7 +11074,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "49",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "12",
+            "Missions": "13",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6.25,
