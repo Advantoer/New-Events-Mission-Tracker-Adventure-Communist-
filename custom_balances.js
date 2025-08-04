@@ -10360,6 +10360,20 @@ DATA["thanksgiving-bal-10"] = {
                 "Value": 1
             }
         },  
+        {
+            "Id": "M442",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+                "Threshold": 1000,
+                "ConditionId": "any"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+            }
+        },  
     ],
     "Ranks": [
         {
