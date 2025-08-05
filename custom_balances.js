@@ -9258,9 +9258,9 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M364",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1.07e+9,
-                "ConditionId": "harvesthornsmith"
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 3.33e+149,
+                "ConditionId": "turkeyleg"
             },
             "Reward": {
                 "Reward": "Gacha",
