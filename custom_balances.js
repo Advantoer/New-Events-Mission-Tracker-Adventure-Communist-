@@ -9255,6 +9255,20 @@ DATA["thanksgiving-bal-10"] = {
             }
         }, 
         {
+            "Id": "M364",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 3.33e+149,
+                "ConditionId": "turkeyleg"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
+        {
             "Id": "M365",
             "Rank": 1,
             "Condition": {
@@ -9569,6 +9583,20 @@ DATA["thanksgiving-bal-10"] = {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
                 "Threshold": 1.21e+121,
                 "ConditionId": "pie"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "plastic",
+                "Value": 1
+            }
+        }, 
+        {
+            "Id": "M388",
+            "Rank": 1,
+            "Condition": {
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 5.42e+152,
+                "ConditionId": "fire"
             },
             "Reward": {
                 "Reward": "Gacha",
