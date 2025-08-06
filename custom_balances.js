@@ -10334,7 +10334,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },        
         {
-            "Id": "M442",
+            "Id": "M441",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResearcherCardsEarnedSinceSubscription",
