@@ -9255,20 +9255,6 @@ DATA["thanksgiving-bal-10"] = {
             }
         }, 
         {
-            "Id": "M364",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 3.33e+149,
-                "ConditionId": "turkeyleg"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 1
-            }
-        },
-        {
             "Id": "M365",
             "Rank": 1,
             "Condition": {
@@ -9583,20 +9569,6 @@ DATA["thanksgiving-bal-10"] = {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
                 "Threshold": 1.21e+121,
                 "ConditionId": "pie"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 1
-            }
-        }, 
-        {
-            "Id": "M388",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5.42e+152,
-                "ConditionId": "fire"
             },
             "Reward": {
                 "Reward": "Gacha",
@@ -13294,7 +13266,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "2",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "5",
+            "Missions": "3",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 0.375,
@@ -13955,7 +13927,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "46",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "12",
+            "Missions": "11",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5.875,
@@ -13970,7 +13942,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "47",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "14",
+            "Missions": "13",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6,
