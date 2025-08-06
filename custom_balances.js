@@ -13970,7 +13970,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "47",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "13",
+            "Missions": "14",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6,
