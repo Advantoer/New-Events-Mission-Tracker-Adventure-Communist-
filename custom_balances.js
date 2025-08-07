@@ -11276,7 +11276,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 3e+15,
+                "Threshold": 1.26e+21,
                 "ConditionId": "mashmonument"
             },
             "Reward": {
@@ -11290,7 +11290,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+184,
+                "Threshold": 2.1e+190,
                 "ConditionId": "mashpotato"
             },
             "Reward": {
@@ -11304,7 +11304,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1.5e+15,
+                "Threshold": 6.3e+20,
                 "ConditionId": "thegreatgobbler"
             },
             "Reward": {
@@ -11318,7 +11318,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+177,
+                "Threshold": 2.1e+183,
                 "ConditionId": "turkeyleg"
             },
             "Reward": {
@@ -11332,7 +11332,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+15,
+                "Threshold": 4.2e+20,
                 "ConditionId": "theeternalovn"
             },
             "Reward": {
@@ -11346,7 +11346,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+169,
+                "Threshold": 2.1e+175,
                 "ConditionId": "fire"
             },
             "Reward": {
@@ -11360,7 +11360,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 7.5e+14,
+                "Threshold": 3.15e+20,
                 "ConditionId": "thegreatbaker"
             },
             "Reward": {
@@ -11374,7 +11374,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+156,
+                "Threshold": 2.1e+162,
                 "ConditionId": "pie"
             },
             "Reward": {
@@ -11388,7 +11388,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 5e+14,
+                "Threshold": 2.1e+20,
                 "ConditionId": "theinfinitehorn"
             },
             "Reward": {
@@ -11402,7 +11402,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+121,
+                "Threshold": 2.1e+127,
                 "ConditionId": "cornucopia"
             },
             "Reward": {
@@ -11430,7 +11430,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 3e+15,
+                "Threshold": 5e+22,
                 "ConditionId": "mashmonument"
             },
             "Reward": {
@@ -11444,7 +11444,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+184,
+                "Threshold": 1e+192,
                 "ConditionId": "mashpotato"
             },
             "Reward": {
@@ -11458,7 +11458,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1.5e+15,
+                "Threshold": 2.5e+22,
                 "ConditionId": "thegreatgobbler"
             },
             "Reward": {
@@ -11472,7 +11472,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+177,
+                "Threshold": 1e+185,
                 "ConditionId": "turkeyleg"
             },
             "Reward": {
@@ -11486,7 +11486,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+15,
+                "Threshold": 1.5e+22,
                 "ConditionId": "theeternalovn"
             },
             "Reward": {
@@ -11500,7 +11500,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+169,
+                "Threshold": 1e+177,
                 "ConditionId": "fire"
             },
             "Reward": {
@@ -11514,7 +11514,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 7.5e+14,
+                "Threshold": 1.25e+22,
                 "ConditionId": "thegreatbaker"
             },
             "Reward": {
@@ -11528,7 +11528,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+156,
+                "Threshold": 1e+164,
                 "ConditionId": "pie"
             },
             "Reward": {
@@ -11542,7 +11542,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 5e+14,
+                "Threshold": 1e+22,
                 "ConditionId": "theinfinitehorn"
             },
             "Reward": {
@@ -11556,7 +11556,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+121,
+                "Threshold": 1e+129,
                 "ConditionId": "cornucopia"
             },
             "Reward": {
@@ -11584,7 +11584,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 3e+15,
+                "Threshold": 1e+25,
                 "ConditionId": "mashmonument"
             },
             "Reward": {
@@ -11598,7 +11598,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+184,
+                "Threshold": 2e+194,
                 "ConditionId": "mashpotato"
             },
             "Reward": {
@@ -11612,7 +11612,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1.5e+15,
+                "Threshold": 5e+24,
                 "ConditionId": "thegreatgobbler"
             },
             "Reward": {
@@ -11626,7 +11626,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+177,
+                "Threshold": 2e+187,
                 "ConditionId": "turkeyleg"
             },
             "Reward": {
@@ -11640,7 +11640,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+15,
+                "Threshold": 3e+24,
                 "ConditionId": "theeternalovn"
             },
             "Reward": {
@@ -11654,7 +11654,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+169,
+                "Threshold": 2e+179,
                 "ConditionId": "fire"
             },
             "Reward": {
@@ -11668,7 +11668,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 7.5e+14,
+                "Threshold": 2.5e+24,
                 "ConditionId": "thegreatbaker"
             },
             "Reward": {
@@ -11682,7 +11682,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+156,
+                "Threshold": 2e+166,
                 "ConditionId": "pie"
             },
             "Reward": {
@@ -11696,7 +11696,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 5e+14,
+                "Threshold": 2e+24,
                 "ConditionId": "theinfinitehorn"
             },
             "Reward": {
@@ -11710,7 +11710,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+121,
+                "Threshold": 2e+131,
                 "ConditionId": "cornucopia"
             },
             "Reward": {
@@ -11738,7 +11738,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 3e+15,
+                "Threshold": 1e+28,
                 "ConditionId": "mashmonument"
             },
             "Reward": {
@@ -11752,7 +11752,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+184,
+                "Threshold": 2e+197,
                 "ConditionId": "mashpotato"
             },
             "Reward": {
@@ -11766,7 +11766,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1.5e+15,
+                "Threshold": 5e+27,
                 "ConditionId": "thegreatgobbler"
             },
             "Reward": {
@@ -11780,7 +11780,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+177,
+                "Threshold": 2e+190,
                 "ConditionId": "turkeyleg"
             },
             "Reward": {
@@ -11794,7 +11794,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+15,
+                "Threshold": 3e+27,
                 "ConditionId": "theeternalovn"
             },
             "Reward": {
@@ -11808,7 +11808,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+169,
+                "Threshold": 2e+182,
                 "ConditionId": "fire"
             },
             "Reward": {
@@ -11822,7 +11822,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 7.5e+14,
+                "Threshold": 2.5e+27,
                 "ConditionId": "thegreatbaker"
             },
             "Reward": {
@@ -11836,7 +11836,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+156,
+                "Threshold": 2e+169,
                 "ConditionId": "pie"
             },
             "Reward": {
@@ -11850,7 +11850,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 5e+14,
+                "Threshold": 2e+27,
                 "ConditionId": "theinfinitehorn"
             },
             "Reward": {
@@ -11864,7 +11864,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 5e+121,
+                "Threshold": 2e+134,
                 "ConditionId": "cornucopia"
             },
             "Reward": {
