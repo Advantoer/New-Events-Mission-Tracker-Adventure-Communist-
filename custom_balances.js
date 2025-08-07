@@ -15811,7 +15811,7 @@ DATA["thanksgiving-bal-10"] = {
             "CostMultiplier": 500,
             "ComradeMultiplier": 0,
             "ComradeAdd": 1,
-            "MaxLevel": 249
+            "MaxLevel": 304
         },
         {
             "Resource": "turkeyleg",
@@ -15819,7 +15819,7 @@ DATA["thanksgiving-bal-10"] = {
             "CostMultiplier": 500,
             "ComradeMultiplier": 0,
             "ComradeAdd": 2,
-            "MaxLevel": 249
+            "MaxLevel": 304
         },
         {
             "Resource": "fire",
@@ -15827,7 +15827,7 @@ DATA["thanksgiving-bal-10"] = {
             "CostMultiplier": 500,
             "ComradeMultiplier": 0,
             "ComradeAdd": 3,
-            "MaxLevel": 249
+            "MaxLevel": 304
         },
         {
             "Resource": "pie",
@@ -15835,7 +15835,7 @@ DATA["thanksgiving-bal-10"] = {
             "CostMultiplier": 500,
             "ComradeMultiplier": 0,
             "ComradeAdd": 4,
-            "MaxLevel": 249
+            "MaxLevel": 304
         },
         {
             "Resource": "cornucopia",
@@ -15843,7 +15843,7 @@ DATA["thanksgiving-bal-10"] = {
             "CostMultiplier": 500,
             "ComradeMultiplier": 0,
             "ComradeAdd": 5,
-            "MaxLevel": 249
+            "MaxLevel": 304
         }
     ]
 }
