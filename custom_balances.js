@@ -13138,7 +13138,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+327,
+                "Threshold": 1.75e+308,
                 "ConditionId": "mashpotato"
             },
             "Reward": {
@@ -13166,7 +13166,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+321,
+                "Threshold": 1.75e+308,
                 "ConditionId": "turkeyleg"
             },
             "Reward": {
@@ -13194,7 +13194,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+312,
+                "Threshold": 1.75e+308,
                 "ConditionId": "fire"
             },
             "Reward": {
