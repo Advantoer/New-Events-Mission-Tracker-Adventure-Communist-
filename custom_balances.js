@@ -50,7 +50,7 @@ DATA["thanksgiving-bal-10"] = {
             "Weight": 35,
             "MaxAdsPerInterval": 5,
             "RewardCalculation": {
-                "A": 650,
+                "A": 700,
                 "B": 1.02,
                 "C": 1.001,
                 "D": 40
