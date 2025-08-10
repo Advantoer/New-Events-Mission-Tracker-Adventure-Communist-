@@ -1,3 +1,4 @@
+// Event Data
 DATA["thanksgiving-bal-10"] = {
     "AirDrops": [
         {
@@ -15848,11 +15849,421 @@ DATA["thanksgiving-bal-10"] = {
     ]
 }
 
+// Adding Custom Capsules
+DATA['evergreen'].GachaLootTable.push({
+    "Id": "turkey",
+    "SortingOrder": 7,
+    "CardWeight": 40,
+    "RareWeight": 5,
+    "EpicWeight": 40,
+    "SupremeWeight": 225,
+    "LteRareWeight": -1,
+    "ScienceMin": 285,
+    "ScienceMax": 315,
+    "ChanceMultiplier": 2,
+    "WeightDivider": 10,
+    "Type": "Premium",
+    "SupremeWeightModifier": 1.5
+})
+
+// Schedule Info
+SCHEDULE_CYCLES.LteOneOff.push({
+    "BalanceId": "thanksgiving-bal-10",
+    "BalanceType": "Lte",
+    "StartTime": "2025-11-14T12:00:00",
+    "EndTime": "2025-12-06T16:00:00",
+    "ThemeId": "thanksgiving",
+    "RewardId": "rewardThanksgiving",
+    "LeaderboardId": "leaderboard3",
+    "LteShortLeaderboardId": "bucketThanksgiving",
+    "SpecOpsIds": ""
+});
+
+SCHEDULE_CYCLES.LteRewards.push({
+    "RewardId": "rewardThanksgiving",
+    "Rewards": [
+        {
+            "Reward": "Resources",
+            "RewardId": "scientist",
+            "Value": 500,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Researcher",
+            "RewardId": "common",
+            "Value": 50,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "wood",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Researcher",
+            "RewardId": "rare",
+            "Value": 10,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Researcher",
+            "RewardId": "epic",
+            "Value": 2,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "turkey",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Resources",
+            "RewardId": "gold",
+            "Value": 10,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Researcher",
+            "RewardId": "event",
+            "Value": 5,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Resources",
+            "RewardId": "scientist",
+            "Value": 2000,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "turkey",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Resources",
+            "RewardId": "timehack_1",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "stone",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Resources",
+            "RewardId": "gold",
+            "Value": 25,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "turkey",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Researcher",
+            "RewardId": "rare",
+            "Value": 50,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Researcher",
+            "RewardId": "epic",
+            "Value": 4,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "rankup",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "turkey",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Resources",
+            "RewardId": "scientist",
+            "Value": 5000,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Resources",
+            "RewardId": "timehack_4",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "gold",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "turkey",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Researcher",
+            "RewardId": "event",
+            "Value": 20,
+            "AvatarId": "null"
+        },
+    ]
+})
+
+SCHEDULE_CYCLES.LteShortLeaderboards.push({
+      "LeaderboardId": "bucketThanksgiving",
+      "BracketsActive": true,
+      "Brackets": [
+        {
+          "IsPercentage": false,
+          "Value": 1
+        },
+        {
+          "IsPercentage": false,
+          "Value": 2
+        },
+        {
+          "IsPercentage": false,
+          "Value": 3
+        },
+        {
+          "IsPercentage": false,
+          "Value": 4
+        },
+        {
+          "IsPercentage": false,
+          "Value": 5
+        },
+        {
+          "IsPercentage": false,
+          "Value": 6
+        },
+        {
+          "IsPercentage": false,
+          "Value": 7
+        },
+        {
+          "IsPercentage": false,
+          "Value": 8
+        },
+        {
+          "IsPercentage": false,
+          "Value": 9
+        },
+        {
+          "IsPercentage": false,
+          "Value": 10
+        },
+        {
+          "IsPercentage": false,
+          "Value": 11
+        },
+        {
+          "IsPercentage": false,
+          "Value": 12
+        },
+        {
+          "IsPercentage": false,
+          "Value": 13
+        },
+        {
+          "IsPercentage": false,
+          "Value": 14
+        },
+        {
+          "IsPercentage": false,
+          "Value": 15
+        },
+        {
+          "IsPercentage": false,
+          "Value": 16
+        },
+        {
+          "IsPercentage": false,
+          "Value": 17
+        },
+        {
+          "IsPercentage": false,
+          "Value": 18
+        },
+        {
+          "IsPercentage": false,
+          "Value": 19
+        },
+        {
+          "IsPercentage": false,
+          "Value": 20
+        },
+        {
+          "IsPercentage": false,
+          "Value": 21
+        },
+        {
+          "IsPercentage": false,
+          "Value": 22
+        },
+        {
+          "IsPercentage": false,
+          "Value": 23
+        },
+        {
+          "IsPercentage": false,
+          "Value": 24
+        },
+        {
+          "IsPercentage": false,
+          "Value": 25
+        }
+      ],
+      "BracketRewards": [
+        {
+          "Reward": "Gacha",
+          "RewardId": "diamond",
+          "Value": 1
+        },
+        {
+          "Reward": "Gacha",
+          "RewardId": "supreme",
+          "Value": 1
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "gold",
+          "Value": 250
+        },
+        {
+          "Reward": "Gacha",
+          "RewardId": "gold",
+          "Value": 1
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "gold",
+          "Value": 100
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "timehack_4",
+          "Value": 1
+        },
+        {
+          "Reward": "Researcher",
+          "RewardId": "event",
+          "Value": 10
+        },
+        {
+          "Reward": "Gacha",
+          "RewardId": "iron",
+          "Value": 1
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "gold",
+          "Value": 50
+        },
+        {
+          "Reward": "Gacha",
+          "RewardId": "prime",
+          "Value": 75
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "scientist",
+          "Value": 4000
+        },
+        {
+          "Reward": "Researcher",
+          "RewardId": "rare",
+          "Value": 50
+        },
+        {
+          "Reward": "Researcher",
+          "RewardId": "epic",
+          "Value": 5
+        },
+        {
+          "Reward": "Researcher",
+          "RewardId": "event",
+          "Value": 5
+        },
+        {
+          "Reward": "Gacha",
+          "RewardId": "rankup",
+          "Value": 1
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "gold",
+          "Value": 25
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "scientist",
+          "Value": 2000
+        },
+        {
+          "Reward": "Researcher",
+          "RewardId": "rare",
+          "Value": 25
+        },
+        {
+          "Reward": "Gacha",
+          "RewardId": "iron",
+          "Value": 20
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "gold",
+          "Value": 15
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "gold",
+          "Value": 5
+        },
+        {
+          "Reward": "Researcher",
+          "RewardId": "common",
+          "Value": 50
+        },
+        {
+          "Reward": "Researcher",
+          "RewardId": "common",
+          "Value": 25
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "scientist",
+          "Value": 750
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "scientist",
+          "Value": 500
+        }
+      ]
+})
+
+// Localisation
 let ADDITIONAL_LANGUAGE = `
 placeholder=placeholder
 lte.thanksgiving.name=Glorious Thanksgiving Feast
 lte.thanksgiving.desc=It's that time of year where comrades get together, enjoy a massive feast, huddle up and celebrate the Motherland!
 
+gacha.turkey.name=Turkey
 
 foodlabour=Mash Potato
 foodlabour.allindustries=All Mash Potato Industries
