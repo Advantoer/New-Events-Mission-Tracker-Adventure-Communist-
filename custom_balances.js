@@ -4101,6 +4101,21 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M002",
             "Rank": 1,
             "Condition": {
+                "ConditionType": "ResearchersUpgradedSinceSubscription",
+                "Threshold": 2,
+                "ConditionId": "any"
+            },
+            "Reward": {
+                "Reward": "Gacha",
+                "RewardId": "armored",
+                "Value": 1
+
+            }
+        },
+        {
+            "Id": "M003",
+            "Rank": 1,
+            "Condition": {
                 "ConditionType": "ResourceQuantity",
                 "Threshold": 20,
                 "ConditionId": "potatomasher"
@@ -4113,7 +4128,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M003",
+            "Id": "M004",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
@@ -4127,7 +4142,7 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M004",
+            "Id": "M005",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
@@ -4137,21 +4152,6 @@ DATA["thanksgiving-bal-10"] = {
             "Reward": {
                 "Reward": "Gacha",
                 "RewardId": "sc_m01",
-                "Value": 1
-
-            }
-        },
-        {
-            "Id": "M005",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResearchersUpgradedSinceSubscription",
-                "Threshold": 2,
-                "ConditionId": "any"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "armored",
                 "Value": 1
 
             }
@@ -4444,7 +4444,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResearchersUpgradedSinceSubscription",
-                "Threshold": 3,
+                "Threshold": 2,
                 "ConditionId": "any"
             },
             "Reward": {
@@ -4718,7 +4718,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResearchersUpgradedSinceSubscription",
-                "Threshold": 4,
+                "Threshold": 3,
                 "ConditionId": "any"
             },
             "Reward": {
