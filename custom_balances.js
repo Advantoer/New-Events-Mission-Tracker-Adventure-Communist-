@@ -2237,7 +2237,7 @@ DATA["thanksgiving-bal-10"] = {
                 {
                     "ConditionType": "ResourceQuantity",
                     "ConditionId": "Turkeyleg",
-                    "Threshold": 1e+16
+                    "Threshold": 1e+20
                 }
             ],
             "Unlock": {
