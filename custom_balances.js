@@ -4106,7 +4106,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "armored",
+                "RewardId": "plastic",
                 "Value": 1
 
             }
