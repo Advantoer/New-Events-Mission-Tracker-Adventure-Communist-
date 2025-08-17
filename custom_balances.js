@@ -181,11 +181,11 @@ DATA["thanksgiving-bal-10"] = {
         },
         {
             "Id": "armored",
-            "CardWeight": 32,
+            "CardWeight": 42,
             "RareWeight": - 1,
             "EpicWeight": -1,
             "SupremeWeight": -1,
-            "LteRareWeight": 5,
+            "LteRareWeight": 8.4,
             "ScienceMin": 150,
             "ScienceMax": 156,
             "TrophyMin": 30,
