@@ -166,11 +166,11 @@ DATA["thanksgiving-bal-10"] = {
     "GachaLootTable": [
         {
             "Id": "plastic",
-            "CardWeight": 14,
+            "CardWeight": 12,
             "RareWeight": - 1,
             "EpicWeight": -1,
             "SupremeWeight": -1,
-            "LteRareWeight": 7,
+            "LteRareWeight": 6,
             "ScienceMin": 75,
             "ScienceMax": 78,
             "TrophyMin": 10,
@@ -181,11 +181,11 @@ DATA["thanksgiving-bal-10"] = {
         },
         {
             "Id": "armored",
-            "CardWeight": 42,
+            "CardWeight": 36,
             "RareWeight": - 1,
             "EpicWeight": -1,
             "SupremeWeight": -1,
-            "LteRareWeight": 8.4,
+            "LteRareWeight": 8,
             "ScienceMin": 150,
             "ScienceMax": 156,
             "TrophyMin": 30,
