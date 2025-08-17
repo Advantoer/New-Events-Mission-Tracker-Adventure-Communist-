@@ -13235,7 +13235,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 1,
             "NormalGachaMultiplierScience": 1.1,
             "PremiumGachaMultiplierScience": 1,
-            "GachaMultiplierTrophy": 1,
+            "GachaMultiplierTrophy": 1.5,
             "AirDropScience": 45,
             "AirDropRankUpCoolDown": 60
         },
