@@ -185,7 +185,7 @@ DATA["thanksgiving-bal-10"] = {
             "RareWeight": - 1,
             "EpicWeight": -1,
             "SupremeWeight": -1,
-            "LteRareWeight": 9,
+            "LteRareWeight": 8,
             "ScienceMin": 160,
             "ScienceMax": 164,
             "TrophyMin": 30,
