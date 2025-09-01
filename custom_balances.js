@@ -190,13 +190,13 @@ DATA["thanksgiving-bal-10"] = {
         },
         {
             "Id": "titanium",
-            "CardWeight": 250,
+            "CardWeight": 350,
             "RareWeight": - 1,
             "EpicWeight": -1,
             "SupremeWeight": -1,
             "LteRareWeight": 5,
-            "ScienceMin": 2500,
-            "ScienceMax": 2500,
+            "ScienceMin": 3500,
+            "ScienceMax": 3500,
             "TrophyMin": 0,
             "TrophyMax": 0,
             "ChanceMultiplier": 10,
@@ -3104,7 +3104,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 10,
+            "LteCommon": 5,
             "LteRare": 2
         },
         {
@@ -3122,7 +3122,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 10,
+            "LteCommon": 15,
             "LteRare": 2
         },
         {
@@ -3140,7 +3140,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 20,
+            "LteCommon": 25,
             "LteRare": 3
         },
         {
@@ -3149,7 +3149,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 20,
+            "LteCommon": 30,
             "LteRare": 3
         },
         {
@@ -3158,8 +3158,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 20,
-            "LteRare": 3
+            "LteCommon": 40,
+            "LteRare": 4
         },
         {
             "Rank": 8,
@@ -3167,7 +3167,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 30,
+            "LteCommon": 40,
             "LteRare": 4
         },
         {
@@ -3176,7 +3176,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 30,
+            "LteCommon": 40,
             "LteRare": 4
         },
         {
@@ -3185,8 +3185,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 30,
-            "LteRare": 4
+            "LteCommon": 50,
+            "LteRare": 5
         },
         {
             "Rank": 11,
@@ -3194,8 +3194,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 30,
-            "LteRare": 4
+            "LteCommon": 50,
+            "LteRare": 5
         },
         {
             "Rank": 12,
@@ -3203,8 +3203,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 30,
-            "LteRare": 4
+            "LteCommon": 50,
+            "LteRare": 5
         },
         {
             "Rank": 13,
@@ -3212,7 +3212,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 40,
+            "LteCommon": 50,
             "LteRare": 5
         },
         {
@@ -3221,7 +3221,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 40,
+            "LteCommon": 50,
             "LteRare": 5
         },
         {
@@ -3230,7 +3230,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 40,
+            "LteCommon": 50,
             "LteRare": 5
         },
         {
@@ -3239,8 +3239,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 40,
-            "LteRare": 5
+            "LteCommon": 60,
+            "LteRare": 6
         },
         {
             "Rank": 17,
@@ -3248,8 +3248,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 40,
-            "LteRare": 5
+            "LteCommon": 60,
+            "LteRare": 6
         },
         {
             "Rank": 18,
@@ -3257,8 +3257,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 40,
-            "LteRare": 5
+            "LteCommon": 60,
+            "LteRare": 6
         },
         {
             "Rank": 19,
@@ -3266,7 +3266,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 50,
+            "LteCommon": 60,
             "LteRare": 6
         },
         {
@@ -3275,7 +3275,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 50,
+            "LteCommon": 60,
             "LteRare": 6
         },
         {
@@ -3284,8 +3284,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 50,
-            "LteRare": 6
+            "LteCommon": 70,
+            "LteRare": 7
         },
         {
             "Rank": 22,
@@ -3293,8 +3293,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 50,
-            "LteRare": 6
+            "LteCommon": 70,
+            "LteRare": 7
         },
         {
             "Rank": 23,
@@ -3302,8 +3302,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 50,
-            "LteRare": 6
+            "LteCommon": 70,
+            "LteRare": 7
         },
         {
             "Rank": 24,
@@ -3311,8 +3311,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 50,
-            "LteRare": 6
+            "LteCommon": 70,
+            "LteRare": 7
         },
         {
             "Rank": 25,
@@ -3320,8 +3320,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 50,
-            "LteRare": 6
+            "LteCommon": 70,
+            "LteRare": 7
         },
         {
             "Rank": 26,
@@ -3329,8 +3329,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 60,
-            "LteRare": 7
+            "LteCommon": 80,
+            "LteRare": 8
         },
         {
             "Rank": 27,
@@ -3338,8 +3338,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 60,
-            "LteRare": 7
+            "LteCommon": 80,
+            "LteRare": 8
         },
         {
             "Rank": 28,
@@ -3347,8 +3347,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 60,
-            "LteRare": 7
+            "LteCommon": 80,
+            "LteRare": 8
         },
         {
             "Rank": 29,
@@ -3356,8 +3356,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 60,
-            "LteRare": 7
+            "LteCommon": 80,
+            "LteRare": 8
         },
         {
             "Rank": 30,
@@ -3365,8 +3365,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 60,
-            "LteRare": 7
+            "LteCommon": 90,
+            "LteRare": 8
         },
         {
             "Rank": 31,
@@ -3374,8 +3374,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 60,
-            "LteRare": 7
+            "LteCommon": 100,
+            "LteRare": 9
         },
         {
             "Rank": 32,
@@ -3383,8 +3383,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 60,
-            "LteRare": 7
+            "LteCommon": 110,
+            "LteRare": 9
         },
         {
             "Rank": 33,
@@ -3392,8 +3392,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 60,
-            "LteRare": 7
+            "LteCommon": 120,
+            "LteRare": 9
         },
         {
             "Rank": 34,
@@ -3401,8 +3401,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 70,
-            "LteRare": 8
+            "LteCommon": 130,
+            "LteRare": 9
         },
         {
             "Rank": 35,
@@ -3410,8 +3410,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 70,
-            "LteRare": 8
+            "LteCommon": 130,
+            "LteRare": 9
         },
         {
             "Rank": 36,
@@ -3419,8 +3419,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 70,
-            "LteRare": 8
+            "LteCommon": 148,
+            "LteRare": 10
         },
         {
             "Rank": 37,
@@ -3428,8 +3428,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 70,
-            "LteRare": 8
+            "LteCommon": 140,
+            "LteRare": 10
         },
         {
             "Rank": 38,
@@ -3437,8 +3437,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 70,
-            "LteRare": 8
+            "LteCommon": 150,
+            "LteRare": 11
         },
         {
             "Rank": 39,
@@ -3446,8 +3446,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 70,
-            "LteRare": 8
+            "LteCommon": 150,
+            "LteRare": 11
         },
         {
             "Rank": 40,
@@ -3455,8 +3455,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 70,
-            "LteRare": 8
+            "LteCommon": 160,
+            "LteRare": 12
         },
         {
             "Rank": 41,
@@ -3464,8 +3464,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 80,
-            "LteRare": 9
+            "LteCommon": 170,
+            "LteRare": 13
         },
         {
             "Rank": 42,
@@ -3473,8 +3473,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 80,
-            "LteRare": 9
+            "LteCommon": 180,
+            "LteRare": 14
         },
         {
             "Rank": 43,
@@ -3482,8 +3482,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 80,
-            "LteRare": 9
+            "LteCommon": 190,
+            "LteRare": 15
         },
         {
             "Rank": 44,
@@ -3491,8 +3491,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 80,
-            "LteRare": 9
+            "LteCommon": 200,
+            "LteRare": 16
         },
         {
             "Rank": 45,
@@ -3500,8 +3500,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 80,
-            "LteRare": 9
+            "LteCommon": 210,
+            "LteRare": 17
         },
         {
             "Rank": 46,
@@ -3509,8 +3509,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 90,
-            "LteRare": 10
+            "LteCommon": 220,
+            "LteRare": 18
         },
         {
             "Rank": 47,
@@ -3518,8 +3518,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 90,
-            "LteRare": 10
+            "LteCommon": 230,
+            "LteRare": 19
         },
         {
             "Rank": 48,
@@ -3527,8 +3527,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 90,
-            "LteRare": 10
+            "LteCommon": 240,
+            "LteRare": 20
         },
         {
             "Rank": 49,
@@ -3536,8 +3536,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 90,
-            "LteRare": 10
+            "LteCommon": 250,
+            "LteRare": 21
         },
         {
             "Rank": 50,
@@ -3545,8 +3545,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 90,
-            "LteRare": 10
+            "LteCommon": 275,
+            "LteRare": 23
         },
         {
             "Rank": 51,
@@ -3554,8 +3554,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 100,
-            "LteRare": 11
+            "LteCommon": 300,
+            "LteRare": 25
         },
     ],
     "CardToScienceConversion": {
@@ -13272,9 +13272,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 0.875,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 1.2,
             "NormalGachaMultiplierScience": 1.4,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 1.2,
             "GachaMultiplierTrophy": 4,
             "AirDropScience": 65,
             "AirDropRankUpCoolDown": 60
@@ -13287,9 +13287,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 1.2,
             "NormalGachaMultiplierScience": 1.5,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 1.2,
             "GachaMultiplierTrophy": 5,
             "AirDropScience": 75,
             "AirDropRankUpCoolDown": 60
@@ -13302,9 +13302,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1.125,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 1.2,
             "NormalGachaMultiplierScience": 1.6,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 1.2,
             "GachaMultiplierTrophy": 6,
             "AirDropScience": 80,
             "AirDropRankUpCoolDown": 60
@@ -13317,9 +13317,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1.25,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 1.2,
             "NormalGachaMultiplierScience": 1.7,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 1.2,
             "GachaMultiplierTrophy": 7,
             "AirDropScience": 90,
             "AirDropRankUpCoolDown": 60
@@ -13332,9 +13332,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1.375,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 1.2,
             "NormalGachaMultiplierScience": 1.8,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 1.2,
             "GachaMultiplierTrophy": 8,
             "AirDropScience": 95,
             "AirDropRankUpCoolDown": 60
@@ -13347,9 +13347,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1.5,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 1.2,
             "NormalGachaMultiplierScience": 1.9,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 1.2,
             "GachaMultiplierTrophy": 9,
             "AirDropScience": 105,
             "AirDropRankUpCoolDown": 60
@@ -13362,9 +13362,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1.625,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 1.4,
             "NormalGachaMultiplierScience": 2,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 1.4,
             "GachaMultiplierTrophy": 10,
             "AirDropScience": 110,
             "AirDropRankUpCoolDown": 60
@@ -13377,9 +13377,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1.75,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 1.4,
             "NormalGachaMultiplierScience": 2.125,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 1.4,
             "GachaMultiplierTrophy": 11,
             "AirDropScience": 115,
             "AirDropRankUpCoolDown": 60
@@ -13392,9 +13392,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1.875,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 1.4,
             "NormalGachaMultiplierScience": 2.25,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 1.4,
             "GachaMultiplierTrophy": 12,
             "AirDropScience": 125,
             "AirDropRankUpCoolDown": 60
@@ -13407,9 +13407,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 1.4,
             "NormalGachaMultiplierScience": 2.375,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 1.4,
             "GachaMultiplierTrophy": 13,
             "AirDropScience": 130,
             "AirDropRankUpCoolDown": 60
@@ -13422,9 +13422,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2.1,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 1.4,
             "NormalGachaMultiplierScience": 2.5,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 1.4,
             "GachaMultiplierTrophy": 14,
             "AirDropScience": 140,
             "AirDropRankUpCoolDown": 60
@@ -13437,9 +13437,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2.2,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 1.4,
             "NormalGachaMultiplierScience": 2.7,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 1.4,
             "GachaMultiplierTrophy": 15,
             "AirDropScience": 145,
             "AirDropRankUpCoolDown": 60
@@ -13452,9 +13452,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2.3,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 1.4,
             "NormalGachaMultiplierScience": 2.9,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 1.4,
             "GachaMultiplierTrophy": 16,
             "AirDropScience": 150,
             "AirDropRankUpCoolDown": 60
@@ -13467,9 +13467,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2.4,
-            "PremiumGachaMultiplier": 1.2,
+            "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 3.15,
-            "PremiumGachaMultiplierScience": 1.2,
+            "PremiumGachaMultiplierScience": 1.6,
             "GachaMultiplierTrophy": 17,
             "AirDropScience": 160,
             "AirDropRankUpCoolDown": 60
@@ -13482,9 +13482,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2.5,
-            "PremiumGachaMultiplier": 1.2,
+            "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 3.4,
-            "PremiumGachaMultiplierScience": 1.2,
+            "PremiumGachaMultiplierScience": 1.6,
             "GachaMultiplierTrophy": 18,
             "AirDropScience": 165,
             "AirDropRankUpCoolDown": 60
@@ -13497,9 +13497,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2.6,
-            "PremiumGachaMultiplier": 1.2,
+            "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 3.7,
-            "PremiumGachaMultiplierScience": 1.2,
+            "PremiumGachaMultiplierScience": 1.6,
             "GachaMultiplierTrophy": 19,
             "AirDropScience": 175,
             "AirDropRankUpCoolDown": 60
@@ -13512,9 +13512,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2.8,
-            "PremiumGachaMultiplier": 1.2,
+            "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 4,
-            "PremiumGachaMultiplierScience": 1.2,
+            "PremiumGachaMultiplierScience": 1.6,
             "GachaMultiplierTrophy": 20,
             "AirDropScience": 180,
             "AirDropRankUpCoolDown": 60
@@ -13527,9 +13527,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 3,
-            "PremiumGachaMultiplier": 1.2,
+            "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 4.3,
-            "PremiumGachaMultiplierScience": 1.2,
+            "PremiumGachaMultiplierScience": 1.6,
             "GachaMultiplierTrophy": 22,
             "AirDropScience": 185,
             "AirDropRankUpCoolDown": 60
@@ -13542,9 +13542,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 3.2,
-            "PremiumGachaMultiplier": 1.2,
+            "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 4.6,
-            "PremiumGachaMultiplierScience": 1.2,
+            "PremiumGachaMultiplierScience": 1.6,
             "GachaMultiplierTrophy": 24,
             "AirDropScience": 195,
             "AirDropRankUpCoolDown": 60
@@ -13557,9 +13557,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 3.4,
-            "PremiumGachaMultiplier": 1.2,
+            "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 5,
-            "PremiumGachaMultiplierScience": 1.2,
+            "PremiumGachaMultiplierScience": 1.6,
             "GachaMultiplierTrophy": 26,
             "AirDropScience": 200,
             "AirDropRankUpCoolDown": 60
@@ -13572,9 +13572,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 3.6,
-            "PremiumGachaMultiplier": 1.2,
+            "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 5.5,
-            "PremiumGachaMultiplierScience": 1.2,
+            "PremiumGachaMultiplierScience": 1.6,
             "GachaMultiplierTrophy": 28,
             "AirDropScience": 220,
             "AirDropRankUpCoolDown": 60
@@ -13587,9 +13587,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 3.8,
-            "PremiumGachaMultiplier": 1.2,
+            "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 6,
-            "PremiumGachaMultiplierScience": 1.2,
+            "PremiumGachaMultiplierScience": 1.6,
             "GachaMultiplierTrophy": 30,
             "AirDropScience": 235,
             "AirDropRankUpCoolDown": 60
@@ -13602,9 +13602,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 4,
-            "PremiumGachaMultiplier": 1.2,
+            "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 6.5,
-            "PremiumGachaMultiplierScience": 1.2,
+            "PremiumGachaMultiplierScience": 1.6,
             "GachaMultiplierTrophy": 32.5,
             "AirDropScience": 250,
             "AirDropRankUpCoolDown": 60
@@ -13617,9 +13617,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 4.25,
-            "PremiumGachaMultiplier": 1.4,
+            "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 7,
-            "PremiumGachaMultiplierScience": 1.4,
+            "PremiumGachaMultiplierScience": 2,
             "GachaMultiplierTrophy": 35,
             "AirDropScience": 260,
             "AirDropRankUpCoolDown": 60
@@ -13632,9 +13632,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 4.5,
-            "PremiumGachaMultiplier": 1.4,
+            "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 7.5,
-            "PremiumGachaMultiplierScience": 1.4,
+            "PremiumGachaMultiplierScience": 2,
             "GachaMultiplierTrophy": 37.5,
             "AirDropScience": 275,
             "AirDropRankUpCoolDown": 60
@@ -13647,9 +13647,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 4.75,
-            "PremiumGachaMultiplier": 1.4,
+            "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 8,
-            "PremiumGachaMultiplierScience": 1.4,
+            "PremiumGachaMultiplierScience": 2,
             "GachaMultiplierTrophy": 40,
             "AirDropScience": 290,
             "AirDropRankUpCoolDown": 60
@@ -13662,9 +13662,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5,
-            "PremiumGachaMultiplier": 1.4,
+            "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 8.5,
-            "PremiumGachaMultiplierScience": 1.4,
+            "PremiumGachaMultiplierScience": 2,
             "GachaMultiplierTrophy": 43,
             "AirDropScience": 305,
             "AirDropRankUpCoolDown": 60
@@ -13677,9 +13677,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5.25,
-            "PremiumGachaMultiplier": 1.4,
+            "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 9,
-            "PremiumGachaMultiplierScience": 1.4,
+            "PremiumGachaMultiplierScience": 2,
             "GachaMultiplierTrophy": 46,
             "AirDropScience": 320,
             "AirDropRankUpCoolDown": 60
@@ -13692,9 +13692,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5.5,
-            "PremiumGachaMultiplier": 1.4,
+            "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 9.5,
-            "PremiumGachaMultiplierScience": 1.4,
+            "PremiumGachaMultiplierScience": 2,
             "GachaMultiplierTrophy": 50,
             "AirDropScience": 330,
             "AirDropRankUpCoolDown": 60
@@ -13707,9 +13707,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5.75,
-            "PremiumGachaMultiplier": 1.4,
+            "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 10,
-            "PremiumGachaMultiplierScience": 1.4,
+            "PremiumGachaMultiplierScience": 2,
             "GachaMultiplierTrophy": 55,
             "AirDropScience": 345,
             "AirDropRankUpCoolDown": 60
@@ -13722,9 +13722,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6,
-            "PremiumGachaMultiplier": 1.4,
+            "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 11,
-            "PremiumGachaMultiplierScience": 1.4,
+            "PremiumGachaMultiplierScience": 2,
             "GachaMultiplierTrophy": 60,
             "AirDropScience": 365,
             "AirDropRankUpCoolDown": 60
@@ -13737,9 +13737,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6.3,
-            "PremiumGachaMultiplier": 1.6,
+            "PremiumGachaMultiplier": 2.2,
             "NormalGachaMultiplierScience": 11.5,
-            "PremiumGachaMultiplierScience": 1.6,
+            "PremiumGachaMultiplierScience": 2.2,
             "GachaMultiplierTrophy": 65,
             "AirDropScience": 380,
             "AirDropRankUpCoolDown": 60
@@ -13752,9 +13752,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6.6,
-            "PremiumGachaMultiplier": 1.6,
+            "PremiumGachaMultiplier": 2.2,
             "NormalGachaMultiplierScience": 12,
-            "PremiumGachaMultiplierScience": 1.6,
+            "PremiumGachaMultiplierScience": 2.2,
             "GachaMultiplierTrophy": 70,
             "AirDropScience": 400,
             "AirDropRankUpCoolDown": 60
@@ -13767,9 +13767,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6.9,
-            "PremiumGachaMultiplier": 1.6,
+            "PremiumGachaMultiplier": 2.2,
             "NormalGachaMultiplierScience": 12.5,
-            "PremiumGachaMultiplierScience": 1.6,
+            "PremiumGachaMultiplierScience": 2.2,
             "GachaMultiplierTrophy": 75,
             "AirDropScience": 415,
             "AirDropRankUpCoolDown": 60
@@ -13782,9 +13782,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 7.2,
-            "PremiumGachaMultiplier": 1.6,
+            "PremiumGachaMultiplier": 2.2,
             "NormalGachaMultiplierScience": 13.1,
-            "PremiumGachaMultiplierScience": 1.6,
+            "PremiumGachaMultiplierScience": 2.2,
             "GachaMultiplierTrophy": 80,
             "AirDropScience": 435,
             "AirDropRankUpCoolDown": 60
@@ -13797,9 +13797,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 7.5,
-            "PremiumGachaMultiplier": 1.8,
+            "PremiumGachaMultiplier": 2.6,
             "NormalGachaMultiplierScience": 13.8,
-            "PremiumGachaMultiplierScience": 1.8,
+            "PremiumGachaMultiplierScience": 2.6,
             "GachaMultiplierTrophy": 85,
             "AirDropScience": 450,
             "AirDropRankUpCoolDown": 60
@@ -13812,9 +13812,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 7.8,
-            "PremiumGachaMultiplier": 1.8,
+            "PremiumGachaMultiplier": 2.6,
             "NormalGachaMultiplierScience": 14.5,
-            "PremiumGachaMultiplierScience": 1.8,
+            "PremiumGachaMultiplierScience": 2.6,
             "GachaMultiplierTrophy": 90,
             "AirDropScience": 470,
             "AirDropRankUpCoolDown": 60
@@ -13827,9 +13827,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 8.1,
-            "PremiumGachaMultiplier": 1.8,
+            "PremiumGachaMultiplier": 2.6,
             "NormalGachaMultiplierScience": 15.2,
-            "PremiumGachaMultiplierScience": 1.8,
+            "PremiumGachaMultiplierScience": 2.6,
             "GachaMultiplierTrophy": 95,
             "AirDropScience": 485,
             "AirDropRankUpCoolDown": 60
@@ -13842,9 +13842,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 8.4,
-            "PremiumGachaMultiplier": 1.8,
+            "PremiumGachaMultiplier": 2.6,
             "NormalGachaMultiplierScience": 16,
-            "PremiumGachaMultiplierScience": 1.8,
+            "PremiumGachaMultiplierScience": 2.6,
             "GachaMultiplierTrophy": 100,
             "AirDropScience": 520,
             "AirDropRankUpCoolDown": 60
@@ -13857,9 +13857,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 8.7,
-            "PremiumGachaMultiplier": 2,
+            "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 17,
-            "PremiumGachaMultiplierScience": 2,
+            "PremiumGachaMultiplierScience": 3,
             "GachaMultiplierTrophy": 105,
             "AirDropScience": 550,
             "AirDropRankUpCoolDown": 60
@@ -13872,9 +13872,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 9,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 18,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 3,
             "GachaMultiplierTrophy": 110,
             "AirDropScience": 585,
             "AirDropRankUpCoolDown": 60
@@ -13887,9 +13887,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 9.3,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 19,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 3,
             "GachaMultiplierTrophy": 115,
             "AirDropScience": 620,
             "AirDropRankUpCoolDown": 60
@@ -13902,9 +13902,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 9.6,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 20,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 3,
             "GachaMultiplierTrophy": 120,
             "AirDropScience": 655,
             "AirDropRankUpCoolDown": 60
@@ -13917,9 +13917,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 10,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 21.5,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 3,
             "GachaMultiplierTrophy": 125,
             "AirDropScience": 690,
             "AirDropRankUpCoolDown": 60
@@ -13932,9 +13932,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 10.5,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 23,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 3,
             "GachaMultiplierTrophy": 135,
             "AirDropScience": 750,
             "AirDropRankUpCoolDown": 60
@@ -13947,9 +13947,9 @@ DATA["thanksgiving-bal-10"] = {
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 11,
-            "PremiumGachaMultiplier": 1,
+            "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 25,
-            "PremiumGachaMultiplierScience": 1,
+            "PremiumGachaMultiplierScience": 3,
             "GachaMultiplierTrophy": 150,
             "AirDropScience": 815,
             "AirDropRankUpCoolDown": 60
