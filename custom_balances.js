@@ -3105,7 +3105,7 @@ DATA["thanksgiving-bal-10"] = {
             "Epic": 0,
             "Supreme": 0,
             "LteCommon": 5,
-            "LteRare": 2
+            "LteRare": 1
         },
         {
             "Rank": 2,
@@ -3176,7 +3176,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 40,
+            "LteCommon": 45,
             "LteRare": 4
         },
         {
@@ -3212,7 +3212,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 50,
+            "LteCommon": 55,
             "LteRare": 5
         },
         {
@@ -3221,7 +3221,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 50,
+            "LteCommon": 55,
             "LteRare": 5
         },
         {
@@ -3230,8 +3230,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 50,
-            "LteRare": 5
+            "LteCommon": 60,
+            "LteRare": 6
         },
         {
             "Rank": 16,
@@ -3257,7 +3257,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 60,
+            "LteCommon": 65,
             "LteRare": 6
         },
         {
@@ -3266,7 +3266,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 60,
+            "LteCommon": 65,
             "LteRare": 6
         },
         {
@@ -3275,8 +3275,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 60,
-            "LteRare": 6
+            "LteCommon": 70,
+            "LteRare": 7
         },
         {
             "Rank": 21,
@@ -3302,7 +3302,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 70,
+            "LteCommon": 75,
             "LteRare": 7
         },
         {
@@ -3311,7 +3311,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 70,
+            "LteCommon": 75,
             "LteRare": 7
         },
         {
@@ -3320,8 +3320,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 70,
-            "LteRare": 7
+            "LteCommon": 80,
+            "LteRare": 8
         },
         {
             "Rank": 26,
@@ -3347,7 +3347,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 80,
+            "LteCommon": 85,
             "LteRare": 8
         },
         {
@@ -3356,7 +3356,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 80,
+            "LteCommon": 85,
             "LteRare": 8
         },
         {
@@ -3366,7 +3366,7 @@ DATA["thanksgiving-bal-10"] = {
             "Epic": 0,
             "Supreme": 0,
             "LteCommon": 90,
-            "LteRare": 8
+            "LteRare": 10
         },
         {
             "Rank": 31,
@@ -3374,8 +3374,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 100,
-            "LteRare": 9
+            "LteCommon": 95,
+            "LteRare": 10
         },
         {
             "Rank": 32,
@@ -3383,8 +3383,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 110,
-            "LteRare": 9
+            "LteCommon": 100,
+            "LteRare": 10
         },
         {
             "Rank": 33,
@@ -3392,8 +3392,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 120,
-            "LteRare": 9
+            "LteCommon": 105,
+            "LteRare": 10
         },
         {
             "Rank": 34,
@@ -3401,8 +3401,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 130,
-            "LteRare": 9
+            "LteCommon": 110,
+            "LteRare": 10
         },
         {
             "Rank": 35,
@@ -3410,8 +3410,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 130,
-            "LteRare": 9
+            "LteCommon": 120,
+            "LteRare": 12
         },
         {
             "Rank": 36,
@@ -3419,8 +3419,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 148,
-            "LteRare": 10
+            "LteCommon": 125,
+            "LteRare": 12
         },
         {
             "Rank": 37,
@@ -3428,8 +3428,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 140,
-            "LteRare": 10
+            "LteCommon": 130,
+            "LteRare": 12
         },
         {
             "Rank": 38,
@@ -3437,8 +3437,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 150,
-            "LteRare": 11
+            "LteCommon": 135,
+            "LteRare": 12
         },
         {
             "Rank": 39,
@@ -3446,8 +3446,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 150,
-            "LteRare": 11
+            "LteCommon": 135,
+            "LteRare": 12
         },
         {
             "Rank": 40,
@@ -3455,8 +3455,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 160,
-            "LteRare": 12
+            "LteCommon": 140,
+            "LteRare": 14
         },
         {
             "Rank": 41,
@@ -3464,8 +3464,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 170,
-            "LteRare": 13
+            "LteCommon": 145,
+            "LteRare": 14
         },
         {
             "Rank": 42,
@@ -3473,7 +3473,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 180,
+            "LteCommon": 150,
             "LteRare": 14
         },
         {
@@ -3482,8 +3482,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 190,
-            "LteRare": 15
+            "LteCommon": 155,
+            "LteRare": 14
         },
         {
             "Rank": 44,
@@ -3491,8 +3491,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 200,
-            "LteRare": 16
+            "LteCommon": 155,
+            "LteRare": 14
         },
         {
             "Rank": 45,
@@ -3500,8 +3500,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 210,
-            "LteRare": 17
+            "LteCommon": 160,
+            "LteRare": 16
         },
         {
             "Rank": 46,
@@ -3509,8 +3509,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 220,
-            "LteRare": 18
+            "LteCommon": 165,
+            "LteRare": 16
         },
         {
             "Rank": 47,
@@ -3518,8 +3518,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 230,
-            "LteRare": 19
+            "LteCommon": 170,
+            "LteRare": 16
         },
         {
             "Rank": 48,
@@ -3527,8 +3527,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 240,
-            "LteRare": 20
+            "LteCommon": 175,
+            "LteRare": 16
         },
         {
             "Rank": 49,
@@ -3536,8 +3536,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 250,
-            "LteRare": 21
+            "LteCommon": 175,
+            "LteRare": 16
         },
         {
             "Rank": 50,
@@ -3545,8 +3545,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 275,
-            "LteRare": 23
+            "LteCommon": 180,
+            "LteRare": 18
         },
         {
             "Rank": 51,
@@ -3554,8 +3554,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 300,
-            "LteRare": 25
+            "LteCommon": 200,
+            "LteRare": 20
         },
     ],
     "CardToScienceConversion": {
@@ -3657,29 +3657,23 @@ DATA["thanksgiving-bal-10"] = {
         {
             "Cycle": [
                 "plastic",
+                "armored",
                 "plastic",
                 "plastic",
                 "armored",
                 "plastic",
                 "plastic",
-                "plastic",
                 "armored",
-                "plastic",
-                "plastic",
-                "plastic",
-                "armored",
-                "plastic",
                 "plastic",
                 "plastic",
                 "armored",
                 "plastic",
                 "plastic",
-                "plastic",
                 "armored",
                 "plastic",
                 "plastic",
-                "plastic",
                 "armored",
+                "plastic",
             ],
             "ScriptId": "sc3"
         }
