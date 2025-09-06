@@ -15791,7 +15791,7 @@ SCHEDULE_CYCLES.LteRewards.push({
         {
             "Reward": "Resources",
             "RewardId": "scientist",
-            "Value": 500,
+            "Value": 250,
             "AvatarId": "null"
         },
         {
@@ -15833,13 +15833,13 @@ SCHEDULE_CYCLES.LteRewards.push({
         {
             "Reward": "Researcher",
             "RewardId": "event",
-            "Value": 5,
+            "Value": 3,
             "AvatarId": "null"
         },
         {
-            "Reward": "Resources",
-            "RewardId": "scientist",
-            "Value": 2000,
+            "Reward": "Gacha",
+            "RewardId": "stone",
+            "Value": 1,
             "AvatarId": "null"
         },
         {
@@ -15850,14 +15850,14 @@ SCHEDULE_CYCLES.LteRewards.push({
         },
         {
             "Reward": "Resources",
-            "RewardId": "timehack_1",
-            "Value": 1,
+            "RewardId": "scientist",
+            "Value": 1500,
             "AvatarId": "null"
         },
         {
-            "Reward": "Gacha",
-            "RewardId": "stone",
-            "Value": 1,
+            "Reward": "Resources",
+            "RewardId": "timehack_1",
+            "Value": 2,
             "AvatarId": "null"
         },
         {
@@ -15875,13 +15875,13 @@ SCHEDULE_CYCLES.LteRewards.push({
         {
             "Reward": "Researcher",
             "RewardId": "rare",
-            "Value": 50,
+            "Value": 100,
             "AvatarId": "null"
         },
         {
-            "Reward": "Researcher",
-            "RewardId": "epic",
-            "Value": 4,
+            "Reward": "Resources",
+            "RewardId": "scientist",
+            "Value": 5000,
             "AvatarId": "null"
         },
         {
@@ -15897,15 +15897,15 @@ SCHEDULE_CYCLES.LteRewards.push({
             "AvatarId": "null"
         },
         {
-            "Reward": "Resources",
-            "RewardId": "scientist",
-            "Value": 5000,
+            "Reward": "Researcher",
+            "RewardId": "epic",
+            "Value": 5,
             "AvatarId": "null"
         },
         {
             "Reward": "Resources",
             "RewardId": "timehack_4",
-            "Value": 1,
+            "Value": 3,
             "AvatarId": "null"
         },
         {
@@ -15921,9 +15921,69 @@ SCHEDULE_CYCLES.LteRewards.push({
             "AvatarId": "null"
         },
         {
+            "Reward": "Resources",
+            "RewardId": "gold",
+            "Value": 50,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Resources",
+            "RewardId": "scientist",
+            "Value": 20000,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Researcher",
+            "RewardId": "epic",
+            "Value": 20,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "turkey",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
             "Reward": "Researcher",
             "RewardId": "event",
-            "Value": 20,
+            "Value": 25,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Researcher",
+            "RewardId": "rare",
+            "Value": 750,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Resources",
+            "RewardId": "gold",
+            "Value": 100,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "turkey",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Resources",
+            "RewardId": "timehack_8",
+            "Value": 2,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Resources",
+            "RewardId": "scientist",
+            "Value": 40000,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "supreme",
+            "Value": 1,
             "AvatarId": "null"
         },
     ]
@@ -16048,32 +16108,42 @@ SCHEDULE_CYCLES.LteShortLeaderboards.push({
         {
           "Reward": "Resources",
           "RewardId": "gold",
-          "Value": 250
+          "Value": 300
         },
         {
           "Reward": "Gacha",
           "RewardId": "gold",
-          "Value": 1
-        },
-        {
-          "Reward": "Resources",
-          "RewardId": "gold",
-          "Value": 100
-        },
-        {
-          "Reward": "Resources",
-          "RewardId": "timehack_4",
           "Value": 1
         },
         {
           "Reward": "Researcher",
           "RewardId": "event",
-          "Value": 10
+          "Value": 25
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "timehack_4",
+          "Value": 3
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "gold",
+          "Value": 150
         },
         {
           "Reward": "Gacha",
-          "RewardId": "iron",
+          "RewardId": "glorious",
           "Value": 1
+        },
+        {
+          "Reward": "Gacha",
+          "RewardId": "rankup",
+          "Value": 1
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "scientist",
+          "Value": 5000
         },
         {
           "Reward": "Resources",
@@ -16081,19 +16151,9 @@ SCHEDULE_CYCLES.LteShortLeaderboards.push({
           "Value": 50
         },
         {
-          "Reward": "Gacha",
-          "RewardId": "prime",
-          "Value": 75
-        },
-        {
-          "Reward": "Resources",
-          "RewardId": "scientist",
-          "Value": 4000
-        },
-        {
           "Reward": "Researcher",
           "RewardId": "rare",
-          "Value": 50
+          "Value": 250
         },
         {
           "Reward": "Researcher",
@@ -16107,18 +16167,18 @@ SCHEDULE_CYCLES.LteShortLeaderboards.push({
         },
         {
           "Reward": "Gacha",
-          "RewardId": "rankup",
+          "RewardId": "iron",
           "Value": 1
+        },
+        {
+          "Reward": "Resources",
+          "RewardId": "scientist",
+          "Value": 2500
         },
         {
           "Reward": "Resources",
           "RewardId": "gold",
           "Value": 25
-        },
-        {
-          "Reward": "Resources",
-          "RewardId": "scientist",
-          "Value": 2000
         },
         {
           "Reward": "Researcher",
@@ -16126,14 +16186,14 @@ SCHEDULE_CYCLES.LteShortLeaderboards.push({
           "Value": 25
         },
         {
-          "Reward": "Gacha",
-          "RewardId": "iron",
-          "Value": 20
-        },
-        {
           "Reward": "Resources",
           "RewardId": "gold",
-          "Value": 15
+          "Value": 10
+        },
+        {
+          "Reward": "Gacha",
+          "RewardId": "stone",
+          "Value": 1
         },
         {
           "Reward": "Resources",
@@ -16143,12 +16203,12 @@ SCHEDULE_CYCLES.LteShortLeaderboards.push({
         {
           "Reward": "Researcher",
           "RewardId": "common",
-          "Value": 50
+          "Value": 100
         },
         {
           "Reward": "Researcher",
           "RewardId": "common",
-          "Value": 25
+          "Value": 75
         },
         {
           "Reward": "Resources",
