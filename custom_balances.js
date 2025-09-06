@@ -34,8 +34,8 @@ DATA["thanksgiving-bal-10"] = {
             "AirDropRewardType": "PrimaryCurrency",
             "IsAd": true,
             "IsAdSkippable": false,
-            "Weight": 35,
-            "MaxAdsPerInterval": 8,
+            "Weight": 40,
+            "MaxAdsPerInterval": 6,
             "RewardCalculation": {
                 "A": 7500,
                 "B": 1.7,
@@ -49,7 +49,7 @@ DATA["thanksgiving-bal-10"] = {
             "IsAd": true,
             "IsAdSkippable": false,
             "Weight": 35,
-            "MaxAdsPerInterval": 5,
+            "MaxAdsPerInterval": 6,
             "RewardCalculation": {
                 "A": 700,
                 "B": 1.02,
@@ -3366,7 +3366,7 @@ DATA["thanksgiving-bal-10"] = {
             "Epic": 0,
             "Supreme": 0,
             "LteCommon": 90,
-            "LteRare": 10
+            "LteRare": 9
         },
         {
             "Rank": 31,
@@ -3402,7 +3402,7 @@ DATA["thanksgiving-bal-10"] = {
             "Epic": 0,
             "Supreme": 0,
             "LteCommon": 110,
-            "LteRare": 10
+            "LteRare": 11
         },
         {
             "Rank": 35,
@@ -3410,7 +3410,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 120,
+            "LteCommon": 115,
             "LteRare": 12
         },
         {
@@ -3419,7 +3419,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 125,
+            "LteCommon": 120,
             "LteRare": 12
         },
         {
@@ -3428,7 +3428,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 130,
+            "LteCommon": 125,
             "LteRare": 12
         },
         {
@@ -3437,8 +3437,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 135,
-            "LteRare": 12
+            "LteCommon": 130,
+            "LteRare": 13
         },
         {
             "Rank": 39,
@@ -3447,7 +3447,7 @@ DATA["thanksgiving-bal-10"] = {
             "Epic": 0,
             "Supreme": 0,
             "LteCommon": 135,
-            "LteRare": 12
+            "LteRare": 14
         },
         {
             "Rank": 40,
@@ -3474,28 +3474,10 @@ DATA["thanksgiving-bal-10"] = {
             "Epic": 0,
             "Supreme": 0,
             "LteCommon": 150,
-            "LteRare": 14
+            "LteRare": 15
         },
         {
             "Rank": 43,
-            "Common": 0,
-            "Rare": 0,
-            "Epic": 0,
-            "Supreme": 0,
-            "LteCommon": 155,
-            "LteRare": 14
-        },
-        {
-            "Rank": 44,
-            "Common": 0,
-            "Rare": 0,
-            "Epic": 0,
-            "Supreme": 0,
-            "LteCommon": 155,
-            "LteRare": 14
-        },
-        {
-            "Rank": 45,
             "Common": 0,
             "Rare": 0,
             "Epic": 0,
@@ -3504,43 +3486,25 @@ DATA["thanksgiving-bal-10"] = {
             "LteRare": 16
         },
         {
-            "Rank": 46,
+            "Rank": 44,
             "Common": 0,
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
-            "LteCommon": 165,
+            "LteCommon": 160,
             "LteRare": 16
         },
         {
-            "Rank": 47,
+            "Rank": 45,
             "Common": 0,
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
             "LteCommon": 170,
-            "LteRare": 16
+            "LteRare": 17
         },
         {
-            "Rank": 48,
-            "Common": 0,
-            "Rare": 0,
-            "Epic": 0,
-            "Supreme": 0,
-            "LteCommon": 175,
-            "LteRare": 16
-        },
-        {
-            "Rank": 49,
-            "Common": 0,
-            "Rare": 0,
-            "Epic": 0,
-            "Supreme": 0,
-            "LteCommon": 175,
-            "LteRare": 16
-        },
-        {
-            "Rank": 50,
+            "Rank": 46,
             "Common": 0,
             "Rare": 0,
             "Epic": 0,
@@ -3549,13 +3513,49 @@ DATA["thanksgiving-bal-10"] = {
             "LteRare": 18
         },
         {
-            "Rank": 51,
+            "Rank": 47,
+            "Common": 0,
+            "Rare": 0,
+            "Epic": 0,
+            "Supreme": 0,
+            "LteCommon": 190,
+            "LteRare": 19
+        },
+        {
+            "Rank": 48,
             "Common": 0,
             "Rare": 0,
             "Epic": 0,
             "Supreme": 0,
             "LteCommon": 200,
             "LteRare": 20
+        },
+        {
+            "Rank": 49,
+            "Common": 0,
+            "Rare": 0,
+            "Epic": 0,
+            "Supreme": 0,
+            "LteCommon": 210,
+            "LteRare": 21
+        },
+        {
+            "Rank": 50,
+            "Common": 0,
+            "Rare": 0,
+            "Epic": 0,
+            "Supreme": 0,
+            "LteCommon": 230,
+            "LteRare": 23
+        },
+        {
+            "Rank": 51,
+            "Common": 0,
+            "Rare": 0,
+            "Epic": 0,
+            "Supreme": 0,
+            "LteCommon": 250,
+            "LteRare": 25
         },
     ],
     "CardToScienceConversion": {
