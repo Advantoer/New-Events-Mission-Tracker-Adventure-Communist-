@@ -15759,13 +15759,29 @@ DATA["thanksgiving-bal-10"] = {
 DATA['evergreen'].GachaLootTable.push({
     "Id": "turkey",
     "SortingOrder": 7,
-    "CardWeight": 40,
+    "CardWeight": 50,
     "RareWeight": 5,
-    "EpicWeight": 40,
-    "SupremeWeight": 225,
+    "EpicWeight": 25,
+    "SupremeWeight": 250,
     "LteRareWeight": -1,
     "ScienceMin": 285,
     "ScienceMax": 315,
+    "ChanceMultiplier": 2,
+    "WeightDivider": 10,
+    "Type": "Premium",
+    "SupremeWeightModifier": 1.5
+})
+
+DATA['evergreen'].GachaLootTable.push({
+    "Id": "megaturkey",
+    "SortingOrder": 7,
+    "CardWeight": 250,
+    "RareWeight": 5,
+    "EpicWeight": 25,
+    "SupremeWeight": 750,
+    "LteRareWeight": -1,
+    "ScienceMin": 1475,
+    "ScienceMax": 1525,
     "ChanceMultiplier": 2,
     "WeightDivider": 10,
     "Type": "Premium",
@@ -16230,6 +16246,7 @@ lte.thanksgiving.name=Glorious Thanksgiving Feast
 lte.thanksgiving.desc=It's that time of year where comrades get together, enjoy a massive feast, huddle up and celebrate the Motherland!
 
 gacha.turkey.name=Turkey
+gacha.megaturkey.name=Mega Turkey
 
 foodlabour=Mash Potato
 foodlabour.allindustries=All Mash Potato Industries
