@@ -3739,17 +3739,22 @@ DATA["thanksgiving-bal-10"] = {
     "GachaStackSplit": [
         {
             "Split": 2,
-            "LteCommon": 8,
-            "LteRare": 4
+            "LteCommon": 15,
+            "LteRare": 3
         },
         {
             "Split": 3,
-            "LteCommon": 25,
-            "LteRare": 25
+            "LteCommon": 45,
+            "LteRare": 9
         },
         {
             "Split": 4,
-            "LteRare": 75
+            "LteCommon": 180,
+            "LteRare": 36
+        }
+        {
+            "Split": 5,
+            "LteRare": 180
         }
     ],
     "GeneratorObjectiveLimits": [
