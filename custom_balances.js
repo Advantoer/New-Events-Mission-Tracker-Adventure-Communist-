@@ -3751,7 +3751,7 @@ DATA["thanksgiving-bal-10"] = {
             "Split": 4,
             "LteCommon": 180,
             "LteRare": 36
-        }
+        },
         {
             "Split": 5,
             "LteRare": 180
