@@ -4157,7 +4157,7 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M006",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResourcesSpentSinceSubscription",
+                "ConditionType": "ResourcesEarnedSinceSubscription",
                 "Threshold": 200,
                 "ConditionId": "darkscience"
             },
@@ -4211,20 +4211,6 @@ DATA["thanksgiving-bal-10"] = {
         },
         {
             "Id": "M010",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResearchersUpgradedSinceSubscription",
-                "Threshold": 3,
-                "ConditionId": "any"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "armored",
-                "Value": 1
-            }
-        },
-        {
-            "Id": "M011",
             "Rank": 1,
             "Condition": {
                 "ConditionType": "IndustryUnlocked",
@@ -4284,7 +4270,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 400,
+                "Threshold": 250,
                 "ConditionId": "darkscience"
             },
             "Reward": {
