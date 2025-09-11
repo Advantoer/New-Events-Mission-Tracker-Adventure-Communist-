@@ -4085,7 +4085,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "TradesSinceSubscription",
-                "Threshold": 4,
+                "Threshold": 2,
                 "ConditionId": "mashpotato"
             },
             "Reward": {
@@ -4115,7 +4115,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 20,
+                "Threshold": 50,
                 "ConditionId": "potatomasher"
             },
             "Reward": {
@@ -4130,7 +4130,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 50000,
+                "Threshold": 7.5e+6,
                 "ConditionId": "mashpotato"
             },
             "Reward": {
