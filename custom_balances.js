@@ -4939,20 +4939,6 @@ DATA["thanksgiving-bal-10"] = {
             }
         },
         {
-            "Id": "M061",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+19,
-                "ConditionId": "fire"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "armored",
-                "Value": 1
-            }
-        },
-        {
             "Id": "M062",
             "Rank": 1,
             "Condition": {
