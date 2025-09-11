@@ -1905,7 +1905,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "backyardturkey",
-                "Threshold": 25000
+                "Threshold": 500000
             },
             "IncludeInAll": true,
             "Crit": {
@@ -4085,7 +4085,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "TradesSinceSubscription",
-                "Threshold": 2,
+                "Threshold": 4,
                 "ConditionId": "mashpotato"
             },
             "Reward": {
@@ -4130,7 +4130,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 7.5e+6,
+                "Threshold": 1e+8,
                 "ConditionId": "mashpotato"
             },
             "Reward": {
@@ -4144,7 +4144,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 15,
+                "Threshold": 250,
                 "ConditionId": "chef"
             },
             "Reward": {
@@ -4172,7 +4172,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1500,
+                "Threshold": 7500,
                 "ConditionId": "chef"
             },
             "Reward": {
@@ -4186,7 +4186,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+9,
+                "Threshold": 2e+12,
                 "ConditionId": "mashpotato"
             },
             "Reward": {
@@ -4200,7 +4200,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 7777,
+                "Threshold": 33333,
                 "ConditionId": "chef"
             },
             "Reward": {
@@ -4242,7 +4242,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1.5e+8,
+                "Threshold": 1.5e+9,
                 "ConditionId": "turkeyleg"
             },
             "Reward": {
@@ -4256,7 +4256,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "TradesSinceSubscription",
-                "Threshold": 5,
+                "Threshold": 8,
                 "ConditionId": "turkeyleg"
             },
             "Reward": {
@@ -4284,8 +4284,8 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 33333,
-                "ConditionId": "chef"
+                "Threshold": 75,
+                "ConditionId": "kitchen"
             },
             "Reward": {
                 "Reward": "Gacha",
@@ -4298,7 +4298,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 25,
+                "Threshold": 1500,
                 "ConditionId": "kitchen"
             },
             "Reward": {
@@ -4326,7 +4326,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 24680,
+                "Threshold": 357911,
                 "ConditionId": "backyardturkey"
             },
             "Reward": {
@@ -4349,6 +4349,7 @@ DATA["thanksgiving-bal-10"] = {
                 "Value": 1
             }
         },
+        
         {
             "Id": "M020",
             "Rank": 1,
