@@ -4311,7 +4311,7 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M017",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResearcherCardsUpgradedSinceSubscription",
+                "ConditionType": "ResearchersUpgradedSinceSubscription",
                 "Threshold": 3,
                 "ConditionId": "any"
             },
@@ -4423,7 +4423,7 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M025",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResearcherCardsUpgradedSinceSubscription",
+                "ConditionType": "ResearchersUpgradedSinceSubscription",
                 "Threshold": 3,
                 "ConditionId": "any"
             },
@@ -4661,7 +4661,7 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M042",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResearcherCardsUpgradedSinceSubscription",
+                "ConditionType": "ResearchersUpgradedSinceSubscription",
                 "Threshold": 3,
                 "ConditionId": "any"
             },
@@ -4830,7 +4830,7 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M054",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResearcherCardsUpgradedSinceSubscription",
+                "ConditionType": "ResearchersUpgradedSinceSubscription",
                 "Threshold": 5,
                 "ConditionId": "any"
             },
