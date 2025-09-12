@@ -1416,7 +1416,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "Mashpotato",
-                "Qty": 5
+                "Qty": 3
             },
             "BaseCompletionTime": 2,
             "Visible": [
@@ -1844,7 +1844,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "Turkeyleg",
-                "Qty": 10
+                "Qty": 6
             },
             "BaseCompletionTime": 3,
             "Visible": [
@@ -2215,7 +2215,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "Fire",
-                    "Qty": 100
+                    "Qty": 250
                 },
                 {
                     "Resource": "Comrade",
@@ -2224,14 +2224,14 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "Fire",
-                "Qty": 15
+                "Qty": 10
             },
             "BaseCompletionTime": 4,
             "Visible": [
                 {
                     "ConditionType": "ResourceQuantity",
                     "ConditionId": "Turkeyleg",
-                    "Threshold": 1e+20
+                    "Threshold": 1e+19
                 }
             ],
             "Unlock": {
@@ -2547,7 +2547,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "Pie",
-                    "Qty": 10000
+                    "Qty": 100000
                 },
                 {
                     "Resource": "Comrade",
@@ -2556,7 +2556,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "Pie",
-                "Qty": 20
+                "Qty": 15
             },
             "BaseCompletionTime": 5,
             "Visible": [
@@ -2840,14 +2840,14 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "Cornucopia",
-                "Qty": 25
+                "Qty": 20
             },
             "BaseCompletionTime": 6,
             "Visible": [
                 {
                     "ConditionType": "ResourceQuantity",
                     "ConditionId": "Pie",
-                    "Threshold": 1e+60
+                    "Threshold": 1e+57
                 }
             ],
             "Unlock": {
@@ -4010,7 +4010,7 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "technician",
             "SortingOrder": 3,
             "UnlockCostResourceId": "turkeyleg",
-            "UnlockCostResourceQty": 2.5e+17,
+            "UnlockCostResourceQty": 1e+19,
             "VisibleConditions": [
                 {
                     "ConditionType": "IndustryUnlocked",
@@ -4048,7 +4048,7 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "botanist",
             "SortingOrder": 5,
             "UnlockCostResourceId": "pie",
-            "UnlockCostResourceQty": 1e+60,
+            "UnlockCostResourceQty": 1e+57,
             "VisibleConditions": [
                 {
                     "ConditionType": "IndustryUnlocked",
