@@ -1460,7 +1460,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "potatomasher",
-                "Qty": 10
+                "Qty": 12
             },
             "BaseCompletionTime": 6,
             "Visible": [
@@ -1508,7 +1508,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "chef",
-                "Qty": 15
+                "Qty": 21
             },
             "BaseCompletionTime": 18,
             "Visible": [
@@ -1556,7 +1556,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "kitchen",
-                "Qty": 20
+                "Qty": 30
             },
             "BaseCompletionTime": 54,
             "Visible": [
@@ -1604,7 +1604,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "tatertruck",
-                "Qty": 25
+                "Qty": 39
             },
             "BaseCompletionTime": 162,
             "Visible": [
@@ -1652,7 +1652,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "silosmasher",
-                "Qty": 30
+                "Qty": 48
             },
             "BaseCompletionTime": 486,
             "Visible": [
@@ -1700,7 +1700,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "gravyfeds",
-                "Qty": 35
+                "Qty": 57
             },
             "BaseCompletionTime": 1458,
             "Visible": [
@@ -1748,7 +1748,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "feastfoundry",
-                "Qty": 40
+                "Qty": 66
             },
             "BaseCompletionTime": 4374,
             "Visible": [
@@ -1796,7 +1796,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "carbcollective",
-                "Qty": 45
+                "Qty": 75
             },
             "BaseCompletionTime": 13122,
             "Visible": [
@@ -1888,7 +1888,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "backyardturkey",
-                "Qty": 20
+                "Qty": 18
             },
             "BaseCompletionTime": 12,
             "Visible": [
@@ -1984,7 +1984,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "drumstickfarm",
-                "Qty": 40
+                "Qty": 42
             },
             "BaseCompletionTime": 192,
             "Visible": [
@@ -2032,7 +2032,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "feastfactory",
-                "Qty": 50
+                "Qty": 54
             },
             "BaseCompletionTime": 768,
             "Visible": [
@@ -2080,7 +2080,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "turkeylegtycoon",
-                "Qty": 60
+                "Qty": 66
             },
             "BaseCompletionTime": 3072,
             "Visible": [
@@ -2128,7 +2128,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "gravyreactor",
-                "Qty": 70
+                "Qty": 78
             },
             "BaseCompletionTime": 12288,
             "Visible": [
@@ -2176,7 +2176,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "pilgrimpoultrysyndicate",
-                "Qty": 80
+                "Qty": 90
             },
             "BaseCompletionTime": 49152,
             "Visible": [
@@ -2268,7 +2268,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "toasteroven",
-                "Qty": 30
+                "Qty": 25
             },
             "BaseCompletionTime": 20,
             "Visible": [
@@ -2316,7 +2316,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "familyoven",
-                "Qty": 45
+                "Qty": 40
             },
             "BaseCompletionTime": 100,
             "Visible": [
@@ -2364,7 +2364,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "commercialroaster",
-                "Qty": 60
+                "Qty": 55
             },
             "BaseCompletionTime": 500,
             "Visible": [
@@ -2412,7 +2412,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "conveyorbeltbakeline",
-                "Qty": 75
+                "Qty": 70
             },
             "BaseCompletionTime": 2500,
             "Visible": [
@@ -2460,7 +2460,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "smartaioven",
-                "Qty": 90
+                "Qty": 85
             },
             "BaseCompletionTime": 12500,
             "Visible": [
@@ -2508,7 +2508,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "volcanicbakingchamber",
-                "Qty": 105
+                "Qty": 100
             },
             "BaseCompletionTime": 62500,
             "Visible": [
@@ -2600,7 +2600,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "crustkneader",
-                "Qty": 40
+                "Qty": 30
             },
             "BaseCompletionTime": 30,
             "Visible": [
@@ -2648,7 +2648,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "fillingwhipper",
-                "Qty": 60
+                "Qty": 45
             },
             "BaseCompletionTime": 180,
             "Visible": [
@@ -2696,7 +2696,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "pieassemblyline",
-                "Qty": 80
+                "Qty": 60
             },
             "BaseCompletionTime": 1080,
             "Visible": [
@@ -2744,7 +2744,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "pieempireexecutive",
-                "Qty": 100
+                "Qty": 75
             },
             "BaseCompletionTime": 6480,
             "Visible": [
@@ -2792,7 +2792,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "sweetfusionlab",
-                "Qty": 120
+                "Qty": 90
             },
             "BaseCompletionTime": 38880,
             "Visible": [
@@ -2884,7 +2884,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "dumpsterhorn",
-                "Qty": 50
+                "Qty": 40
             },
             "BaseCompletionTime": 42,
             "Visible": [
@@ -2932,7 +2932,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "craftfairsupply",
-                "Qty": 75
+                "Qty": 60
             },
             "BaseCompletionTime": 294,
             "Visible": [
@@ -2980,7 +2980,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "harvesthornsmith",
-                "Qty": 100
+                "Qty": 80
             },
             "BaseCompletionTime": 2058,
             "Visible": [
@@ -3028,7 +3028,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "gildedgourd",
-                "Qty": 125
+                "Qty": 100
             },
             "BaseCompletionTime": 14406,
             "Visible": [
