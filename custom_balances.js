@@ -576,7 +576,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 70,
             "Card": [
                 {
-                    "Id": "THX055",
+                    "Id": "THX054",
                     "Value": 1
                 },
             ]
@@ -690,7 +690,7 @@ DATA["thanksgiving-bal-10"] = {
                     "Value": 1
                 },
                 {
-                    "Id": "THX047",
+                    "Id": "THX052",
                     "Value": 2
                 },
                 {
@@ -740,7 +740,7 @@ DATA["thanksgiving-bal-10"] = {
                     "Value": 2
                 },
                 {
-                    "Id": "THX047",
+                    "Id": "THX052",
                     "Value": 1
                 },
             ]
@@ -753,7 +753,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 200,
             "Card": [
                 {
-                    "Id": "THX048",
+                    "Id": "THX047",
                     "Value": 1
                 },
                 {
@@ -799,7 +799,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 250,
             "Card": [
                 {
-                    "Id": "THX049",
+                    "Id": "THX048",
                     "Value": 2
                 },
                 {
@@ -891,7 +891,7 @@ DATA["thanksgiving-bal-10"] = {
                     "Value": 5
                 },
                 {
-                    "Id": "THX047",
+                    "Id": "THX052",
                     "Value": 1
                 },
             ]
@@ -904,7 +904,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 270,
             "Card": [
                 {
-                    "Id": "THX050",
+                    "Id": "THX049",
                     "Value": 3
                 },
                 {
@@ -1077,7 +1077,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 280,
             "Card": [
                 {
-                    "Id": "THX050",
+                    "Id": "THX049",
                     "Value": 3
                 },
             ]
@@ -1142,7 +1142,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 325,
             "Card": [
                 {
-                    "Id": "THX051",
+                    "Id": "THX050",
                     "Value": 2
                 },
             ]
@@ -1298,7 +1298,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 600,
             "Card": [
                 {
-                    "Id": "THX052",
+                    "Id": "THX051",
                     "Value": 2
                 },
             ]
@@ -1345,7 +1345,7 @@ DATA["thanksgiving-bal-10"] = {
         {
             "GachaId": "sc3",
             "MimicGachaId": "plastic",
-            "Science": 52,
+            "Science": 55,
             "Gold": 0,
             "Trophy": 5,
             "Card": [
@@ -14529,7 +14529,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "mashpotato"
             ],
-            "ExpoMultiplier": 2,
+            "ExpoMultiplier": 1,
             "ExpoGrowth": 3,
             "UpgradePower": 0,
             "CurveModifier": 0,
@@ -14546,7 +14546,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "turkeyleg"
             ],
-            "ExpoMultiplier": 2,
+            "ExpoMultiplier": 1.66,
             "ExpoGrowth": 3,
             "UpgradePower": 0,
             "CurveModifier": 0,
@@ -14563,7 +14563,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "fire"
             ],
-            "ExpoMultiplier": 2,
+            "ExpoMultiplier": 2.33,
             "ExpoGrowth": 3,
             "UpgradePower": 0,
             "CurveModifier": 0,
@@ -14580,7 +14580,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "pie"
             ],
-            "ExpoMultiplier": 2,
+            "ExpoMultiplier": 3,
             "ExpoGrowth": 3,
             "UpgradePower": 0,
             "CurveModifier": 0,
@@ -14597,8 +14597,8 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "cornucopia"
             ],
-            "ExpoMultiplier": 2,
-            "ExpoGrowth": 3,
+            "ExpoMultiplier": 3.66,
+            "ExpoGrowth": 2,
             "UpgradePower": 0,
             "CurveModifier": 0,
             "BasePower": 0,
@@ -14614,7 +14614,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "mashpotato, turkeyleg, fire, pie, cornucopia"
             ],
-            "ExpoMultiplier": 2,
+            "ExpoMultiplier": 1,
             "ExpoGrowth": 2,
             "UpgradePower": 0,
             "CurveModifier": 0,
@@ -14648,7 +14648,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "animallabour"
             ],
-            "ExpoMultiplier": 0.5,
+            "ExpoMultiplier": 1,
             "ExpoGrowth": 4,
             "UpgradePower": 0,
             "CurveModifier": 0,
@@ -14665,7 +14665,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "technician"
             ],
-            "ExpoMultiplier": 0.75,
+            "ExpoMultiplier": 1.5,
             "ExpoGrowth": 4,
             "UpgradePower": 0,
             "CurveModifier": 0,
@@ -14682,7 +14682,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "baker"
             ],
-            "ExpoMultiplier": 1,
+            "ExpoMultiplier": 2,
             "ExpoGrowth": 4,
             "UpgradePower": 0,
             "CurveModifier": 0,
@@ -14699,7 +14699,7 @@ DATA["thanksgiving-bal-10"] = {
             "TargetIds": [
                 "botanist"
             ],
-            "ExpoMultiplier": 1,
+            "ExpoMultiplier": 2.5,
             "ExpoGrowth": 4,
             "UpgradePower": 0,
             "CurveModifier": 0,
@@ -14711,23 +14711,6 @@ DATA["thanksgiving-bal-10"] = {
         },
         {
             "Id": "THX047",
-            "Name": "GlobalProduction",
-            "ModType": "GeneratorPayoutMultiplier",
-            "TargetIds": [
-                "foodlabour, animallabour, technician, baker, botanist"
-            ],
-            "ExpoMultiplier": 0.5,
-            "ExpoGrowth": 4,
-            "UpgradePower": 0,
-            "CurveModifier": 0,
-            "BasePower": 0,
-            "Rarity": "LteRare",
-            "PlayerRankUnlock": 11,
-            "ResearchOutputType": "Constant",
-            "ResearchOutputRate": 1
-        },
-        {
-            "Id": "THX048",
             "Name": "I1CritBonus",
             "ModType": "GeneratorCritPowerMult",
             "TargetIds": [
@@ -14744,7 +14727,7 @@ DATA["thanksgiving-bal-10"] = {
             "ResearchOutputRate": 1
         },
         {
-            "Id": "THX049",
+            "Id": "THX048",
             "Name": "I2CritBonus",
             "ModType": "GeneratorCritPowerMult",
             "TargetIds": [
@@ -14761,7 +14744,7 @@ DATA["thanksgiving-bal-10"] = {
             "ResearchOutputRate": 1
         },
         {
-            "Id": "THX050",
+            "Id": "THX049",
             "Name": "I3CritBonus",
             "ModType": "GeneratorCritPowerMult",
             "TargetIds": [
@@ -14778,7 +14761,7 @@ DATA["thanksgiving-bal-10"] = {
             "ResearchOutputRate": 1
         },
         {
-            "Id": "THX051",
+            "Id": "THX050",
             "Name": "I4CritBonus",
             "ModType": "GeneratorCritPowerMult",
             "TargetIds": [
@@ -14795,7 +14778,7 @@ DATA["thanksgiving-bal-10"] = {
             "ResearchOutputRate": 1
         },
         {
-            "Id": "THX052",
+            "Id": "THX051",
             "Name": "I5CritBonus",
             "ModType": "GeneratorCritPowerMult",
             "TargetIds": [
@@ -14808,6 +14791,23 @@ DATA["thanksgiving-bal-10"] = {
             "BasePower": 0,
             "Rarity": "LteRare",
             "PlayerRankUnlock": 44,
+            "ResearchOutputType": "Constant",
+            "ResearchOutputRate": 1
+        },
+        {
+            "Id": "THX052",
+            "Name": "GlobalProduction",
+            "ModType": "GeneratorPayoutMultiplier",
+            "TargetIds": [
+                "foodlabour, animallabour, technician, baker, botanist"
+            ],
+            "ExpoMultiplier": 1.25,
+            "ExpoGrowth": 4,
+            "UpgradePower": 0,
+            "CurveModifier": 0,
+            "BasePower": 0,
+            "Rarity": "LteRare",
+            "PlayerRankUnlock": 11,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
