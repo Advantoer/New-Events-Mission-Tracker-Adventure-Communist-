@@ -435,10 +435,6 @@ DATA["thanksgiving-bal-10"] = {
             "Type": "Scripted"
         },
         {
-            "Id": "sc_m55",
-            "Type": "Scripted"
-        },
-        {
             "Id": "sc3",
             "Type": "Scripted"
         }
@@ -1232,19 +1228,6 @@ DATA["thanksgiving-bal-10"] = {
         {
             "GachaId": "sc_m46",
             "MimicGachaId": "plastic",
-            "Science": 320,
-            "Gold": 0,
-            "Trophy": 350,
-            "Card": [
-                {
-                    "Id": "THX054",
-                    "Value": 2
-                },
-            ]
-        },
-        {
-            "GachaId": "sc_m47",
-            "MimicGachaId": "plastic",
             "Science": 300,
             "Gold": 0,
             "Trophy": 350,
@@ -1256,7 +1239,7 @@ DATA["thanksgiving-bal-10"] = {
             ]
         },
         {
-            "GachaId": "sc_m48",
+            "GachaId": "sc_m47",
             "MimicGachaId": "plastic",
             "Science": 300,
             "Gold": 0,
@@ -1269,7 +1252,7 @@ DATA["thanksgiving-bal-10"] = {
             ]
         },
         {
-            "GachaId": "sc_m49",
+            "GachaId": "sc_m48",
             "MimicGachaId": "plastic",
             "Science": 325,
             "Gold": 0,
@@ -1282,7 +1265,7 @@ DATA["thanksgiving-bal-10"] = {
             ]
         },
         {
-            "GachaId": "sc_m50",
+            "GachaId": "sc_m49",
             "MimicGachaId": "plastic",
             "Science": 350,
             "Gold": 0,
@@ -1295,7 +1278,7 @@ DATA["thanksgiving-bal-10"] = {
             ]
         },
         {
-            "GachaId": "sc_m51",
+            "GachaId": "sc_m50",
             "MimicGachaId": "plastic",
             "Science": 360,
             "Gold": 0,
@@ -1308,7 +1291,7 @@ DATA["thanksgiving-bal-10"] = {
             ]
         },
         {
-            "GachaId": "sc_m52",
+            "GachaId": "sc_m51",
             "MimicGachaId": "plastic",
             "Science": 380,
             "Gold": 0,
@@ -1321,7 +1304,7 @@ DATA["thanksgiving-bal-10"] = {
             ]
         },
         {
-            "GachaId": "sc_m53",
+            "GachaId": "sc_m52",
             "MimicGachaId": "plastic",
             "Science": 450,
             "Gold": 0,
@@ -1334,7 +1317,7 @@ DATA["thanksgiving-bal-10"] = {
             ]
         },
         {
-            "GachaId": "sc_m54",
+            "GachaId": "sc_m53",
             "MimicGachaId": "plastic",
             "Science": 600,
             "Gold": 0,
@@ -1347,7 +1330,7 @@ DATA["thanksgiving-bal-10"] = {
             ]
         },
         {
-            "GachaId": "sc_m55",
+            "GachaId": "sc_m54",
             "MimicGachaId": "plastic",
             "Science": 700,
             "Gold": 0,
@@ -8361,7 +8344,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m46",
+                "RewardId": "plastic",
                 "Value": 1
             }
         }, 
@@ -8375,7 +8358,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m47",
+                "RewardId": "sc_m46",
                 "Value": 1
             }
         },
@@ -8543,7 +8526,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m48",
+                "RewardId": "sc_m47",
                 "Value": 1
             }
         }, 
@@ -8613,7 +8596,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m50",
+                "RewardId": "sc_m49",
                 "Value": 1
             }
         }, 
@@ -8655,7 +8638,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m49",
+                "RewardId": "sc_m48",
                 "Value": 1
             }
         }, 
@@ -8935,7 +8918,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m51",
+                "RewardId": "sc_m50",
                 "Value": 1
             }
         }, 
@@ -9061,7 +9044,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m52",
+                "RewardId": "sc_m51",
                 "Value": 1
             }
         }, 
@@ -9243,7 +9226,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m54",
+                "RewardId": "sc_m53",
                 "Value": 1
             }
         }, 
@@ -9313,7 +9296,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m53",
+                "RewardId": "sc_m52",
                 "Value": 1
             }
         },
@@ -9663,7 +9646,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m55",
+                "RewardId": "sc_m54",
                 "Value": 1
             }
         },
@@ -14847,23 +14830,6 @@ DATA["thanksgiving-bal-10"] = {
         },
         {
             "Id": "THX054",
-            "Name": "GlobalDiscount",
-            "ModType": "GeneratorCostReduction",
-            "TargetIds": [
-                "foodlabour, animallabour, technician, baker, botanist"
-            ],
-            "ExpoMultiplier": 1,
-            "ExpoGrowth": 10,
-            "UpgradePower": 0,
-            "CurveModifier": 0,
-            "BasePower": 0,
-            "Rarity": "LteRare",
-            "PlayerRankUnlock": 40,
-            "ResearchOutputType": "Constant",
-            "ResearchOutputRate": 1
-        },
-        {
-            "Id": "THX055",
             "Name": "GlobalCritChance",
             "ModType": "GeneratorCritChance",
             "TargetIds": [
@@ -16385,8 +16351,7 @@ researcher.THX052.name=I5CritBonus
 researcher.THX041.name=GlobalTrade
 researcher.THX047.name=GlobalProduction
 researcher.THX053.name=GlobalCritBonus
-researcher.THX054.name=GlobalDiscount
-researcher.THX055.name=GlobalCritChance
+researcher.THX054.name=GlobalCritChance
 
 
 
