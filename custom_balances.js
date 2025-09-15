@@ -5427,7 +5427,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 1.3e+9,
+                "Threshold": 9.79e+8,
                 "ConditionId": "familyoven"
             },
             "Reward": {
