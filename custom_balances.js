@@ -182,8 +182,8 @@ DATA["thanksgiving-bal-10"] = {
             "LteRareWeight": 9,
             "ScienceMin": 160,
             "ScienceMax": 164,
-            "TrophyMin": 30,
-            "TrophyMax": 30,
+            "TrophyMin": 50,
+            "TrophyMax": 50,
             "ChanceMultiplier": 10,
             "WeightDivider": 10,
             "Type": "Normal"
@@ -13391,7 +13391,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 1.4,
             "NormalGachaMultiplierScience": 2.7,
             "PremiumGachaMultiplierScience": 1.4,
-            "GachaMultiplierTrophy": 15,
+            "GachaMultiplierTrophy": 15.5,
             "AirDropScience": 145,
             "AirDropRankUpCoolDown": 60
         },
@@ -13406,7 +13406,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 1.4,
             "NormalGachaMultiplierScience": 2.9,
             "PremiumGachaMultiplierScience": 1.4,
-            "GachaMultiplierTrophy": 16,
+            "GachaMultiplierTrophy": 17,
             "AirDropScience": 150,
             "AirDropRankUpCoolDown": 60
         },
@@ -13421,7 +13421,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 3.15,
             "PremiumGachaMultiplierScience": 1.6,
-            "GachaMultiplierTrophy": 17,
+            "GachaMultiplierTrophy": 18.5,
             "AirDropScience": 160,
             "AirDropRankUpCoolDown": 60
         },
@@ -13436,7 +13436,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 3.4,
             "PremiumGachaMultiplierScience": 1.6,
-            "GachaMultiplierTrophy": 18,
+            "GachaMultiplierTrophy": 20,
             "AirDropScience": 165,
             "AirDropRankUpCoolDown": 60
         },
@@ -13451,7 +13451,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 3.7,
             "PremiumGachaMultiplierScience": 1.6,
-            "GachaMultiplierTrophy": 19,
+            "GachaMultiplierTrophy": 22,
             "AirDropScience": 175,
             "AirDropRankUpCoolDown": 60
         },
@@ -13466,7 +13466,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 4,
             "PremiumGachaMultiplierScience": 1.6,
-            "GachaMultiplierTrophy": 20,
+            "GachaMultiplierTrophy": 24,
             "AirDropScience": 180,
             "AirDropRankUpCoolDown": 60
         },
@@ -13481,7 +13481,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 4.3,
             "PremiumGachaMultiplierScience": 1.6,
-            "GachaMultiplierTrophy": 22,
+            "GachaMultiplierTrophy": 26,
             "AirDropScience": 185,
             "AirDropRankUpCoolDown": 60
         },
@@ -13496,7 +13496,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 4.6,
             "PremiumGachaMultiplierScience": 1.6,
-            "GachaMultiplierTrophy": 24,
+            "GachaMultiplierTrophy": 28,
             "AirDropScience": 195,
             "AirDropRankUpCoolDown": 60
         },
@@ -13511,7 +13511,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 5,
             "PremiumGachaMultiplierScience": 1.6,
-            "GachaMultiplierTrophy": 26,
+            "GachaMultiplierTrophy": 30,
             "AirDropScience": 200,
             "AirDropRankUpCoolDown": 60
         },
@@ -13526,7 +13526,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 5.5,
             "PremiumGachaMultiplierScience": 1.6,
-            "GachaMultiplierTrophy": 28,
+            "GachaMultiplierTrophy": 32,
             "AirDropScience": 220,
             "AirDropRankUpCoolDown": 60
         },
@@ -13541,7 +13541,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 6,
             "PremiumGachaMultiplierScience": 1.6,
-            "GachaMultiplierTrophy": 30,
+            "GachaMultiplierTrophy": 34,
             "AirDropScience": 235,
             "AirDropRankUpCoolDown": 60
         },
@@ -13556,7 +13556,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 1.6,
             "NormalGachaMultiplierScience": 6.5,
             "PremiumGachaMultiplierScience": 1.6,
-            "GachaMultiplierTrophy": 32.5,
+            "GachaMultiplierTrophy": 36,
             "AirDropScience": 250,
             "AirDropRankUpCoolDown": 60
         },
@@ -13571,7 +13571,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 7,
             "PremiumGachaMultiplierScience": 2,
-            "GachaMultiplierTrophy": 35,
+            "GachaMultiplierTrophy": 38,
             "AirDropScience": 260,
             "AirDropRankUpCoolDown": 60
         },
@@ -13586,7 +13586,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 7.5,
             "PremiumGachaMultiplierScience": 2,
-            "GachaMultiplierTrophy": 37.5,
+            "GachaMultiplierTrophy": 40,
             "AirDropScience": 275,
             "AirDropRankUpCoolDown": 60
         },
@@ -13601,7 +13601,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 8,
             "PremiumGachaMultiplierScience": 2,
-            "GachaMultiplierTrophy": 40,
+            "GachaMultiplierTrophy": 42.5,
             "AirDropScience": 290,
             "AirDropRankUpCoolDown": 60
         },
@@ -13616,7 +13616,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 8.5,
             "PremiumGachaMultiplierScience": 2,
-            "GachaMultiplierTrophy": 43,
+            "GachaMultiplierTrophy": 45,
             "AirDropScience": 305,
             "AirDropRankUpCoolDown": 60
         },
@@ -13631,7 +13631,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 9,
             "PremiumGachaMultiplierScience": 2,
-            "GachaMultiplierTrophy": 46,
+            "GachaMultiplierTrophy": 47.5,
             "AirDropScience": 320,
             "AirDropRankUpCoolDown": 60
         },
@@ -13661,7 +13661,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 10,
             "PremiumGachaMultiplierScience": 2,
-            "GachaMultiplierTrophy": 55,
+            "GachaMultiplierTrophy": 52.5,
             "AirDropScience": 345,
             "AirDropRankUpCoolDown": 60
         },
@@ -13676,7 +13676,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2,
             "NormalGachaMultiplierScience": 11,
             "PremiumGachaMultiplierScience": 2,
-            "GachaMultiplierTrophy": 60,
+            "GachaMultiplierTrophy": 55,
             "AirDropScience": 365,
             "AirDropRankUpCoolDown": 60
         },
@@ -13691,7 +13691,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2.2,
             "NormalGachaMultiplierScience": 11.5,
             "PremiumGachaMultiplierScience": 2.2,
-            "GachaMultiplierTrophy": 65,
+            "GachaMultiplierTrophy": 57.5,
             "AirDropScience": 380,
             "AirDropRankUpCoolDown": 60
         },
@@ -13706,7 +13706,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2.2,
             "NormalGachaMultiplierScience": 12,
             "PremiumGachaMultiplierScience": 2.2,
-            "GachaMultiplierTrophy": 70,
+            "GachaMultiplierTrophy": 60,
             "AirDropScience": 400,
             "AirDropRankUpCoolDown": 60
         },
@@ -13721,7 +13721,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2.2,
             "NormalGachaMultiplierScience": 12.5,
             "PremiumGachaMultiplierScience": 2.2,
-            "GachaMultiplierTrophy": 75,
+            "GachaMultiplierTrophy": 62.5,
             "AirDropScience": 415,
             "AirDropRankUpCoolDown": 60
         },
@@ -13736,7 +13736,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2.2,
             "NormalGachaMultiplierScience": 13.1,
             "PremiumGachaMultiplierScience": 2.2,
-            "GachaMultiplierTrophy": 80,
+            "GachaMultiplierTrophy": 65,
             "AirDropScience": 435,
             "AirDropRankUpCoolDown": 60
         },
@@ -13751,7 +13751,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2.6,
             "NormalGachaMultiplierScience": 13.8,
             "PremiumGachaMultiplierScience": 2.6,
-            "GachaMultiplierTrophy": 85,
+            "GachaMultiplierTrophy": 67.5,
             "AirDropScience": 450,
             "AirDropRankUpCoolDown": 60
         },
@@ -13766,7 +13766,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2.6,
             "NormalGachaMultiplierScience": 14.5,
             "PremiumGachaMultiplierScience": 2.6,
-            "GachaMultiplierTrophy": 90,
+            "GachaMultiplierTrophy": 70,
             "AirDropScience": 470,
             "AirDropRankUpCoolDown": 60
         },
@@ -13781,7 +13781,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2.6,
             "NormalGachaMultiplierScience": 15.2,
             "PremiumGachaMultiplierScience": 2.6,
-            "GachaMultiplierTrophy": 95,
+            "GachaMultiplierTrophy": 72.5,
             "AirDropScience": 485,
             "AirDropRankUpCoolDown": 60
         },
@@ -13796,7 +13796,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 2.6,
             "NormalGachaMultiplierScience": 16,
             "PremiumGachaMultiplierScience": 2.6,
-            "GachaMultiplierTrophy": 100,
+            "GachaMultiplierTrophy": 75,
             "AirDropScience": 520,
             "AirDropRankUpCoolDown": 60
         },
@@ -13811,7 +13811,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 17,
             "PremiumGachaMultiplierScience": 3,
-            "GachaMultiplierTrophy": 105,
+            "GachaMultiplierTrophy": 78,
             "AirDropScience": 550,
             "AirDropRankUpCoolDown": 60
         },
@@ -13826,7 +13826,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 18,
             "PremiumGachaMultiplierScience": 3,
-            "GachaMultiplierTrophy": 110,
+            "GachaMultiplierTrophy": 81,
             "AirDropScience": 585,
             "AirDropRankUpCoolDown": 60
         },
@@ -13841,7 +13841,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 19,
             "PremiumGachaMultiplierScience": 3,
-            "GachaMultiplierTrophy": 115,
+            "GachaMultiplierTrophy": 84,
             "AirDropScience": 620,
             "AirDropRankUpCoolDown": 60
         },
@@ -13856,7 +13856,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 20,
             "PremiumGachaMultiplierScience": 3,
-            "GachaMultiplierTrophy": 120,
+            "GachaMultiplierTrophy": 87,
             "AirDropScience": 655,
             "AirDropRankUpCoolDown": 60
         },
@@ -13871,7 +13871,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 21.5,
             "PremiumGachaMultiplierScience": 3,
-            "GachaMultiplierTrophy": 125,
+            "GachaMultiplierTrophy": 90,
             "AirDropScience": 690,
             "AirDropRankUpCoolDown": 60
         },
@@ -13886,7 +13886,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 23,
             "PremiumGachaMultiplierScience": 3,
-            "GachaMultiplierTrophy": 135,
+            "GachaMultiplierTrophy": 95,
             "AirDropScience": 750,
             "AirDropRankUpCoolDown": 60
         },
@@ -13901,7 +13901,7 @@ DATA["thanksgiving-bal-10"] = {
             "PremiumGachaMultiplier": 3,
             "NormalGachaMultiplierScience": 25,
             "PremiumGachaMultiplierScience": 3,
-            "GachaMultiplierTrophy": 150,
+            "GachaMultiplierTrophy": 100,
             "AirDropScience": 815,
             "AirDropRankUpCoolDown": 60
         },
