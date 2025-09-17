@@ -1434,7 +1434,7 @@ DATA["thanksgiving-bal-10"] = {
                 },
                 {
                     "Resource": "Mashpotato",
-                    "Qty": 1e+6
+                    "Qty": 25000
                 },
                 {
                     "Resource": "Comrade",
@@ -1478,11 +1478,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "chef",
-                    "Qty": 1000
+                    "Qty": 250
                 },
                 {
                     "Resource": "Mashpotato",
-                    "Qty": 1e+12
+                    "Qty": 5e+12
                 },
                 {
                     "Resource": "Comrade",
@@ -1526,11 +1526,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "kitchen",
-                    "Qty": 1000
+                    "Qty": 5000
                 },
                 {
                     "Resource": "Mashpotato",
-                    "Qty": 5e+23
+                    "Qty": 1e+24
                 },
                 {
                     "Resource": "Comrade",
@@ -1574,11 +1574,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "tatertruck",
-                    "Qty": 2.5e+6
+                    "Qty": 500000
                 },
                 {
                     "Resource": "Mashpotato",
-                    "Qty": 2e+44
+                    "Qty": 2.5e+42
                 },
                 {
                     "Resource": "Comrade",
@@ -1600,7 +1600,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "tatertruck",
-                "Threshold": 7.5e+7
+                "Threshold": 1e+8
             },
             "IncludeInAll": true,
             "Crit": {
@@ -1622,11 +1622,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "silosmasher",
-                    "Qty": 7.5e+6
+                    "Qty": 5e+7
                 },
                 {
                     "Resource": "Mashpotato",
-                    "Qty": 1e+74
+                    "Qty": 5e+72
                 },
                 {
                     "Resource": "Comrade",
@@ -1648,7 +1648,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "silosmasher",
-                "Threshold": 7.5e+8
+                "Threshold": 2.5e+9
             },
             "IncludeInAll": true,
             "Crit": {
@@ -1670,11 +1670,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "gravyfeds",
-                    "Qty": 5e+9
+                    "Qty": 2.5e+9
                 },
                 {
                     "Resource": "Mashpotato",
-                    "Qty": 2.5e+90
+                    "Qty": 1e+99
                 },
                 {
                     "Resource": "Comrade",
@@ -1696,7 +1696,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "gravyfeds",
-                "Threshold": 2.5e+11
+                "Threshold": 5e+10
             },
             "IncludeInAll": true,
             "Crit": {
@@ -1718,11 +1718,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "feastfoundry",
-                    "Qty": 2.5e+10
+                    "Qty": 5e+10
                 },
                 {
                     "Resource": "Mashpotato",
-                    "Qty": 2.5e+116
+                    "Qty": 2.5e+141
                 },
                 {
                     "Resource": "Comrade",
@@ -1744,7 +1744,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "feastfoundry",
-                "Threshold": 1e+12
+                "Threshold": 5e+11
             },
             "IncludeInAll": true,
             "Crit": {
@@ -1766,11 +1766,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "carbcollective",
-                    "Qty": 2.5e+12
+                    "Qty": 2e+12
                 },
                 {
                     "Resource": "Mashpotato",
-                    "Qty": 5e+151
+                    "Qty": 5e+171
                 },
                 {
                     "Resource": "Comrade",
@@ -1792,7 +1792,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "carbcollective",
-                "Threshold": 2e+13
+                "Threshold": 1e+13
             },
             "IncludeInAll": true,
             "Crit": {
@@ -1858,7 +1858,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "backyardturkey",
-                    "Qty": 100
+                    "Qty": 250
                 },
                 {
                     "Resource": "Turkeyleg",
@@ -1884,7 +1884,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "backyardturkey",
-                "Threshold": 500000
+                "Threshold": 50000
             },
             "IncludeInAll": true,
             "Crit": {
@@ -1906,11 +1906,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "gobblepen",
-                    "Qty": 50000
+                    "Qty": 5000
                 },
                 {
                     "Resource": "Turkeyleg",
-                    "Qty": 3e+27
+                    "Qty": 1e+24
                 },
                 {
                     "Resource": "Comrade",
@@ -1932,7 +1932,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "gobblepen",
-                "Threshold": 2.5e+7
+                "Threshold": 5e+6
             },
             "IncludeInAll": true,
             "Crit": {
@@ -1954,11 +1954,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "drumstickfarm",
-                    "Qty": 2.5e+6
+                    "Qty": 500000
                 },
                 {
                     "Resource": "Turkeyleg",
-                    "Qty": 5e+47
+                    "Qty": 5e+43
                 },
                 {
                     "Resource": "Comrade",
@@ -1980,7 +1980,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "drumstickfarm",
-                "Threshold": 5e+8
+                "Threshold": 1e+8
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2002,11 +2002,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "feastfactory",
-                    "Qty": 5e+8
+                    "Qty": 1e+8
                 },
                 {
                     "Resource": "Turkeyleg",
-                    "Qty": 5e+66
+                    "Qty": 2.5e+64
                 },
                 {
                     "Resource": "Comrade",
@@ -2028,7 +2028,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "feastfactory",
-                "Threshold": 3e+10
+                "Threshold": 5e+9
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2050,11 +2050,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "turkeylegtycoon",
-                    "Qty": 4e+9
+                    "Qty": 5e+9
                 },
                 {
                     "Resource": "Turkeyleg",
-                    "Qty": 5e+96
+                    "Qty": 1e+97
                 },
                 {
                     "Resource": "Comrade",
@@ -2076,7 +2076,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "turkeylegtycoon",
-                "Threshold": 2.5e+11
+                "Threshold": 1e+11
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2098,11 +2098,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "gravyreactor",
-                    "Qty": 5e+10
+                    "Qty": 1e+11
                 },
                 {
                     "Resource": "Turkeyleg",
-                    "Qty": 1e+117
+                    "Qty": 1e+129
                 },
                 {
                     "Resource": "Comrade",
@@ -2124,7 +2124,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "gravyreactor",
-                "Threshold": 1.5e+12
+                "Threshold": 1e+12
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2146,11 +2146,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "pilgrimpoultrysyndicate",
-                    "Qty": 2.5e+11
+                    "Qty": 2.5e+12
                 },
                 {
                     "Resource": "Turkeyleg",
-                    "Qty": 2.5e+141
+                    "Qty": 5e+160
                 },
                 {
                     "Resource": "Comrade",
@@ -2172,7 +2172,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "pilgrimpoultrysyndicate",
-                "Threshold": 1.75e+13
+                "Threshold": 1.25e+13
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2194,7 +2194,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "Fire",
-                    "Qty": 250
+                    "Qty": 50
                 },
                 {
                     "Resource": "Comrade",
