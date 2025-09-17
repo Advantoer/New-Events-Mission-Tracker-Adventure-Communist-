@@ -190,13 +190,13 @@ DATA["thanksgiving-bal-10"] = {
         },
         {
             "Id": "titanium",
-            "CardWeight": 350,
+            "CardWeight": 250,
             "RareWeight": - 1,
             "EpicWeight": -1,
             "SupremeWeight": -1,
             "LteRareWeight": 5,
-            "ScienceMin": 3500,
-            "ScienceMax": 3500,
+            "ScienceMin": 2400,
+            "ScienceMax": 2600,
             "TrophyMin": 0,
             "TrophyMax": 0,
             "ChanceMultiplier": 10,
@@ -15537,7 +15537,7 @@ DATA["thanksgiving-bal-10"] = {
             "Name": "Titanium Capsule",
             "InternalId": "gacha_titanium",
             "ItemClass": "Gacha",
-            "Price": 750,
+            "Price": 500,
             "Currency": "GO",
             "Tags": [
                 "GoldPurchase"
