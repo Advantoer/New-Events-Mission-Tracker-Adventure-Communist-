@@ -2238,11 +2238,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "toasteroven",
-                    "Qty": 50000
+                    "Qty": 5000
                 },
                 {
                     "Resource": "Fire",
-                    "Qty": 5e+18
+                    "Qty": 5e+13
                 },
                 {
                     "Resource": "Comrade",
@@ -2286,11 +2286,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "familyoven",
-                    "Qty": 2.5e+7
+                    "Qty": 1e+7
                 },
                 {
                     "Resource": "Fire",
-                    "Qty": 5e+33
+                    "Qty": 1e+29
                 },
                 {
                     "Resource": "Comrade",
@@ -2312,7 +2312,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "familyoven",
-                "Threshold": 3e+9
+                "Threshold": 2e+9
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2334,11 +2334,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "commercialroaster",
-                    "Qty": 2.5e+8
+                    "Qty": 1e+9
                 },
                 {
                     "Resource": "Fire",
-                    "Qty": 2.5e+56
+                    "Qty": 1e+58
                 },
                 {
                     "Resource": "Comrade",
@@ -2382,11 +2382,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "conveyorbeltbakeline",
-                    "Qty": 7.5e+9
+                    "Qty": 1.5e+10
                 },
                 {
                     "Resource": "Fire",
-                    "Qty": 2.5e+77
+                    "Qty": 5e+85
                 },
                 {
                     "Resource": "Comrade",
@@ -2408,7 +2408,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "conveyorbeltbakeline",
-                "Threshold": 2.5e+11
+                "Threshold": 3e+11
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2430,11 +2430,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "smartaioven",
-                    "Qty": 5e+10
+                    "Qty": 1.5e+11
                 },
                 {
                     "Resource": "Fire",
-                    "Qty": 1e+108
+                    "Qty": 1e+116
                 },
                 {
                     "Resource": "Comrade",
@@ -2478,11 +2478,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "volcanicbakingchamber",
-                    "Qty": 5e+11
+                    "Qty": 3e+12
                 },
                 {
                     "Resource": "Fire",
-                    "Qty": 1e+144
+                    "Qty": 1e+145
                 },
                 {
                     "Resource": "Comrade",
@@ -2526,7 +2526,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "Pie",
-                    "Qty": 100000
+                    "Qty": 10000
                 },
                 {
                     "Resource": "Comrade",
@@ -2542,7 +2542,7 @@ DATA["thanksgiving-bal-10"] = {
                 {
                     "ConditionType": "ResourceQuantity",
                     "ConditionId": "Fire",
-                    "Threshold": 1e+35
+                    "Threshold": 1e+44
                 }
             ],
             "Unlock": {
@@ -2570,11 +2570,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "crustkneader",
-                    "Qty": 2.5e+7
+                    "Qty": 5e+6
                 },
                 {
                     "Resource": "Pie",
-                    "Qty": 5e+20
+                    "Qty": 1e+20
                 },
                 {
                     "Resource": "Comrade",
@@ -2618,11 +2618,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "fillingwhipper",
-                    "Qty": 5e+7
+                    "Qty": 5e+8
                 },
                 {
                     "Resource": "Pie",
-                    "Qty": 1e+41
+                    "Qty": 1e+46
                 },
                 {
                     "Resource": "Comrade",
@@ -2644,7 +2644,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "fillingwhipper",
-                "Threshold": 1e+10
+                "Threshold": 2.5e+10
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2670,7 +2670,7 @@ DATA["thanksgiving-bal-10"] = {
                 },
                 {
                     "Resource": "Pie",
-                    "Qty": 1e+57
+                    "Qty": 1e+74
                 },
                 {
                     "Resource": "Comrade",
@@ -2714,11 +2714,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "pieempireexecutive",
-                    "Qty": 5e+10
+                    "Qty": 2.5e+11
                 },
                 {
                     "Resource": "Pie",
-                    "Qty": 1e+100
+                    "Qty": 1e+94
                 },
                 {
                     "Resource": "Comrade",
@@ -2740,7 +2740,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "pieempireexecutive",
-                "Threshold": 1.5e+12
+                "Threshold": 2.5e+12
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2762,11 +2762,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "sweetfusionlab",
-                    "Qty": 5e+11
+                    "Qty": 3.5e+12
                 },
                 {
                     "Resource": "Pie",
-                    "Qty": 1e+122
+                    "Qty": 1e+125
                 },
                 {
                     "Resource": "Comrade",
@@ -2788,7 +2788,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "sweetfusionlab",
-                "Threshold": 1.25e+13
+                "Threshold": 1.75e+13
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2810,7 +2810,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "Cornucopia",
-                    "Qty": 1e+9
+                    "Qty": 2.5e+6
                 },
                 {
                     "Resource": "Comrade",
@@ -2854,11 +2854,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "dumpsterhorn",
-                    "Qty": 5e+8
+                    "Qty": 2e+8
                 },
                 {
                     "Resource": "Cornucopia",
-                    "Qty": 1e+26
+                    "Qty": 2.5e+28
                 },
                 {
                     "Resource": "Comrade",
@@ -2880,7 +2880,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "dumpsterhorn",
-                "Threshold": 1.5e+10
+                "Threshold": 1e+10
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2902,11 +2902,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "craftfairsupply",
-                    "Qty": 3e+9
+                    "Qty": 5e+9
                 },
                 {
                     "Resource": "Cornucopia",
-                    "Qty": 2.5e+50
+                    "Qty": 5e+54
                 },
                 {
                     "Resource": "Comrade",
@@ -2928,7 +2928,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "craftfairsupply",
-                "Threshold": 5e+11
+                "Threshold": 1e+11
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2950,11 +2950,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "harvesthornsmith",
-                    "Qty": 3e+10
+                    "Qty": 2e+11
                 },
                 {
                     "Resource": "Cornucopia",
-                    "Qty": 2.5e+72
+                    "Qty": 2.5e+91
                 },
                 {
                     "Resource": "Comrade",
@@ -2998,11 +2998,11 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "gildedgourd",
-                    "Qty": 5e+11
+                    "Qty": 4e+12
                 },
                 {
                     "Resource": "Cornucopia",
-                    "Qty": 5e+97
+                    "Qty": 5e+120
                 },
                 {
                     "Resource": "Comrade",
@@ -3024,7 +3024,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "gildedgourd",
-                "Threshold": 1e+13
+                "Threshold": 2e+13
             },
             "IncludeInAll": true,
             "Crit": {
@@ -4008,7 +4008,7 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "baker",
             "SortingOrder": 4,
             "UnlockCostResourceId": "fire",
-            "UnlockCostResourceQty": 1e+35,
+            "UnlockCostResourceQty": 1e+44,
             "VisibleConditions": [
                 {
                     "ConditionType": "IndustryUnlocked",
