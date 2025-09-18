@@ -15216,14 +15216,6 @@ DATA["thanksgiving-bal-10"] = {
             "SharedData": true
         },
         {
-            "Id": "timehack_24",
-            "Singular": "Elite Warp",
-            "Plural": "Elite Warps",
-            "CurrencyCode": "TH",
-            "Resettable": false,
-            "SharedData": true
-        },
-        {
             "Id": "timehack_8",
             "Singular": "More Than Basic Time Warp",
             "Plural": "More Than Basic Time Warps",
@@ -15235,6 +15227,14 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "timehack_12",
             "Singular": "Semi Mega Time Warp",
             "Plural": "Semi Mega Time Warps",
+            "CurrencyCode": "TH",
+            "Resettable": false,
+            "SharedData": true
+        },
+        {
+            "Id": "timehack_24",
+            "Singular": "Elite Warp",
+            "Plural": "Elite Warps",
             "CurrencyCode": "TH",
             "Resettable": false,
             "SharedData": true
@@ -15860,9 +15860,10 @@ SCHEDULE_CYCLES.LteRewards.push({
         {
             "Reward": "Resources",
             "RewardId": "timehack_4",
-            "Value": 3,
+            "Value": 2,
             "AvatarId": "null"
         },
+        {
         
             "Reward": "Resources",
             "RewardId": "scientist",
@@ -15938,6 +15939,60 @@ SCHEDULE_CYCLES.LteRewards.push({
         {
             "Reward": "Gacha",
             "RewardId": "diamond",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "megaturkey",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Resources",
+            "RewardId": "gold",
+            "Value": 250,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Researcher",
+            "RewardId": "rare",
+            "Value": 600,
+            "AvatarId": "null"
+        },  
+        {
+            "Reward": "Researcher",
+            "RewardId": "epic",
+            "Value": 50,
+            "AvatarId": "null"
+        },  
+        {
+            "Reward": "Gacha",
+            "RewardId": "megaturkey",
+            "Value": 1,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Researcher",
+            "RewardId": "event",
+            "Value": 50,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Resources",
+            "RewardId": "scientist",
+            "Value": 35000,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Resources",
+            "RewardId": "timehack_12",
+            "Value": 2,
+            "AvatarId": "null"
+        },
+        {
+            "Reward": "Gacha",
+            "RewardId": "megaturkey",
             "Value": 1,
             "AvatarId": "null"
         },
