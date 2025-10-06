@@ -8940,16 +8940,16 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M351",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 5.38e+9,
-                "ConditionId": "thegreatgobbler"
+                "ConditionType": "ResearcherCardsEarnedSinceSubscription",
+                "Threshold": 750,
+                "ConditionId": "any"
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "plastic",
+                "RewardId": "armored",
                 "Value": 1
             }
-        },
+        },  
         {
             "Id": "M352",
             "Rank": 1,
@@ -12435,708 +12435,7 @@ DATA["thanksgiving-bal-10"] = {
                 "Reward": "Gacha",
                 "RewardId": "plastic",
                 "Value": 2
-            }
-        },    
-        {
-            "Id": "M601",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+207,
-                "ConditionId": "fire"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },  
-        {
-            "Id": "M602",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+45,
-                "ConditionId": "thegreatbaker"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M603",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+195,
-                "ConditionId": "pie"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        }, 
-        {
-            "Id": "M604",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+45,
-                "ConditionId": "theinfinitehorn"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M605",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+159,
-                "ConditionId": "cornucopia"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },  
-        {
-            "Id": "M606",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResearcherCardsEarnedSinceSubscription",
-                "Threshold": 11250,
-                "ConditionId": "any"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "armored",
-                "Value": 1
-            }
-        },  
-        {
-            "Id": "M607",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+48,
-                "ConditionId": "mashmonument"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M608",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+228,
-                "ConditionId": "mashpotato"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M609",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+48,
-                "ConditionId": "thegreatgobbler"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M610",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+222,
-                "ConditionId": "turkeyleg"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },   
-        {
-            "Id": "M611",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+48,
-                "ConditionId": "theeternalovn"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M612",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+213,
-                "ConditionId": "fire"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },  
-        {
-            "Id": "M613",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+48,
-                "ConditionId": "thegreatbaker"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M614",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+201,
-                "ConditionId": "pie"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        }, 
-        {
-            "Id": "M615",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+48,
-                "ConditionId": "theinfinitehorn"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M616",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+165,
-                "ConditionId": "cornucopia"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },  
-        {
-            "Id": "M617",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResearcherCardsEarnedSinceSubscription",
-                "Threshold": 12500,
-                "ConditionId": "any"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "armored",
-                "Value": 1
-            }
-        },  
-        {
-            "Id": "M618",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+51,
-                "ConditionId": "mashmonument"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M619",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+234,
-                "ConditionId": "mashpotato"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M620",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+51,
-                "ConditionId": "thegreatgobbler"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M621",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+228,
-                "ConditionId": "turkeyleg"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },   
-        {
-            "Id": "M622",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+51,
-                "ConditionId": "theeternalovn"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M623",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+219,
-                "ConditionId": "fire"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },  
-        {
-            "Id": "M624",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+51,
-                "ConditionId": "thegreatbaker"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M625",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+207,
-                "ConditionId": "pie"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        }, 
-        {
-            "Id": "M626",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+51,
-                "ConditionId": "theinfinitehorn"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M627",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+171,
-                "ConditionId": "cornucopia"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },  
-        {
-            "Id": "M628",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResearcherCardsEarnedSinceSubscription",
-                "Threshold": 13750,
-                "ConditionId": "any"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "armored",
-                "Value": 1
-            }
-        },  
-        {
-            "Id": "M629",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+55,
-                "ConditionId": "mashmonument"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M630",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+249,
-                "ConditionId": "mashpotato"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M631",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+55,
-                "ConditionId": "thegreatgobbler"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M632",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+234,
-                "ConditionId": "turkeyleg"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },   
-        {
-            "Id": "M633",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+55,
-                "ConditionId": "theeternalovn"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M634",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+225,
-                "ConditionId": "fire"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },  
-        {
-            "Id": "M635",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+55,
-                "ConditionId": "thegreatbaker"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M636",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+213,
-                "ConditionId": "pie"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        }, 
-        {
-            "Id": "M637",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+55,
-                "ConditionId": "theinfinitehorn"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M638",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+177,
-                "ConditionId": "cornucopia"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },  
-        {
-            "Id": "M639",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResearcherCardsEarnedSinceSubscription",
-                "Threshold": 15000,
-                "ConditionId": "any"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "armored",
-                "Value": 1
-            }
-        },  
-        {
-            "Id": "M640",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+60,
-                "ConditionId": "mashmonument"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M641",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1.75e+308,
-                "ConditionId": "mashpotato"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M642",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+60,
-                "ConditionId": "thegreatgobbler"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M643",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1.75e+308,
-                "ConditionId": "turkeyleg"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },   
-        {
-            "Id": "M644",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+60,
-                "ConditionId": "theeternalovn"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M645",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1.75e+308,
-                "ConditionId": "fire"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },  
-        {
-            "Id": "M646",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+60,
-                "ConditionId": "thegreatbaker"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M647",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+300,
-                "ConditionId": "pie"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        }, 
-        {
-            "Id": "M648",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 1e+60,
-                "ConditionId": "theinfinitehorn"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },    
-        {
-            "Id": "M649",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+264,
-                "ConditionId": "cornucopia"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "plastic",
-                "Value": 2
-            }
-        },  
-        {
-            "Id": "M650",
-            "Rank": 1,
-            "Condition": {
-                "ConditionType": "ResearcherCardsEarnedSinceSubscription",
-                "Threshold": 25000,
-                "ConditionId": "any"
-            },
-            "Reward": {
-                "Reward": "Gacha",
-                "RewardId": "armored",
-                "Value": 1
-            }
-        },  
+            }  
     ],
     "Ranks": [
         {
@@ -13158,7 +12457,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "2",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "5",
+            "Missions": "3",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 0.375,
@@ -13173,7 +12472,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "3",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "4",
+            "Missions": "5",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 0.5,
@@ -13204,7 +12503,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "5",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "4",
+            "Missions": "6",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 0.75,
@@ -13219,7 +12518,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "6",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "5",
+            "Missions": "7",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 0.875,
@@ -13234,7 +12533,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "7",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "8",
+            "Missions": "5",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1,
@@ -13249,7 +12548,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "8",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "6",
+            "Missions": "5",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1.125,
@@ -13264,7 +12563,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "9",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "5",
+            "Missions": "6",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1.25,
@@ -13279,7 +12578,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "10",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "6",
+            "Missions": "4",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1.375,
@@ -13309,7 +12608,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "12",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "7",
+            "Missions": "4",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1.625,
@@ -13324,7 +12623,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "13",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "7",
+            "Missions": "6",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1.75,
@@ -13339,7 +12638,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "14",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "3",
+            "Missions": "5",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 1.875,
@@ -13354,7 +12653,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "15",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "6",
+            "Missions": "5",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2,
@@ -13369,7 +12668,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "16",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "6",
+            "Missions": "5",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2.1,
@@ -13384,7 +12683,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "17",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "7",
+            "Missions": "6",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2.2,
@@ -13399,7 +12698,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "18",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "11",
+            "Missions": "6",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2.3,
@@ -13444,7 +12743,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "21",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "8",
+            "Missions": "5",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2.6,
@@ -13459,7 +12758,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "22",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "8",
+            "Missions": "6",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 2.8,
@@ -13474,7 +12773,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "23",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "10",
+            "Missions": "6",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 3,
@@ -13489,7 +12788,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "24",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "5",
+            "Missions": "6",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 3.2,
@@ -13504,7 +12803,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "25",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "10",
+            "Missions": "7",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 3.4,
@@ -13519,7 +12818,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "26",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "9",
+            "Missions": "6",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 3.6,
@@ -13534,7 +12833,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "27",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "6",
+            "Missions": "8",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 3.8,
@@ -13549,7 +12848,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "28",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "8",
+            "Missions": "9",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 4,
@@ -13564,7 +12863,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "29",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "8",
+            "Missions": "9",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 4.25,
@@ -13579,7 +12878,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "30",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "10",
+            "Missions": "8",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 4.5,
@@ -13594,7 +12893,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "31",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "14",
+            "Missions": "10",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 4.75,
@@ -13609,7 +12908,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "32",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "10",
+            "Missions": "8",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5,
@@ -13624,7 +12923,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "33",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "12",
+            "Missions": "7",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5.25,
@@ -13639,7 +12938,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "34",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "8",
+            "Missions": "10",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5.5,
@@ -13654,7 +12953,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "35",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "10",
+            "Missions": "7",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 5.75,
@@ -13669,7 +12968,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "36",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "9",
+            "Missions": "8",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6,
@@ -13684,7 +12983,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "37",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "12",
+            "Missions": "7",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6.3,
@@ -13699,7 +12998,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "38",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "11",
+            "Missions": "9",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6.6,
@@ -13714,7 +13013,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "39",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "11",
+            "Missions": "7",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 6.9,
@@ -13729,7 +13028,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "40",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "13",
+            "Missions": "8",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 7.2,
@@ -13744,7 +13043,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "41",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "13",
+            "Missions": "8",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 7.5,
@@ -13759,7 +13058,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "42",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "11",
+            "Missions": "9",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 7.8,
@@ -13774,7 +13073,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "43",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "10",
+            "Missions": "9",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 8.1,
@@ -13789,7 +13088,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "44",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "13",
+            "Missions": "8",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 8.4,
@@ -13804,7 +13103,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "45",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "11",
+            "Missions": "7",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 8.7,
@@ -13819,7 +13118,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "46",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "11",
+            "Missions": "8",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 9,
@@ -13834,7 +13133,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "47",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "14",
+            "Missions": "8",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 9.3,
@@ -13849,7 +13148,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "48",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "11",
+            "Missions": "8",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 9.6,
@@ -13864,7 +13163,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "49",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "11",
+            "Missions": "10",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 10,
@@ -13879,7 +13178,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "50",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "10",
+            "Missions": "9",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 10.5,
@@ -13894,7 +13193,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": "51",
             "Name": "UNUSED",
             "SpriteName": "art-avatar",
-            "Missions": "20",
+            "Missions": "15",
             "ActiveMissionCount": 3,
             "RewardType": "None",
             "NormalGachaMultiplier": 11,
