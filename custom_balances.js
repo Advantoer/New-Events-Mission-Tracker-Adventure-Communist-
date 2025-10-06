@@ -1622,7 +1622,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "silosmasher",
-                    "Qty": 2e+7
+                    "Qty": 4e+7
                 },
                 {
                     "Resource": "Mashpotato",
@@ -2002,7 +2002,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "feastfactory",
-                    "Qty": 1e+8
+                    "Qty": 2e+8
                 },
                 {
                     "Resource": "Turkeyleg",
@@ -2050,7 +2050,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "turkeylegtycoon",
-                    "Qty": 5e+9
+                    "Qty": 1.25e+9
                 },
                 {
                     "Resource": "Turkeyleg",
@@ -2076,7 +2076,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "turkeylegtycoon",
-                "Threshold": 1e+11
+                "Threshold": 2.5e+10
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2098,7 +2098,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "gravyreactor",
-                    "Qty": 1e+11
+                    "Qty": 2e+10
                 },
                 {
                     "Resource": "Turkeyleg",
@@ -2124,7 +2124,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "gravyreactor",
-                "Threshold": 1e+12
+                "Threshold": 2e+11
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2146,7 +2146,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "pilgrimpoultrysyndicate",
-                    "Qty": 2.5e+12
+                    "Qty": 3e+11
                 },
                 {
                     "Resource": "Turkeyleg",
@@ -2172,7 +2172,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "pilgrimpoultrysyndicate",
-                "Threshold": 1.25e+13
+                "Threshold": 1.5e+12
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2238,7 +2238,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "toasteroven",
-                    "Qty": 5000
+                    "Qty": 50000
                 },
                 {
                     "Resource": "Fire",
@@ -2286,7 +2286,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "familyoven",
-                    "Qty": 1e+7
+                    "Qty": 2.5e+6
                 },
                 {
                     "Resource": "Fire",
@@ -2312,7 +2312,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "familyoven",
-                "Threshold": 2e+9
+                "Threshold": 1.25e+8
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2334,7 +2334,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "commercialroaster",
-                    "Qty": 1e+9
+                    "Qty": 5e+7
                 },
                 {
                     "Resource": "Fire",
@@ -2360,7 +2360,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "commercialroaster",
-                "Threshold": 5e+10
+                "Threshold": 1.25e+9
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2382,7 +2382,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "conveyorbeltbakeline",
-                    "Qty": 1.5e+10
+                    "Qty": 2.5e+9
                 },
                 {
                     "Resource": "Fire",
@@ -2408,7 +2408,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "conveyorbeltbakeline",
-                "Threshold": 3e+11
+                "Threshold": 5e+10
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2430,7 +2430,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "smartaioven",
-                    "Qty": 1.5e+11
+                    "Qty": 2.5e+10
                 },
                 {
                     "Resource": "Fire",
@@ -2456,7 +2456,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "smartaioven",
-                "Threshold": 1.5e+12
+                "Threshold": 2.5e+11
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2478,7 +2478,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "volcanicbakingchamber",
-                    "Qty": 3e+12
+                    "Qty": 4e+11
                 },
                 {
                     "Resource": "Fire",
@@ -2504,7 +2504,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "volcanicbakingchamber",
-                "Threshold": 1.5e+13
+                "Threshold": 2e+12
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2570,7 +2570,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "crustkneader",
-                    "Qty": 5e+6
+                    "Qty": 1e+7
                 },
                 {
                     "Resource": "Pie",
@@ -2596,7 +2596,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "crustkneader",
-                "Threshold": 1e+9
+                "Threshold": 5e+8
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2618,7 +2618,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "fillingwhipper",
-                    "Qty": 5e+8
+                    "Qty": 2e+8
                 },
                 {
                     "Resource": "Pie",
@@ -2644,7 +2644,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "fillingwhipper",
-                "Threshold": 2.5e+10
+                "Threshold": 5e+9
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2666,7 +2666,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "pieassemblyline",
-                    "Qty": 1e+10
+                    "Qty": 1.25e+9
                 },
                 {
                     "Resource": "Pie",
@@ -2692,7 +2692,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "pieassemblyline",
-                "Threshold": 2e+11
+                "Threshold": 2.5e+10
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2714,7 +2714,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "pieempireexecutive",
-                    "Qty": 2.5e+11
+                    "Qty": 2.5e+10
                 },
                 {
                     "Resource": "Pie",
@@ -2740,7 +2740,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "pieempireexecutive",
-                "Threshold": 2.5e+12
+                "Threshold": 2.5e+11
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2762,7 +2762,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "sweetfusionlab",
-                    "Qty": 3.5e+12
+                    "Qty": 5e+11
                 },
                 {
                     "Resource": "Pie",
@@ -2788,7 +2788,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "sweetfusionlab",
-                "Threshold": 1.75e+13
+                "Threshold": 2.5e+12
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2854,7 +2854,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "dumpsterhorn",
-                    "Qty": 2e+8
+                    "Qty": 4e+8
                 },
                 {
                     "Resource": "Cornucopia",
@@ -2950,7 +2950,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "harvesthornsmith",
-                    "Qty": 2e+11
+                    "Qty": 2.5e+10
                 },
                 {
                     "Resource": "Cornucopia",
@@ -2976,7 +2976,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "harvesthornsmith",
-                "Threshold": 2e+12
+                "Threshold": 2.5e+11
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2998,7 +2998,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "gildedgourd",
-                    "Qty": 4e+12
+                    "Qty": 6e+11
                 },
                 {
                     "Resource": "Cornucopia",
@@ -3024,7 +3024,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "gildedgourd",
-                "Threshold": 2e+13
+                "Threshold": 3e+12
             },
             "IncludeInAll": true,
             "Crit": {
