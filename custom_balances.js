@@ -1906,7 +1906,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "gobblepen",
-                    "Qty": 5000
+                    "Qty": 100000
                 },
                 {
                     "Resource": "Turkeyleg",
@@ -1932,7 +1932,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "gobblepen",
-                "Threshold": 5e+6
+                "Threshold": 1e+7
             },
             "IncludeInAll": true,
             "Crit": {
@@ -1954,7 +1954,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "drumstickfarm",
-                    "Qty": 500000
+                    "Qty": 2e+6
                 },
                 {
                     "Resource": "Turkeyleg",
