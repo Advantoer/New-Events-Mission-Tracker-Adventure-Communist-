@@ -1526,7 +1526,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "kitchen",
-                    "Qty": 5000
+                    "Qty": 50000
                 },
                 {
                     "Resource": "Mashpotato",
@@ -1574,7 +1574,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "tatertruck",
-                    "Qty": 500000
+                    "Qty": 2e+6
                 },
                 {
                     "Resource": "Mashpotato",
@@ -1622,7 +1622,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "silosmasher",
-                    "Qty": 5e+7
+                    "Qty": 2e+7
                 },
                 {
                     "Resource": "Mashpotato",
@@ -1648,7 +1648,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "silosmasher",
-                "Threshold": 2.5e+9
+                "Threshold": 1e+9
             },
             "IncludeInAll": true,
             "Crit": {
@@ -1670,7 +1670,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "gravyfeds",
-                    "Qty": 2.5e+9
+                    "Qty": 5e+8
                 },
                 {
                     "Resource": "Mashpotato",
@@ -1696,7 +1696,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "gravyfeds",
-                "Threshold": 5e+10
+                "Threshold": 1e+10
             },
             "IncludeInAll": true,
             "Crit": {
@@ -1718,7 +1718,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "feastfoundry",
-                    "Qty": 5e+10
+                    "Qty": 1e+10
                 },
                 {
                     "Resource": "Mashpotato",
@@ -1744,7 +1744,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "feastfoundry",
-                "Threshold": 5e+11
+                "Threshold": 1e+11
             },
             "IncludeInAll": true,
             "Crit": {
@@ -1766,7 +1766,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "carbcollective",
-                    "Qty": 2e+12
+                    "Qty": 2e+11
                 },
                 {
                     "Resource": "Mashpotato",
@@ -1792,7 +1792,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "carbcollective",
-                "Threshold": 1e+13
+                "Threshold": 1e+12
             },
             "IncludeInAll": true,
             "Crit": {
@@ -14020,7 +14020,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 2,
+            "PlayerRankUnlock": 1,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14065,7 +14065,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 9,
+            "PlayerRankUnlock": 10,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14080,7 +14080,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 16,
+            "PlayerRankUnlock": 17,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14095,7 +14095,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 22,
+            "PlayerRankUnlock": 23,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14110,7 +14110,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 29,
+            "PlayerRankUnlock": 30,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14125,7 +14125,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 37,
+            "PlayerRankUnlock": 36,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14171,7 +14171,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 7,
+            "PlayerRankUnlock": 8,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14186,7 +14186,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 14,
+            "PlayerRankUnlock": 12,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14216,7 +14216,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 24,
+            "PlayerRankUnlock": 25,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14231,7 +14231,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 31,
+            "PlayerRankUnlock": 32,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14291,7 +14291,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 18,
+            "PlayerRankUnlock": 12,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14306,7 +14306,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 24,
+            "PlayerRankUnlock": 20,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14321,7 +14321,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 30,
+            "PlayerRankUnlock": 26,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14336,7 +14336,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 36,
+            "PlayerRankUnlock": 34,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14367,7 +14367,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 17,
+            "PlayerRankUnlock": 14,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14382,7 +14382,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 23,
+            "PlayerRankUnlock": 16,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14397,7 +14397,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 28,
+            "PlayerRankUnlock": 24,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14412,7 +14412,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 34,
+            "PlayerRankUnlock": 30,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14427,7 +14427,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 39,
+            "PlayerRankUnlock": 36,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14457,7 +14457,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 29,
+            "PlayerRankUnlock": 26,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14472,7 +14472,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 33,
+            "PlayerRankUnlock": 29,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14487,7 +14487,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 38,
+            "PlayerRankUnlock": 35,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14502,7 +14502,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 43,
+            "PlayerRankUnlock": 42,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14517,7 +14517,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 47,
+            "PlayerRankUnlock": 48,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14568,7 +14568,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteRare",
-            "PlayerRankUnlock": 7,
+            "PlayerRankUnlock": 8,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14585,7 +14585,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteRare",
-            "PlayerRankUnlock": 20,
+            "PlayerRankUnlock": 18,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14619,7 +14619,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteRare",
-            "PlayerRankUnlock": 17,
+            "PlayerRankUnlock": 18,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14670,7 +14670,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteRare",
-            "PlayerRankUnlock": 7,
+            "PlayerRankUnlock": 8,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14687,7 +14687,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteRare",
-            "PlayerRankUnlock": 18,
+            "PlayerRankUnlock": 17,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14755,7 +14755,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteRare",
-            "PlayerRankUnlock": 19,
+            "PlayerRankUnlock": 21,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14789,7 +14789,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteRare",
-            "PlayerRankUnlock": 37,
+            "PlayerRankUnlock": 40,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14806,7 +14806,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteRare",
-            "PlayerRankUnlock": 11,
+            "PlayerRankUnlock": 10,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14823,7 +14823,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteRare",
-            "PlayerRankUnlock": 25,
+            "PlayerRankUnlock": 30,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14840,7 +14840,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0.125,
             "BasePower": 0,
             "Rarity": "LteRare",
-            "PlayerRankUnlock": 7,
+            "PlayerRankUnlock": 6,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
