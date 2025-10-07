@@ -13374,7 +13374,7 @@ DATA["thanksgiving-bal-10"] = {
             "Name": "I1T6",
             "ModType": "GenManagerAndSpeedMult",
             "TargetIds": ["gravyfeds"],
-            "ExpoMultiplier": 7,
+            "ExpoMultiplier": 6,
             "ExpoGrowth": 3,
             "UpgradePower": 0,
             "CurveModifier": 0,
