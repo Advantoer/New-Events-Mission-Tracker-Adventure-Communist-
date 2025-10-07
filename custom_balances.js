@@ -13344,7 +13344,7 @@ DATA["thanksgiving-bal-10"] = {
             "Name": "I1T4",
             "ModType": "GenManagerAndSpeedMult",
             "TargetIds": ["tatertruck"],
-            "ExpoMultiplier": 7,
+            "ExpoMultiplier": 4,
             "ExpoGrowth": 3,
             "UpgradePower": 0,
             "CurveModifier": 0,
