@@ -1413,7 +1413,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -1461,7 +1461,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -1509,7 +1509,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -1557,7 +1557,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
