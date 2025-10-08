@@ -1374,7 +1374,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": false,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             }
         },
         {
@@ -1478,7 +1478,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "chef",
-                    "Qty": 250
+                    "Qty": 100
                 },
                 {
                     "Resource": "Mashpotato",
@@ -1526,7 +1526,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "kitchen",
-                    "Qty": 50000
+                    "Qty": 10000
                 },
                 {
                     "Resource": "Mashpotato",
@@ -1574,7 +1574,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "tatertruck",
-                    "Qty": 2e+6
+                    "Qty": 1e+6
                 },
                 {
                     "Resource": "Mashpotato",
@@ -1605,7 +1605,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -1622,7 +1622,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "silosmasher",
-                    "Qty": 4e+7
+                    "Qty": 1e+7
                 },
                 {
                     "Resource": "Mashpotato",
@@ -1653,7 +1653,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -1670,7 +1670,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "gravyfeds",
-                    "Qty": 5e+8
+                    "Qty": 1e+8
                 },
                 {
                     "Resource": "Mashpotato",
@@ -1701,7 +1701,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -1749,7 +1749,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -1766,7 +1766,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "carbcollective",
-                    "Qty": 2e+11
+                    "Qty": 1e+11
                 },
                 {
                     "Resource": "Mashpotato",
@@ -1797,7 +1797,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -1841,7 +1841,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -1858,7 +1858,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "backyardturkey",
-                    "Qty": 250
+                    "Qty": 1000
                 },
                 {
                     "Resource": "Turkeyleg",
@@ -1889,7 +1889,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -1937,7 +1937,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -1954,7 +1954,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "drumstickfarm",
-                    "Qty": 2e+6
+                    "Qty": 1e+6
                 },
                 {
                     "Resource": "Turkeyleg",
@@ -1985,7 +1985,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2002,7 +2002,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "feastfactory",
-                    "Qty": 2e+8
+                    "Qty": 1e+8
                 },
                 {
                     "Resource": "Turkeyleg",
@@ -2033,7 +2033,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2050,7 +2050,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "turkeylegtycoon",
-                    "Qty": 1.25e+9
+                    "Qty": 1e+9
                 },
                 {
                     "Resource": "Turkeyleg",
@@ -2081,7 +2081,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2098,7 +2098,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "gravyreactor",
-                    "Qty": 2e+10
+                    "Qty": 1e+10
                 },
                 {
                     "Resource": "Turkeyleg",
@@ -2129,7 +2129,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2146,7 +2146,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "pilgrimpoultrysyndicate",
-                    "Qty": 3e+11
+                    "Qty": 1e+11
                 },
                 {
                     "Resource": "Turkeyleg",
@@ -2177,7 +2177,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2203,14 +2203,14 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "Fire",
-                "Qty": 10
+                "Qty": 12
             },
             "BaseCompletionTime": 4,
             "Visible": [
                 {
                     "ConditionType": "ResourceQuantity",
                     "ConditionId": "Turkeyleg",
-                    "Threshold": 1e+19
+                    "Threshold": 1e+20
                 }
             ],
             "Unlock": {
@@ -2221,7 +2221,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2238,7 +2238,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "toasteroven",
-                    "Qty": 50000
+                    "Qty": 25000
                 },
                 {
                     "Resource": "Fire",
@@ -2251,7 +2251,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "toasteroven",
-                "Qty": 40
+                "Qty": 64
             },
             "BaseCompletionTime": 20,
             "Visible": [
@@ -2269,7 +2269,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2299,7 +2299,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "familyoven",
-                "Qty": 70
+                "Qty": 116
             },
             "BaseCompletionTime": 100,
             "Visible": [
@@ -2317,7 +2317,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2334,7 +2334,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "commercialroaster",
-                    "Qty": 5e+7
+                    "Qty": 2.5e+7
                 },
                 {
                     "Resource": "Fire",
@@ -2347,7 +2347,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "commercialroaster",
-                "Qty": 100
+                "Qty": 168
             },
             "BaseCompletionTime": 500,
             "Visible": [
@@ -2365,7 +2365,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2395,7 +2395,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "conveyorbeltbakeline",
-                "Qty": 130
+                "Qty": 220
             },
             "BaseCompletionTime": 2500,
             "Visible": [
@@ -2413,7 +2413,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2443,7 +2443,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "smartaioven",
-                "Qty": 160
+                "Qty": 272
             },
             "BaseCompletionTime": 12500,
             "Visible": [
@@ -2461,7 +2461,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2478,7 +2478,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "volcanicbakingchamber",
-                    "Qty": 4e+11
+                    "Qty": 2.5e+11
                 },
                 {
                     "Resource": "Fire",
@@ -2491,7 +2491,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "volcanicbakingchamber",
-                "Qty": 190
+                "Qty": 324
             },
             "BaseCompletionTime": 62500,
             "Visible": [
@@ -2509,7 +2509,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2535,7 +2535,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "Pie",
-                "Qty": 15
+                "Qty": 20
             },
             "BaseCompletionTime": 5,
             "Visible": [
@@ -2553,7 +2553,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2570,7 +2570,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "crustkneader",
-                    "Qty": 1e+7
+                    "Qty": 5e+6
                 },
                 {
                     "Resource": "Pie",
@@ -2583,7 +2583,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "crustkneader",
-                "Qty": 60
+                "Qty": 195
             },
             "BaseCompletionTime": 30,
             "Visible": [
@@ -2601,7 +2601,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2618,7 +2618,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "fillingwhipper",
-                    "Qty": 2e+8
+                    "Qty": 5e+7
                 },
                 {
                     "Resource": "Pie",
@@ -2631,7 +2631,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "fillingwhipper",
-                "Qty": 105
+                "Qty": 370
             },
             "BaseCompletionTime": 180,
             "Visible": [
@@ -2649,7 +2649,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2666,7 +2666,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "pieassemblyline",
-                    "Qty": 1.25e+9
+                    "Qty": 5e+8
                 },
                 {
                     "Resource": "Pie",
@@ -2679,7 +2679,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "pieassemblyline",
-                "Qty": 150
+                "Qty": 545
             },
             "BaseCompletionTime": 1080,
             "Visible": [
@@ -2697,7 +2697,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2714,7 +2714,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "pieempireexecutive",
-                    "Qty": 2.5e+10
+                    "Qty": 5e+10
                 },
                 {
                     "Resource": "Pie",
@@ -2727,7 +2727,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "pieempireexecutive",
-                "Qty": 195
+                "Qty": 720
             },
             "BaseCompletionTime": 6480,
             "Visible": [
@@ -2745,7 +2745,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2775,7 +2775,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "sweetfusionlab",
-                "Qty": 240
+                "Qty": 895
             },
             "BaseCompletionTime": 38880,
             "Visible": [
@@ -2793,7 +2793,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2819,7 +2819,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "Cornucopia",
-                "Qty": 20
+                "Qty": 27
             },
             "BaseCompletionTime": 6,
             "Visible": [
@@ -2837,7 +2837,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2854,7 +2854,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "dumpsterhorn",
-                    "Qty": 4e+8
+                    "Qty": 5e+8
                 },
                 {
                     "Resource": "Cornucopia",
@@ -2867,7 +2867,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "dumpsterhorn",
-                "Qty": 80
+                "Qty": 529
             },
             "BaseCompletionTime": 42,
             "Visible": [
@@ -2885,7 +2885,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2915,7 +2915,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "craftfairsupply",
-                "Qty": 140
+                "Qty": 1031
             },
             "BaseCompletionTime": 294,
             "Visible": [
@@ -2933,7 +2933,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2950,7 +2950,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "harvesthornsmith",
-                    "Qty": 2.5e+10
+                    "Qty": 5e+10
                 },
                 {
                     "Resource": "Cornucopia",
@@ -2963,7 +2963,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "harvesthornsmith",
-                "Qty": 200
+                "Qty": 1533
             },
             "BaseCompletionTime": 2058,
             "Visible": [
@@ -2981,7 +2981,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -2998,7 +2998,7 @@ DATA["thanksgiving-bal-10"] = {
             "Cost": [
                 {
                     "Resource": "gildedgourd",
-                    "Qty": 6e+11
+                    "Qty": 5e+11
                 },
                 {
                     "Resource": "Cornucopia",
@@ -3011,7 +3011,7 @@ DATA["thanksgiving-bal-10"] = {
             ],
             "Generate": {
                 "Resource": "gildedgourd",
-                "Qty": 260
+                "Qty": 2035
             },
             "BaseCompletionTime": 14406,
             "Visible": [
@@ -3029,7 +3029,7 @@ DATA["thanksgiving-bal-10"] = {
             "IncludeInAll": true,
             "Crit": {
                 "ChancePercent": 0,
-                "Multiplier": 1
+                "Multiplier": 32
             },
             "ObjectiveReward": {
                 "Reward": "Resources",
@@ -3989,7 +3989,7 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "technician",
             "SortingOrder": 3,
             "UnlockCostResourceId": "turkeyleg",
-            "UnlockCostResourceQty": 1e+19,
+            "UnlockCostResourceQty": 1e+20,
             "VisibleConditions": [
                 {
                     "ConditionType": "IndustryUnlocked",
@@ -4064,7 +4064,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "TradesSinceSubscription",
-                "Threshold": 4,
+                "Threshold": 3,
                 "ConditionId": "mashpotato"
             },
             "Reward": {
@@ -4094,7 +4094,7 @@ DATA["thanksgiving-bal-10"] = {
             "Rank": 1,
             "Condition": {
                 "ConditionType": "ResourceQuantity",
-                "Threshold": 50,
+                "Threshold": 156,
                 "ConditionId": "potatomasher"
             },
             "Reward": {
@@ -4108,13 +4108,13 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M004",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResourcesEarnedSinceSubscription",
-                "Threshold": 1e+8,
-                "ConditionId": "mashpotato"
+                "ConditionType": "ResourceQuantity",
+                "Threshold": 500,
+                "ConditionId": "chef"
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "plastic",
+                "RewardId": "sc_m01",
                 "Value": 1
             }
         },
@@ -4122,13 +4122,13 @@ DATA["thanksgiving-bal-10"] = {
             "Id": "M005",
             "Rank": 1,
             "Condition": {
-                "ConditionType": "ResourceQuantity",
-                "Threshold": 250,
-                "ConditionId": "chef"
+                "ConditionType": "ResourcesEarnedSinceSubscription",
+                "Threshold": 7.5e+9,
+                "ConditionId": "mashpotato"
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m01",
+                "RewardId": "plastic",
                 "Value": 1
             }
         },
