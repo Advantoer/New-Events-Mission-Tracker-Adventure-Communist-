@@ -413,27 +413,7 @@ DATA["thanksgiving-bal-10"] = {
         {
             "Id": "sc_m49",
             "Type": "Scripted"
-        },
-        {
-            "Id": "sc_m50",
-            "Type": "Scripted"
-        },
-        {
-            "Id": "sc_m51",
-            "Type": "Scripted"
-        },
-        {
-            "Id": "sc_m52",
-            "Type": "Scripted"
-        },
-        {
-            "Id": "sc_m53",
-            "Type": "Scripted"
-        },
-        {
-            "Id": "sc_m54",
-            "Type": "Scripted"
-        },
+        }, 
         {
             "Id": "sc3",
             "Type": "Scripted"
@@ -576,7 +556,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 70,
             "Card": [
                 {
-                    "Id": "THX054",
+                    "Id": "THX049",
                     "Value": 1
                 },
             ]
@@ -690,7 +670,7 @@ DATA["thanksgiving-bal-10"] = {
                     "Value": 1
                 },
                 {
-                    "Id": "THX052",
+                    "Id": "THX047",
                     "Value": 2
                 },
                 {
@@ -740,7 +720,7 @@ DATA["thanksgiving-bal-10"] = {
                     "Value": 2
                 },
                 {
-                    "Id": "THX052",
+                    "Id": "THX047",
                     "Value": 1
                 },
             ]
@@ -753,7 +733,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 200,
             "Card": [
                 {
-                    "Id": "THX047",
+                    "Id": "THX042",
                     "Value": 1
                 },
                 {
@@ -799,7 +779,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 250,
             "Card": [
                 {
-                    "Id": "THX048",
+                    "Id": "THX043",
                     "Value": 2
                 },
                 {
@@ -891,7 +871,7 @@ DATA["thanksgiving-bal-10"] = {
                     "Value": 5
                 },
                 {
-                    "Id": "THX052",
+                    "Id": "THX047",
                     "Value": 1
                 },
             ]
@@ -904,7 +884,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 270,
             "Card": [
                 {
-                    "Id": "THX049",
+                    "Id": "THX044",
                     "Value": 3
                 },
                 {
@@ -1077,7 +1057,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 280,
             "Card": [
                 {
-                    "Id": "THX049",
+                    "Id": "THX044",
                     "Value": 3
                 },
             ]
@@ -1116,7 +1096,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 300,
             "Card": [
                 {
-                    "Id": "THX053",
+                    "Id": "THX048",
                     "Value": 1
                 },
             ]
@@ -1142,7 +1122,7 @@ DATA["thanksgiving-bal-10"] = {
             "Trophy": 325,
             "Card": [
                 {
-                    "Id": "THX050",
+                    "Id": "THX045",
                     "Value": 2
                 },
             ]
@@ -8918,7 +8898,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m50",
+                "RewardId": "plastic",
                 "Value": 1
             }
         }, 
@@ -9044,7 +9024,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m51",
+                "RewardId": "plastic",
                 "Value": 1
             }
         }, 
@@ -9226,7 +9206,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m53",
+                "RewardId": "plastic",
                 "Value": 1
             }
         }, 
@@ -9296,7 +9276,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m52",
+                "RewardId": "plastic",
                 "Value": 1
             }
         },
@@ -9646,7 +9626,7 @@ DATA["thanksgiving-bal-10"] = {
             },
             "Reward": {
                 "Reward": "Gacha",
-                "RewardId": "sc_m54",
+                "RewardId": "plastic",
                 "Value": 1
             }
         },
@@ -13365,7 +13345,7 @@ DATA["thanksgiving-bal-10"] = {
             "CurveModifier": 0,
             "BasePower": 0,
             "Rarity": "LteCommon",
-            "PlayerRankUnlock": 10,
+            "PlayerRankUnlock": 9,
             "ResearchOutputType": "Constant",
             "ResearchOutputRate": 1
         },
@@ -14010,91 +13990,6 @@ DATA["thanksgiving-bal-10"] = {
         },
         {
             "Id": "THX047",
-            "Name": "I1CritBonus",
-            "ModType": "GeneratorCritPowerMult",
-            "TargetIds": [
-                "foodlabour"
-            ],
-            "ExpoMultiplier": 1,
-            "ExpoGrowth": 2,
-            "UpgradePower": 0,
-            "CurveModifier": 0,
-            "BasePower": 0,
-            "Rarity": "LteRare",
-            "PlayerRankUnlock": 15,
-            "ResearchOutputType": "Constant",
-            "ResearchOutputRate": 1
-        },
-        {
-            "Id": "THX048",
-            "Name": "I2CritBonus",
-            "ModType": "GeneratorCritPowerMult",
-            "TargetIds": [
-                "animallabour"
-            ],
-            "ExpoMultiplier": 1,
-            "ExpoGrowth": 2,
-            "UpgradePower": 0,
-            "CurveModifier": 0,
-            "BasePower": 0,
-            "Rarity": "LteRare",
-            "PlayerRankUnlock": 17,
-            "ResearchOutputType": "Constant",
-            "ResearchOutputRate": 1
-        },
-        {
-            "Id": "THX049",
-            "Name": "I3CritBonus",
-            "ModType": "GeneratorCritPowerMult",
-            "TargetIds": [
-                "technician"
-            ],
-            "ExpoMultiplier": 1,
-            "ExpoGrowth": 2,
-            "UpgradePower": 0,
-            "CurveModifier": 0,
-            "BasePower": 0,
-            "Rarity": "LteRare",
-            "PlayerRankUnlock": 21,
-            "ResearchOutputType": "Constant",
-            "ResearchOutputRate": 1
-        },
-        {
-            "Id": "THX050",
-            "Name": "I4CritBonus",
-            "ModType": "GeneratorCritPowerMult",
-            "TargetIds": [
-                "baker"
-            ],
-            "ExpoMultiplier": 1,
-            "ExpoGrowth": 2,
-            "UpgradePower": 0,
-            "CurveModifier": 0,
-            "BasePower": 0,
-            "Rarity": "LteRare",
-            "PlayerRankUnlock": 28,
-            "ResearchOutputType": "Constant",
-            "ResearchOutputRate": 1
-        },
-        {
-            "Id": "THX051",
-            "Name": "I5CritBonus",
-            "ModType": "GeneratorCritPowerMult",
-            "TargetIds": [
-                "botanist"
-            ],
-            "ExpoMultiplier": 1,
-            "ExpoGrowth": 2,
-            "UpgradePower": 0,
-            "CurveModifier": 0,
-            "BasePower": 0,
-            "Rarity": "LteRare",
-            "PlayerRankUnlock": 40,
-            "ResearchOutputType": "Constant",
-            "ResearchOutputRate": 1
-        },
-        {
-            "Id": "THX052",
             "Name": "GlobalProduction",
             "ModType": "GeneratorPayoutMultiplier",
             "TargetIds": [
@@ -14111,7 +14006,7 @@ DATA["thanksgiving-bal-10"] = {
             "ResearchOutputRate": 1
         },
         {
-            "Id": "THX053",
+            "Id": "THX048",
             "Name": "GlobalCritBonus",
             "ModType": "GeneratorCritPowerMult",
             "TargetIds": [
@@ -14128,7 +14023,7 @@ DATA["thanksgiving-bal-10"] = {
             "ResearchOutputRate": 1
         },
         {
-            "Id": "THX054",
+            "Id": "THX049",
             "Name": "GlobalCritChance",
             "ModType": "GeneratorCritChance",
             "TargetIds": [
@@ -15011,22 +14906,6 @@ DATA['evergreen'].GachaLootTable.push({
     "SupremeWeightModifier": 1.5
 })
 
-DATA['evergreen'].GachaLootTable.push({
-    "Id": "megaturkey",
-    "SortingOrder": 7,
-    "CardWeight": 250,
-    "RareWeight": 5,
-    "EpicWeight": 25,
-    "SupremeWeight": 750,
-    "LteRareWeight": -1,
-    "ScienceMin": 1475,
-    "ScienceMax": 1525,
-    "ChanceMultiplier": 2,
-    "WeightDivider": 10,
-    "Type": "Premium",
-    "SupremeWeightModifier": 1.5
-})
-
 // Schedule Info
 SCHEDULE_CYCLES.LteOneOff.push({
     "BalanceId": "thanksgiving-bal-10",
@@ -15268,7 +15147,7 @@ SCHEDULE_CYCLES.LteRewards.push({
         },  
         {
             "Reward": "Gacha",
-            "RewardId": "megaturkey",
+            "RewardId": "turkey",
             "Value": 1,
             "AvatarId": "null"
         },
@@ -15292,7 +15171,7 @@ SCHEDULE_CYCLES.LteRewards.push({
         },
         {
             "Reward": "Gacha",
-            "RewardId": "megaturkey",
+            "RewardId": "turkey",
             "Value": 1,
             "AvatarId": "null"
         },
@@ -15576,7 +15455,6 @@ researcher.THX008.name=Researcher I1T8
 researcher.THX009.name=Researcher I1T9
 researcher.THX036.name=I1Trade
 researcher.THX042.name=I1Production
-researcher.THX047.name=I1CritBonus
 
 
 
@@ -15611,7 +15489,6 @@ researcher.THX016.name=Researcher I2T7
 researcher.THX017.name=Researcher I2T8
 researcher.THX037.name=I2Trade
 researcher.THX043.name=I2Production
-researcher.THX048.name=I2CritBonus
 
 
 
@@ -15643,7 +15520,6 @@ researcher.THX023.name=Researcher I3T6
 researcher.THX024.name=Researcher I3T7
 researcher.THX038.name=I3Trade
 researcher.THX044.name=I3Production
-researcher.THX049.name=I3CritBonus
 
 
 
@@ -15672,7 +15548,6 @@ researcher.THX029.name=Researcher I4T5
 researcher.THX030.name=Researcher I4T6
 researcher.THX039.name=I4Trade
 researcher.THX045.name=I4Production
-researcher.THX050.name=I4CritBonus
 
 
 
@@ -15698,14 +15573,13 @@ researcher.THX034.name=Researcher I5T4
 researcher.THX035.name=Researcher I5T5
 researcher.THX040.name=I5Trade
 researcher.THX046.name=I5Production
-researcher.THX051.name=I5CritBonus
 
 
 
 researcher.THX041.name=GlobalTrade
-researcher.THX052.name=GlobalProduction
-researcher.THX053.name=GlobalCritBonus
-researcher.THX054.name=GlobalCritChance
+researcher.THX047.name=GlobalProduction
+researcher.THX048.name=GlobalCritBonus
+researcher.THX049.name=GlobalCritChance
 
 
 
