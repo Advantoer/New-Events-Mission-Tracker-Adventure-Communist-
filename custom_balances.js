@@ -419,7 +419,9 @@ DATA["thanksgiving-bal-10"] = {
             "Type": "Scripted"
         }
     ],
-    "GachaScripts": [
+    "GachaScripts":
+// Industry 1 Scripted Capsules for Common Cards: THX001-THX009, which correspond to I1, Gen 1, through I1, Gen 9. Above MIGHT cause issues!
+[
         {
             "GachaId": "sc_m01",
             "MimicGachaId": "plastic",
@@ -431,12 +433,665 @@ DATA["thanksgiving-bal-10"] = {
                     "Id": "THX001",
                     "Value": 3
                 },
+            ]
+        },
+        {
+            "GachaId": "sc_m02",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
                 {
                     "Id": "THX002",
-                    "Value": 2
+                    "Value": 3
                 },
             ]
         },
+        {
+            "GachaId": "sc_m03",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX003",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m04",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX004",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m05",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX005",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m06",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX006",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m07",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX007",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m08",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX008",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m09",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX009",
+                    "Value": 3
+                },
+            ]
+        }
+]
+// Industry 2 Scripted Capsules for Common Cards: THX010-THX017, which correspond to I2, Gen 1, through I2, Gen 8.
+[
+        {
+            "GachaId": "sc_m10",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX010",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m11",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX011",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m12",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX012",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m13",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX013",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m14",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX014",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m15",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX015",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m16",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX016",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m17",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX017",
+                    "Value": 3
+                },
+            ]
+        }
+]
+// Industry 3 Scripted Capsules for Common Cards: THX018-THX024, which correspond to I3, Gen 1, through I3, Gen 7.
+[
+        {
+            "GachaId": "sc_m18",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX018",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m19",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX019",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m20",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX020",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m21",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX021",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m22",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX022",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m23",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX023",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m24",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX024",
+                    "Value": 3
+                },
+            ]
+        }
+]
+// Industry 4 Scripted Capsules for Common Cards: THX025-THX030, which correspond to I4, Gen 1, through I4, Gen 6.
+[
+        {
+            "GachaId": "sc_m25",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX025",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m26",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX026",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m27",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX027",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m28",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX028",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m29",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX029",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m30",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX030",
+                    "Value": 3
+                },
+            ]
+        }
+]
+// Industry 5 Scripted Capsules for Common Cards: THX031-THX035, which correspond to I5, Gen 1, through I5, Gen 5.
+[
+        {
+            "GachaId": "sc_m31",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX031",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m32",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX032",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m33",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX033",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m34",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX034",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m35",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX035",
+                    "Value": 3
+                },
+            ]
+        }
+]
+// Scripted Capsules for Rare Cards: THX036 - I1 Trade, & THX041 - I1 Production
+[
+        {
+            "GachaId": "sc_m36",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX036",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m41",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX041",
+                    "Value": 3
+                },
+            ]
+        }
+]
+// Scripted Capsules for Rare Cards: THX037 - I2 Trade, & THX042 - I2 Production
+[
+        {
+            "GachaId": "sc_m37",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX037",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m42",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX042",
+                    "Value": 3
+                },
+            ]
+        }
+]
+// Scripted Capsules for Rare Cards: THX038 - I3 Trade, & THX043 - I3 Production
+[
+        {
+            "GachaId": "sc_m38",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX038",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m43",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX043",
+                    "Value": 3
+                },
+            ]
+        }
+]
+// Scripted Capsules for Rare Cards: THX039 - I4 Trade, & THX044 - I4 Production
+[
+        {
+            "GachaId": "sc_m39",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX039",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m44",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX044",
+                    "Value": 3
+                },
+            ]
+        }
+]
+// Scripted Capsules for Rare Cards: THX040 - I5 Trade, & THX045 - I5 Production
+[
+        {
+            "GachaId": "sc_m40",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX040",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m45",
+            "MimicGachaId": "plastic",
+            "Science": 65,
+            "Gold": 0,
+            "Trophy": 10,
+            "Card": [
+                {
+                    "Id": "THX045",
+                    "Value": 3
+                },
+            ]
+        }
+]
+// Scripted Capsules for Global Rares: THX046 - Global Trade, THX047 - Global Production, THX048 - Global Crit Bonus, & THX049 - Global Crit Chance
+[
+        {
+            "GachaId": "sc_m46",
+            "MimicGachaId": "plastic",
+            "Science": 350,
+            "Gold": 0,
+            "Trophy": 150,
+            "Card": [
+                {
+                    "Id": "THX046",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m47",
+            "MimicGachaId": "plastic",
+            "Science": 200,
+            "Gold": 0,
+            "Trophy": 100,
+            "Card": [
+                {
+                    "Id": "THX047",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m48",
+            "MimicGachaId": "plastic",
+            "Science": 500,
+            "Gold": 0,
+            "Trophy": 250,
+            "Card": [
+                {
+                    "Id": "THX048",
+                    "Value": 3
+                },
+            ]
+        },
+        {
+            "GachaId": "sc_m49",
+            "MimicGachaId": "plastic",
+            "Science": 100,
+            "Gold": 0,
+            "Trophy": 50,
+            "Card": [
+                {
+                    "Id": "THX049",
+                    "Value": 3
+                },
+            ]
+        }
+]
+// The First Free Scripted Capsule
+[
         {
             "GachaId": "sc3",
             "MimicGachaId": "plastic",
@@ -449,7 +1104,7 @@ DATA["thanksgiving-bal-10"] = {
                     "Value": 3
                 },
                 {
-                    "Id": "THX042",
+                    "Id": "THX002",
                     "Value": 1
                 },
             ]
