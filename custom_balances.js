@@ -419,9 +419,9 @@ DATA["thanksgiving-bal-10"] = {
             "Type": "Scripted"
         }
     ],
-    "GachaScripts": []
+    "GachaScripts": [
 // Industry 1 Scripted Capsules for Common Cards: THX001-THX009, which correspond to I1, Gen 1, through I1, Gen 9. Above MIGHT cause issues!
-[
+        
         {
             "GachaId": "sc_m01",
             "MimicGachaId": "plastic",
