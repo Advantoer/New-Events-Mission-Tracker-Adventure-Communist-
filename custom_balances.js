@@ -539,7 +539,7 @@ DATA["thanksgiving-bal-10"] = {
                 }
             ]
         }
-]
+],
 // Industry 2 Scripted Capsules for Common Cards: THX010-THX017, which correspond to I2, Gen 1, through I2, Gen 8.
 [
         {
@@ -646,7 +646,7 @@ DATA["thanksgiving-bal-10"] = {
                 }
             ]
         }
-]
+],
 // Industry 3 Scripted Capsules for Common Cards: THX018-THX024, which correspond to I3, Gen 1, through I3, Gen 7.
 [
         {
@@ -740,7 +740,7 @@ DATA["thanksgiving-bal-10"] = {
                 }
             ]
         }
-]
+],
 // Industry 4 Scripted Capsules for Common Cards: THX025-THX030, which correspond to I4, Gen 1, through I4, Gen 6.
 [
         {
@@ -821,7 +821,7 @@ DATA["thanksgiving-bal-10"] = {
                 }
             ]
         }
-]
+],
 // Industry 5 Scripted Capsules for Common Cards: THX031-THX035, which correspond to I5, Gen 1, through I5, Gen 5.
 [
         {
@@ -889,7 +889,7 @@ DATA["thanksgiving-bal-10"] = {
                 }
             ]
         }
-]
+],
 // Scripted Capsules for Rare Cards: THX036 - I1 Trade, & THX041 - I1 Production
 [
         {
@@ -918,7 +918,7 @@ DATA["thanksgiving-bal-10"] = {
                 }
             ]
         }
-]
+],
 // Scripted Capsules for Rare Cards: THX037 - I2 Trade, & THX042 - I2 Production
 [
         {
@@ -947,7 +947,7 @@ DATA["thanksgiving-bal-10"] = {
                 }
             ]
         }
-]
+],
 // Scripted Capsules for Rare Cards: THX038 - I3 Trade, & THX043 - I3 Production
 [
         {
@@ -976,7 +976,7 @@ DATA["thanksgiving-bal-10"] = {
                 }
             ]
         }
-]
+],
 // Scripted Capsules for Rare Cards: THX039 - I4 Trade, & THX044 - I4 Production
 [
         {
@@ -1005,7 +1005,7 @@ DATA["thanksgiving-bal-10"] = {
                 }
             ]
         }
-]
+],
 // Scripted Capsules for Rare Cards: THX040 - I5 Trade, & THX045 - I5 Production
 [
         {
@@ -1034,7 +1034,7 @@ DATA["thanksgiving-bal-10"] = {
                 }
             ]
         }
-]
+],
 // Scripted Capsules for Global Rares: THX046 - Global Trade, THX047 - Global Production, THX048 - Global Crit Bonus, & THX049 - Global Crit Chance
 [
         {
@@ -1089,7 +1089,7 @@ DATA["thanksgiving-bal-10"] = {
                 }
             ]
         }
-]
+],
 // The First Free Scripted Capsule
 [
         {
