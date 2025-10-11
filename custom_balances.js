@@ -419,9 +419,7 @@ DATA["thanksgiving-bal-10"] = {
             "Type": "Scripted"
         }
     ],
-    "GachaScripts": [
-// Industry 1 Scripted Capsules for Common Cards: THX001-THX009, which correspond to I1, Gen 1, through I1, Gen 9. Above MIGHT cause issues!
-        
+    "GachaScripts": [        
         {
             "GachaId": "sc_m01",
             "MimicGachaId": "plastic",
@@ -1107,6 +1105,239 @@ DATA["thanksgiving-bal-10"] = {
                     "Id": "THX002",
                     "Value": 1
                 }
+            ]
+        }
+    ],
+    "GachaStackSplit": [
+        {
+            "Split": 2,
+            "LteCommon": 15,
+            "LteRare": 3
+        },
+        {
+            "Split": 3,
+            "LteCommon": 45,
+            "LteRare": 9
+        },
+        {
+            "Split": 4,
+            "LteCommon": 180,
+            "LteRare": 36
+        },
+        {
+            "Split": 5,
+            "LteRare": 180
+        }
+    ],
+    "GeneratorObjectiveLimits": [
+        {
+            "GeneratorId": "potatomasher",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "chef",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "kitchen",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "tatertruck",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "silosmasher",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "gravyfeds",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "feastfoundry",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "carbcollective",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "mashmonument",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "backyardturkey",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "gobblepen",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "drumstickfarm",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "feastfactory",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "turkeylegtycoon",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "gravyreactor",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "pilgrimpoultrysyndicate",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "thegreatgobbler",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "toasteroven",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "familyoven",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "commercialroaster",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "conveyorbeltbakeline",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "smartaioven",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "volcanicbakingchamber",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "theeternalovn",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "crustkneader",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "fillingwhipper",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "pieassemblyline",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "pieempireexecutive",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "sweetfusionlab",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "thegreatbaker",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "dumpsterhorn",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "craftfairsupply",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "harvesthornsmith",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "gildedgourd",
+            "MaximumObjectivesForRank": [
+                999
+            ]
+        },
+        {
+            "GeneratorId": "theinfinitehorn",
+            "MaximumObjectivesForRank": [
+                999
             ]
         }
     ],
@@ -3463,239 +3694,6 @@ DATA["thanksgiving-bal-10"] = {
                     0
                 ]
             }
-        }
-    ],
-    "GachaStackSplit": [
-        {
-            "Split": 2,
-            "LteCommon": 15,
-            "LteRare": 3
-        },
-        {
-            "Split": 3,
-            "LteCommon": 45,
-            "LteRare": 9
-        },
-        {
-            "Split": 4,
-            "LteCommon": 180,
-            "LteRare": 36
-        },
-        {
-            "Split": 5,
-            "LteRare": 180
-        }
-    ],
-    "GeneratorObjectiveLimits": [
-        {
-            "GeneratorId": "potatomasher",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "chef",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "kitchen",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "tatertruck",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "silosmasher",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "gravyfeds",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "feastfoundry",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "carbcollective",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "mashmonument",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "backyardturkey",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "gobblepen",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "drumstickfarm",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "feastfactory",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "turkeylegtycoon",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "gravyreactor",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "pilgrimpoultrysyndicate",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "thegreatgobbler",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "toasteroven",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "familyoven",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "commercialroaster",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "conveyorbeltbakeline",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "smartaioven",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "volcanicbakingchamber",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "theeternalovn",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "crustkneader",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "fillingwhipper",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "pieassemblyline",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "pieempireexecutive",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "sweetfusionlab",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "thegreatbaker",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "dumpsterhorn",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "craftfairsupply",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "harvesthornsmith",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "gildedgourd",
-            "MaximumObjectivesForRank": [
-                999
-            ]
-        },
-        {
-            "GeneratorId": "theinfinitehorn",
-            "MaximumObjectivesForRank": [
-                999
-            ]
         }
     ],
     "Industries": [
