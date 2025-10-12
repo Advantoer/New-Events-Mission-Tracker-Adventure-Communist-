@@ -1,9 +1,8 @@
-var missionData = {}; //  The main data structure used to store the current state of missions.
-var missionCompletionTimes = {}; // Maps missionId's to when you completed them.  Can be viewed in the info popup of completed missions.
-var currentMode = "main"; 
-var currentMainRank = 1;
-var eventScheduleInfo = null;  // The main schedule metadata associated with the current LteEvent
-var ENGLISH_MAP = {}; // This gets filled in during mission.js's main(). After that, ENGLISH_MAP["active"] == "Active"
+let missionData = {}; //  The main data structure used to store the current state of missions.
+let missionCompletionTimes = {}; // Maps missionId's to when you completed them.  Can be viewed in the info popup of completed missions.
+let currentMode = "main"; 
+let currentMainRank = 1;
+let eventScheduleInfo = null;  // The main schedule metadata associated with the current LteEvent
 
 function main() {
   loadModeSettings();
@@ -37,45 +36,53 @@ function loadModeSettings() {
   
   let now = Date.now();
   
-  let splitUrl = window.location.href.split('#');
-  splitUrl = splitUrl[0].split('?');
+  const balanceExclusions = ['main', 'common']; // Which not allow as part of eventOverride param
+  let splitUrl = window.location.href.split('#')[0].split('?');
+
   if (splitUrl.length == 2) {
-    let arguments = splitUrl[1].split('&');
-    for (let arg of arguments) {
+    let urlArgs = splitUrl[1].split('&');
+    for (let arg of urlArgs) {
       let keyValue = arg.split('=');
       if (keyValue.length != 2) {
         continue;
       }
       
-      if (keyValue[0] == "rank") {
+      let [param, paramVal] = keyValue;
+      
+      if (param == "rank") {
         // Parse ?rank=X
         
-        if (keyValue[1] == "event") {
+        if (paramVal == "event") {
           setGameLocal("CurrentMode", "event");
-        } else if (keyValue[1] == "main") {
+        } 
+        else if (paramVal == "main") {
           setGameLocal("CurrentMode", "main");
-        } else if (parseInt(keyValue[1])) {
+        } 
+        else if (parseInt(paramVal)) {
           setGameLocal("CurrentMode", "main");
-          setLocal("main", "CurrentRank", keyValue[1]);
+          setLocal("main", "CurrentRank", paramVal);
         }
-        
-      } else if (keyValue[0] == "mode") {
+      } 
+      else if (param == "mode") {
         // Parse ?mode=X
         
-        if (keyValue[1] == "event") {
+        if (paramVal == "event") {
           setGameLocal("CurrentMode", "event");
-        } else if (keyValue[1] == "main") {
+        } 
+        else if (paramVal == "main") {
           setGameLocal("CurrentMode", "main");
-        } else if (keyValue[1] == "schedule") {
+        }
+        else if (paramVal == "schedule") {
           // Open the schedule popup when the page loads
           $(function() { $('#schedulePopup').modal(); })
         }
         
-      } else if (keyValue[0] == "event") {
+      } 
+      else if (param == "event") {
         // Parse ?event=
         
         // This is a lot like timeOverride, but more rigid
-        let eventTime = parseInt(keyValue[1]);
+        let eventTime = parseInt(paramVal);
         
         // Test one millisecond before the end time.
         // If right, the next event should end at that time.
@@ -84,30 +91,29 @@ function loadModeSettings() {
           eventScheduleInfo = eventCandidate;
           setGameLocal("CurrentMode", "event");
         }
-        
-      } else if (keyValue[0] == "timeOverride") {
+      } 
+      else if (param == "timeOverride") {
         // Parse ?timeOverride=
         
-        now = parseInt(keyValue[1]);
+        now = parseInt(paramVal);
         setGameLocal("CurrentMode", "event");
-        
-      } else if (keyValue[0] == "eventOverride"
-                  && keyValue[1] in DATA && keyValue[1] != "main" && keyValue[1] != "common") {
+      } 
+      else if (param == "eventOverride" && paramVal in DATA && !balanceExclusions.includes(paramVal)) {
         // Parse ?eventOverride=X
         
         // This is a quick hack to allow switching to non-current events.
         setGameLocal("CurrentMode", "event");
-        DATA.event = DATA[keyValue[1]];
+        DATA.event = DATA[paramVal];
         eventScheduleInfo = {
-          LteId: keyValue[1],
-          BalanceId: keyValue[1],
-          ThemeId: keyValue[1].split('-')[0], // take the xxx part of xxx-bal-5
+          LteId: paramVal,
+          BalanceId: paramVal,
+          ThemeId: paramVal.split('-')[0], // take the xxx part of xxx-bal-5
           StartTimeMillis: now,
           EndTimeMillis: now,
           Rewards: Array(20) // empty values, which the tracker handles gracefully
         };
-        if (THEME_ID_OVERRIDES[keyValue[1]]) {
-          eventScheduleInfo['ThemeId'] = THEME_ID_OVERRIDES[keyValue[1]];
+        if (THEME_ID_OVERRIDES[paramVal]) {
+          eventScheduleInfo['ThemeId'] = THEME_ID_OVERRIDES[paramVal];
         }
         $('#overrideWarning').addClass("show");
         $('#alertReset').remove(); // don't show the Reset Alert ever in this mode.  Hacky.
@@ -120,9 +126,10 @@ function loadModeSettings() {
   currentMainRank = parseInt(getLocal("main", "CurrentRank")) || currentMainRank;
   
   // Determine eventScheduleInfo and DATA.event based on the Schedule (if needed).
-  if (!eventScheduleInfo) {
-    eventScheduleInfo = getCurrentEventInfo(now);
-  }
+//   if (!eventScheduleInfo) {
+//     console.warn("eventScheduleInfo was null, reverting to current event.")
+//     eventScheduleInfo = getCurrentEventInfo(now);
+//   }
   
   // Initialize fake (blank) events, used as stubs when datamined info is unavailable
   if (DATA[eventScheduleInfo.BalanceId]["fake"] && currentMode == "event") {
@@ -165,8 +172,8 @@ function loadModeSettings() {
   
   // Set up the icon for the "All Generators" button in the navbar
   let firstResourceId = getData().Resources[0].Id;
-  $('#viewAllGeneratorsButton').attr('style', `background-image:url('${getImageDirectory()}/${firstResourceId}.png')`);
-  $('#viewBalanceInfoButton').attr('style', `background-image:url('${iconSrc}')`);
+  $('#viewBalanceInfoButton').html(`<img src="${iconSrc}">`)
+  $('#viewAllGeneratorsButton').html(`<img src="${getImageDirectory()}/${firstResourceId}.png">`)
   
   // Show a "datamined" warning for future ranks that aren't in the current version
   if ((DATAMINE_WARNING_MIN_RANK && currentMode == "main" && currentMainRank >= DATAMINE_WARNING_MIN_RANK) ||
@@ -316,7 +323,7 @@ function getSchedulePopupEvent(eventInfo) {
           let relatedAvatar = {};
           AvatarDat.forEach(a => {
             if (Object.keys(a).includes("UnlockLocation")) {
-              if (a.UnlockLocation.ThemeId == eventInfo.ThemeId) {
+              if ((a.UnlockLocation.ThemeId == eventInfo.ThemeId) || (a.UnlockLocation.ThemeId == THEME_DUPLICATE_OVERRIDES[eventInfo.ThemeId])) {
                 relatedAvatar = a;
                 return;
               }
@@ -329,15 +336,20 @@ function getSchedulePopupEvent(eventInfo) {
             }
           });
 
-          avatarName = `${relatedAvatar.Rarity} Avatar`;
-          let visualKey = relatedAvatar['VisualKey'].replace(".png","");
-          avatarIcon = `<span class="rewardListIconWrapper"><img class='mx-1 rewardIcon' src='img/shared/avatars/${visualKey}.png'></span>`;
-
-          avatarReward = `
-            ${avatarIcon}
-            ${avatarName} / 
-            <br/>
-          `;
+          if (Object.keys(relatedAvatar).length == 0) {
+            avatarReward = "Unknown Avatar Reward<br/>";
+          }
+          else {
+            avatarName = ENGLISH_MAP[`avatar.avatar.rarity.${relatedAvatar.Rarity.toLowerCase()}`];
+            let visualKey = relatedAvatar['VisualKey'].replace(".png","");
+            avatarIcon = `<span class="rewardListIconWrapper"><img class='mx-1 rewardIcon' src='img/shared/avatars/${visualKey}.png'></span>`;
+  
+            avatarReward = `
+              ${avatarIcon}
+              ${avatarName} / 
+              <br/>
+            `;
+          }
         }
         else {
           avatarReward = "Unknown Avatar Reward";
@@ -445,7 +457,7 @@ function getAllEventBalanceHtml() {
   </div>
 `;
 
-  for (i of Object.keys(DATA)) {
+  for (let i of Object.keys(DATA)) {
     const lteId = i;
 
     if (["event", "main", "evergreen", "common"].includes(i)) {
@@ -526,7 +538,7 @@ function getSoonestEventInfos(minEventCount = 10, maxEventCount = 20, now = Date
   let foundThemes = new Set();
   let lastNewIndex = 0;
   
-  for (resultIndex in results) {
+  for (let resultIndex in results) {
     let theme = results[resultIndex].ThemeId;
     if (!foundThemes.has(theme)) {
       foundThemes.add(theme);
@@ -1264,29 +1276,42 @@ function renderMissions() {
 
 // This text appears in the help popup and before a user interacts with the Tracker (i.e., when Completed is empty and uncollpased)
 function getHelpHtml(isPopup) {
-  let firstResourceId = getData().Resources[0].Id;
-  let wordForResearchers = upperCaseFirstLetter(ENGLISH_MAP[`conditionmodel.researcher.plural`]);
-  let themeId = THEME_ID_OVERRIDES[eventScheduleInfo.ThemeId] || eventScheduleInfo.ThemeId; 
-  let result = "";
-  
-  result += `<ul><li class="my-1">Click <strong>Current</strong> missions to move them to Completed.</li>`;
-  result += `<li class="my-1">Click <strong>Completed</strong> missions to move them back to Current.</li>`;
-  result += `<li class="my-1">Click ${isPopup? "the Completed tab's" : "this tab's"} toggle at the top-right &UpperRightArrow; to <strong>hide Completed</strong> missions.</li>`;
-  result += `<li class="my-1">Click the capsule <span class="resourceIcon wood">&nbsp;</span> next to a mission to access its <strong>Calculator</strong>.</li>`;
-  result += `<li class="my-1">If the capsule <span class="scriptedRewardInfo resourceIcon wood">&nbsp;</span> is circled, you can also view the <strong>pre-scripted rewards</strong>.</li>`;
-  result += `<li class="my-1">The header contains four sub-menus with different features:<ol>`
-  result += `<li class="my-1">Click <span class="resourceIcon" style="background-image:url('img/shared/themeicons/${themeId}.png')">&nbsp;</span> to view infomation about the <strong>current balance</strong>.</li>`
-  result += `<li class="my-1">Click <span class="resourceIcon" style="background-image:url('${getImageDirectory()}/${firstResourceId}.png')">&nbsp;</span> to view all <strong>Resources/Generators</strong>.</li>`
-  result += `<li class="my-1">Click <span class="resourceIcon cardIcon">&nbsp;</span> to view all <strong>${wordForResearchers}</strong>.</li>`;
-  result += `<li class="my-1">Click <span class="resourceIcon comradesPerSec">&nbsp;</span> to view all <strong>${resourceName('comrade', false).toLowerCase()} trades</strong>.</li></ol>`;
-  result += `<li class="my-1">Got <strong>questions?</strong>  Check out the <a href="${SOCIAL_HELP_URLS['faq']}">Game Guide/FAQ</a>, <a href="${SOCIAL_HELP_URLS['discord']}">Official Discord</a>, <a href="${SOCIAL_HELP_URLS['discord_old']}">Unofficial Discord</a>, or <a href="${SOCIAL_HELP_URLS['reddit']}">Reddit</a>.</li></ul>`;
-  result += `New <a href="https://darrenskidmore.com/adcom-leaderboard/">leaderboard tracker available here</a>! You can see your exact rank in events past and present and keep tabs on your division leaderboards.`
+    let firstResourceId = getData().Resources[0].Id;
+    let wordForResearchers = upperCaseFirstLetter(ENGLISH_MAP[`conditionmodel.researcher.plural`]);
 
-  return result;
+    let isEvent = (currentMode != "main");
+    let themeId = isEvent ? (THEME_ID_OVERRIDES[eventScheduleInfo.ThemeId] || eventScheduleInfo.ThemeId) : "main"; 
+    let capsuleIcon = isEvent ? "plastic" : "wood";
+
+    let result = `
+    <ul>
+        <li class="my-1">Click <strong>Current</strong> missions to move them to Completed.</li>
+        <li class="my-1">Click <strong>Completed</strong> missions to move them back to Current.</li>
+        <li class="my-1">Click ${isPopup ? "the Completed tab's" : "this tab's"} toggle at the top-right &UpperRightArrow; to <strong>hide Completed</strong> missions.</li>
+        <li class="my-1">Click the capsule <span class="resourceIcon ${capsuleIcon}">&nbsp;</span> next to a mission to access its <strong>Calculator</strong>.</li>
+        <li class="my-1">If the capsule <span class="scriptedRewardInfo resourceIcon ${capsuleIcon}">&nbsp;</span> is circled, you can also view the <strong>pre-scripted rewards</strong>.</li>
+        <li class="my-1">The header contains four sub-menus with different features:
+        <ol>
+            <li class="my-1">Click <span class="resourceIcon" style="background-image:url('img/shared/themeicons/${themeId}.png')">&nbsp;</span> to view infomation about the <strong>current balance</strong>.</li>
+            <li class="my-1">Click <span class="resourceIcon" style="background-image:url('${getImageDirectory()}/${firstResourceId}.png')">&nbsp;</span> to view all <strong>Resources/Generators</strong>.</li>
+            <li class="my-1">Click <span class="resourceIcon cardIcon">&nbsp;</span> to view all <strong>${wordForResearchers}</strong>.</li>
+            <li class="my-1">Click <span class="resourceIcon comradesPerSec">&nbsp;</span> to view all <strong>${resourceName('comrade', false).toLowerCase()} trades</strong>.</li>
+            <li class="my-1">Click <strong>≡</strong> to view additional <strong>options and tables.</strong></li>
+        </ol>
+        <li class="my-1">Got <strong>questions?</strong>  Check out the <a href="${SOCIAL_HELP_URLS['faq']}">Game Guide/FAQ</a>, <a href="${SOCIAL_HELP_URLS['discord']}">Official Discord</a>, <a href="${SOCIAL_HELP_URLS['discord_old']}">Unofficial Discord</a>, or <a href="${SOCIAL_HELP_URLS['reddit']}">Reddit</a>.</li>
+    </ul>
+    `;
+    
+    result += `If you want to do more advanced offline calculations, <a href="https://stiwen87.github.io">check this page out.</a> (Credit to Stiwen)<br>`
+    if (!(window.location.href).includes('/ages')) {
+        result += `<a href="https://darrenskidmore.com/adcom-leaderboard/">Leaderboard tracker available here</a>! You can see your exact rank in events past and present and keep tabs on your division leaderboards.`;
+    }
+
+    return result;
 }
 
 function getKeyboardMacroHtml() {
-  result = `<p>The tracker supports a number of keyboard shortcuts.</p>
+  return `<p>The tracker supports a number of keyboard shortcuts.</p>
 <ul>
   <li class="my-1"><kbd>Esc</kbd> Close visible modal box</li>
   <li class="my-1"><kbd>Enter</kbd> Run calculation</li>
@@ -1354,7 +1379,6 @@ function getKeyboardMacroHtml() {
   </table>
 </div>
 <p>Safeguards in the keyboard handler methods are implemented to prevent access to any negative or infinite values.</p>`;
-  return result;
 }
 
 function getRankAdvanceHtml() {
@@ -1917,35 +1941,35 @@ function describeMission(mission, overrideIcon = "") {
 
 // Given a root.Missions.Reward object, return an html string describing the reward (almost always a gacha capsule with gold + science + researchers).
 function describeReward(reward, includeCapType = true) {
-    if (reward.Reward == "Resources") {
-        return describeRewardIndividual(reward);
-    }
+  switch (reward.Reward) {
+    case "Resources":
+      return describeRewardIndividual(reward);
 
-    if (reward.Reward == "Gacha") {
-        let gachaData = getData().GachaLootTable.find(g => g.Id == reward.RewardId);
-        if (!gachaData) { return `Unknown gacha reward id: ${reward.RewardId}`; }
+    case "Gacha":
+      let gachaData = getData().GachaLootTable.find(g => g.Id == reward.RewardId);
+      if (!gachaData) { return `Unknown gacha reward id: ${reward.RewardId}`; }
 
-        if (gachaData.Type != "Scripted") { return `Random <span class="capsule ${reward.RewardId}">&nbsp;</span>` }
+      if (gachaData.Type != "Scripted") { return `Random <span class="capsule ${reward.RewardId}">&nbsp;</span>` }
 
-        let script = getData().GachaScripts.find(s => s.GachaId == gachaData.Id);
-        if (!script) { return `Unknown gacha script id: ${gacha.Id}`; }   
+      let script = getData().GachaScripts.find(s => s.GachaId == gachaData.Id);
+      if (!script) { return `Unknown gacha script id: ${gacha.Id}`; }   
 
-        let gold = script.Gold ? `<li>${describeRewardIndividual({"RewardId":"gold", "Value": script.Gold})}</li>` : ''
-        let science = script.Science ? `<li>${describeRewardIndividual({"RewardId":"science", "Value": script.Science})}</li>` : ''
-        
-        let cards = ``
-        script.Card.forEach(card => {
-            let researcher = getData().Researchers.find(r => r.Id === card.Id);
-            cards += `<li><span class="text-nowrap">${cardValueCount(card)}${describeResearcher(researcher)}</span></li>`;
-        })
-        
-        let scriptRewards = gold + science + cards
-        let capsuleWrapper = includeCapType ? `Scripted <span class="capsule ${script.MimicGachaId}">&nbsp;</span>:` : ``
-        return `${capsuleWrapper}<ul>${scriptRewards}</ul>`;
-    }
-   else {    
-    return `Unknown reward: ${reward.Reward}`;
-   }
+      let gold = script.Gold ? `<li>${describeRewardIndividual({"RewardId":"gold", "Value": script.Gold})}</li>` : ''
+      let science = script.Science ? `<li>${describeRewardIndividual({"RewardId":"science", "Value": script.Science})}</li>` : ''
+      
+      let cards = ``
+      script.Card.forEach(card => {
+          let researcher = getData().Researchers.find(r => r.Id === card.Id);
+          cards += `<li><span class="text-nowrap">${cardValueCount(card)}${describeResearcher(researcher)}</span></li>`;
+      })
+      
+      let scriptRewards = gold + science + cards
+      let capsuleWrapper = includeCapType ? `Scripted <span class="capsule ${script.MimicGachaId}">&nbsp;</span>:` : ``
+      return `${capsuleWrapper}<ul>${scriptRewards}</ul>`;
+    
+    default:    
+      return `Unknown reward: ${reward.Reward}`;
+  }
 }
 
 function describeRewardIndividual(reward) {
@@ -2226,12 +2250,7 @@ function setStyle(styleType) {
 }
 
 function toggleDarkStyle() {
-  let currentStyle = getGlobal('StyleConfig');
-  if (currentStyle == 'dark') {
-    setStyle('light');
-  } else {
-    setStyle('dark');
-  }
+    setStyle( getGlobal('StyleConfig') == 'dark' ? 'light' : 'dark' );
 }
 
 // Run OnClick for the list style option.
@@ -2738,6 +2757,20 @@ function getBalanceInfoPopup() {
         let rewardId = j['RewardId'];
 
         switch (j['Reward']) {
+          case "Avatar":
+            let aviDat = DATA.common.Avatars.filter(a => a.ID == rewardId);
+            if (aviDat.length == 0) {
+              rewardContent = "Unknown Avatar Reward";
+              break;
+            }
+            
+            aviDat = aviDat[0];
+            let avatarName = ENGLISH_MAP[`avatar.avatar.rarity.${aviDat.Rarity.toLowerCase()}`];
+            let visualKey = aviDat['VisualKey'].replace(".png","");
+            let avatarIcon = `<span class="rewardListIconWrapper"><img class='mx-1 rewardIcon' src='img/shared/avatars/${visualKey}.png'></span>`;
+            rewardContent = `x${bigNum(j['Value'])} ${avatarIcon} ${avatarName}`
+          break;
+
           case "Gacha":
             rewardId = rewardId.toLowerCase();
             let capsuleImageUrl = `<img class='rewardIcon' src='img/shared/gacha/${rewardId}.png'>`
@@ -2980,7 +3013,6 @@ function getScriptedsByCapsule() {
 }
 
 function getScriptedsByResearcher() {
-    let isEvent = (currentMode != 'main');
     let imgDirectory = getImageDirectory();
     let scriptedData = getData().GachaScripts;
     let balanceMissions = getData().Missions;
@@ -2994,63 +3026,53 @@ function getScriptedsByResearcher() {
     let tableHtml = `
         <tr>
             <th>Researcher</th>
-            <th>${isEvent ? "" : "Rank"}</th>
             <th>Sources</th>
         </tr>
     `;
 
-    researcherData.forEach(researcher => {
+    // Object with keys being Researcher HTML and values being a list of each reference in scripts
+    let scriptedListHtml = {};
+
+    for (let researcher of researcherData) {
         let nameTitle = `<div class="resourceIcon" style="background-image: url('${imgDirectory}/${researcher.Id}.png');">&nbsp;</div> ${researcherName(researcher)}`;
-
         let appearances = scriptedData.filter(sc => sc.Card.some(rs => rs.Id === researcher.Id));
-        let ranksList = [];
-        let scriptedListHtml = [];
+        scriptedListHtml[nameTitle] = [];
+        
+        if (appearances == 0) continue;
+        
+        let references = [];
+        for (let sc of appearances) {
+            // Locate where this Script can be gotten from
 
-        if (appearances == 0) {
-            scriptedListHtml = ["<span style='color:#bbb'>No guaranteed copies.</span>"]
-            ranksList = [];
+            if (sc.GachaId == scriptedFreeId) {
+                references.push(`<span class="capsule ${sc.MimicGachaId}">&nbsp;</span> Scripted Free Capsule`);
+                continue;
+            }
+
+            let missionRefs = balanceMissions.filter(m => m.Reward.RewardId == sc.GachaId);
+            let rankupRefs = balanceRanks.filter(r => r.RewardId == sc.GachaId);
+
+            references = references.concat(
+                missionRefs.map(m => describeMission(m)),
+                rankupRefs.map(r => `<span class="capsule ${sc.MimicGachaId}">&nbsp;</span> Completing Rank ${r.Rank}`)
+            );
         }
-        else {
-            // Order scripts in order (free capsules will come first, then ordered scripts)
-            appearances.sort((a, b) => { 
-                if (a.GachaId === scriptedFreeId) return -1;
-                a.GachaId.localeCompare(b.GachaId)
-            });
-
-            appearances.forEach(sc => {
-                // 1. Check if it's the free scripted capsule
-                // 2. Check if it's from a mission
-                // 3. Check if it's from a rank up capsule (Motherland)
-
-                if (sc.GachaId == scriptedFreeId) {
-                    scriptedListHtml.push(`<span class="capsule ${sc.MimicGachaId}">&nbsp;</span> First Free Capsule`);
-                    ranksList.push("");
-                    return;
-                }
-
-                let missions = balanceMissions.filter(m => m.Reward.RewardId == sc.GachaId);
-                if (missions.length == 1) {
-                    scriptedListHtml.push(describeMission(missions[0]))
-                    ranksList.push(isEvent ? "" : missions[0].Rank)
-                    return;
-                }
-
-                let rankUps = balanceRanks.filter(r => r.RewardId == sc.GachaId);
-                if (rankUps.length == 1) {
-                    scriptedListHtml.push(`<span class="capsule ${sc.MimicGachaId}">&nbsp;</span> Completing Rank ${rankUps[0].Rank}`);
-                    ranksList.push("");
-                }
-            });
+        scriptedListHtml[nameTitle] = references.join("<br/>");
+    };
+    
+    for (let researcherName of Object.keys(scriptedListHtml)) {
+        let appearances = scriptedListHtml[researcherName];
+        if (appearances == '' || appearances == []) {
+            appearances = `<span style='color:#bbb'>No guaranteed copies.</span>`;
         }
 
         tableHtml += `
             <tr>
-                <td style='padding:5px 0'>${nameTitle}</td>
-                <td style='padding:5px 0; text-align:center'>${ranksList.join("<br/>")}</td>
-                <td style='padding:5px 0'>${scriptedListHtml.join("<br/>")}</td>
+                <td style='padding:5px 0'>${researcherName}</td>
+                <td style='padding:5px 0'>${appearances}</td>
             </tr>
         `;
-    });
+    }
 
     return tableHtml;
 }
@@ -3444,7 +3466,7 @@ function describeGenerator(generator, researchers, formValues) {
 
 function getFirstMissionWithScriptedReward(researcher) {
   // Start by efficiently caching the id of every scripted gacha that rewards the researcher.
-  gachasWithReward = new Set();
+  let gachasWithReward = new Set();
   
   for (let script of getData().GachaScripts) {
     if (script.Card.some(card => card.Id == researcher.Id)) {
@@ -3726,7 +3748,6 @@ function getValueForResearcherLevel(researcher, level) {
     // This is a special case that indicates a custom value.
     return getFormValuesObject().ResearcherOverrides[researcher.Id];
   } else {
-    console.log(researcher)
     let exponentialTotal = researcher.ExpoMultiplier * Math.pow(researcher.ExpoGrowth, level);
     let quadraticTotal = researcher.BasePower + level * researcher.CurveModifier + level * level * researcher.UpgradePower;
     
