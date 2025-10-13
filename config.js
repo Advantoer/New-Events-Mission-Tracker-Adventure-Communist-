@@ -67,7 +67,7 @@ const BALANCE_UPDATE_VERSION = {
   "zombie-bal-5": "6.14",
   "main": "6.46",
 
-  "thanksgiving-bal-10": "6.49"
+  "thanksgiving-bal-10": "6.50"
 };
 
 // For game-specific documentation and social channels

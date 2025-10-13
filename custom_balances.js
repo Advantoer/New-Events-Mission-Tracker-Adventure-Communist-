@@ -2131,7 +2131,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "pilgrimpoultrysyndicate",
-                "Threshold": 1.5e+12
+                "Threshold": 1.25e+12
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2463,7 +2463,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "volcanicbakingchamber",
-                "Threshold": 2e+12
+                "Threshold": 1.5e+12
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2747,7 +2747,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "sweetfusionlab",
-                "Threshold": 2.5e+12
+                "Threshold": 2e+12
             },
             "IncludeInAll": true,
             "Crit": {
@@ -2983,7 +2983,7 @@ DATA["thanksgiving-bal-10"] = {
             "Unlock": {
                 "ConditionType": "ResourceQuantity",
                 "ConditionId": "gildedgourd",
-                "Threshold": 3e+12
+                "Threshold": 2.5e+12
             },
             "IncludeInAll": true,
             "Crit": {

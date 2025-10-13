@@ -126,10 +126,10 @@ function loadModeSettings() {
   currentMainRank = parseInt(getLocal("main", "CurrentRank")) || currentMainRank;
   
   // Determine eventScheduleInfo and DATA.event based on the Schedule (if needed).
-//   if (!eventScheduleInfo) {
-//     console.warn("eventScheduleInfo was null, reverting to current event.")
-//     eventScheduleInfo = getCurrentEventInfo(now);
-//   }
+  if (!eventScheduleInfo) {
+    console.warn("eventScheduleInfo was null, reverting to current event.")
+    eventScheduleInfo = getCurrentEventInfo(now);
+  }
   
   // Initialize fake (blank) events, used as stubs when datamined info is unavailable
   if (DATA[eventScheduleInfo.BalanceId]["fake"] && currentMode == "event") {
